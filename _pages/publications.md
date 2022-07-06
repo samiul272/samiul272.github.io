@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: My publications by categories in chronological order.
+title: publications
+description: My publications by year in chronological order.
 years: [2018, 2021, 2022]
 nav: true
 nav_order: 1
