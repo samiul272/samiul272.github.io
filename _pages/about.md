@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='#'>Michigan State University</a>.
+subtitle: PhD Candidate, <a href='www.msu.edu'>Michigan State University</a>.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   # address: >
