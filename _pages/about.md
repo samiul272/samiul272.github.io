@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate, <a href='#'>Michigan State University</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>East Lansing, MI 48823</p>
+  # address: >
+  #   <p>East Lansing, MI 48823</p>
+  #   <p>East Lansing, MI 48823</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
