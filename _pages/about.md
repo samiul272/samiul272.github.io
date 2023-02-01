@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='www.msu.edu'>Michigan State University</a>.
+subtitle: PhD Candidate, <a href='www.msu.edu'>Ohio State University</a>.
 
 profile:
   align: right
