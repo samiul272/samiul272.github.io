@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='www.msu.edu'>Ohio State University</a>.
+subtitle: PhD Candidate, <a href='www.osu.edu'>Ohio State University</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_cicular: true # crops the image to make it circular
   # address: >
   #   <p>East Lansing, MI 48823</p>
   #   <p>East Lansing, MI 48823</p>
