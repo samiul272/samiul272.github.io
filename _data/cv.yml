@@ -13,12 +13,12 @@
   contents:
     - title: PhD
       institution: Ohio State University (OSU)
-      year: 2023-2026(expected)
+      year: 2023-2026
       description:
         - Will rejoin Dr. Zhang's Lab at OSU
     - title: MS
       institution: Michigan State University (MSU)
-      year: 2022-2023(expected)
+      year: 2022-2023
       description:
         - I joined MLSys lab under supervision of Prof. Mi Zhang.
         - Research Focus on Federated Learning
@@ -32,6 +32,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: Michigan State University
+      year: 2022-2023
+      description:
+        - Worked as Research Assistant focussing on Federated Learning, Privacy Preserving ML and Distributed Edge computing
+        - Published several papers at distinguished venues as a researcher in MSU
     - title: Engineer I
       institution: Samsung Research And Development Institute
       year: 2018-2021
@@ -52,26 +58,25 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2012
+    - year: 2023
       items:
-        - Dean's List Distinction in 2012-2013 session
-    - year: 2016
-      items:
-        - Education Category Winner in IEEE Maker Project
-    - year: 2017
-      items:
-        - Honorable Mention in IEEE Signal Processing Cup
-        - Semi-Finalist in the IEEE Future Energy Challenge
+        - Ohio State University Graduate School Fellowship
     - year: 2022
       items:
         - Bangladesh Sweden Trust Fund Travel Scholarship
         - Kaggle Community Competition Creator Prize
         - Michigan State University Graduate School Travel Grant
         - Council of Graduate Studies Travel Grant
-    - year: 2023
+    - year: 2017
       items:
-        - Ohio State University Graduate School Fellowship
-
+        - Honorable Mention in IEEE Signal Processing Cup
+        - Semi-Finalist in the IEEE Future Energy Challenge
+    - year: 2016
+      items:
+        - Education Category Winner in IEEE Maker Project
+    - year: 2012
+      items:
+        - Dean's List Distinction in 2012-2013 session
 # - title: Academic Interests
 #   type: nested_list
 #   contents:
