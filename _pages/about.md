@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a PhD. candidate at Michigan State University. I work on improving privacy and fairness in deep learning. I used to work at Samsung Research and Development Institute in Bangladesh as a Software Engineer till 2021. I graduated from Bangladesh University of Engineering and Technology in 2017. 
+Hi there! I am an incoming PhD. student at Ohio State University. I work on improving privacy and fairness in deep learning. I used to work at Samsung Research and Development Institute in Bangladesh as a Software Engineer till 2021. I graduated from Bangladesh University of Engineering and Technology in 2017. 
 
 I am one of the co-founders of bengali.ai. I lead the collection and standardisation efforts behind popular open source Bengali Natural Language and OCR Datasets like NumtaDB, Bengali Graphemes and Common Voice Bengali Speech Dataset.
 
