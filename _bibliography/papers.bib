@@ -6,7 +6,8 @@
     author = {Zhang, Tuo and Feng, Tiantian and Alam, Samiul and Lee, Sunwoo and Zhang, Mi and Narayanan, Shrikanth S and Avestimehr, Salman},
     journal = {arXiv preprint arXiv:2210.15707},
     year = {2022},
-    url = {https://arxiv.org/abs/2210.15707},
+    html = {https://arxiv.org/abs/2210.15707},
+    arxiv = {2210.15707},
     abstract = {Federated learning (FL) has gained substantial attention in recent years due to the data privacy concerns related to the pervasiveness of consumer devices that continuously collect data from users. While a number of FL benchmarks have been developed to facilitate FL research, none of them include audio data and audio-related tasks. In this paper, we fill this critical gap by introducing a new FL benchmark for audio tasks which we refer to as FedAudio. FedAudio includes four representative and commonly used audio datasets from three important audio tasks that are well aligned with FL use cases. In particular, a unique contribution of FedAudio is the introduction of data noises and label errors to the datasets to emulate challenges when deploying FL systems in real-world settings. FedAudio also includes the benchmark results of the datasets and a PyTorch library with the objective of facilitating researchers to fairly compare their algorithms. We hope FedAudio could act as a catalyst to inspire new FL research for audio tasks and thus benefit the acoustic and speech research community. The datasets and benchmark results can be accessed at this https URL. },
 }
 
@@ -17,7 +18,9 @@
     year = {2022},
     selected = {true},
     pdf = {https://openreview.net/pdf?id=OtxyysUdBE},
-    url = {https://openreview.net/forum?id=OtxyysUdBE},
+    html = {https://openreview.net/forum?id=OtxyysUdBE},
+    arxiv = {2212.01548},
+    preview = {fedrolex.png},
     abstract = {Most cross-device federated learning (FL) studies focus on the model-homogeneous setting where the global server model and local client models are identical. However, such constraint not only excludes low-end clients who would otherwise make unique contributions to model training but also restrains clients from training large models due to on-device resource bottlenecks. In this work, we propose FedRolex, a partial training (PT)-based approach that enables model-heterogeneous FL and can train a global server model larger than the largest client model. At its core, FedRolex employs a rolling sub-model extraction scheme that allows different parts of the global server model to be evenly trained, which mitigates the client drift induced by the inconsistency between individual client models and server model architectures. Empirically, we show that FedRolex outperforms state-of-the-art PT-based model-heterogeneous FL methods (e.g. Federated Dropout) and reduces the gap between model-heterogeneous and model-homogeneous FL, especially under the large-model large-dataset regime. In addition, we provide theoretical statistical analysis on its advantage over Federated Dropout. Lastly, we evaluate FedRolex on an emulated real-world device distribution to show that FedRolex can enhance the inclusiveness of FL and boost the performance of low-end devices that would otherwise not benefit from FL. Our code is available at: https://github.com/AIoT-MLSys-Lab/FedRolex.},
 }
 
@@ -28,7 +31,7 @@
     booktitle = {ACM Conference on Embedded Networked Sensor Systems},
     title = {FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices},
     abstract = {Federated learning (FL) has attracted increasing attention as a promising technique to drive a vast number of edge devices with artificial intelligence. However, it is very challenging to guarantee the efficiency of a FL system in practice due to the heterogeneous computation resources on different devices. To improve the efficiency of FL systems in the real world, asynchronous FL (AFL) and semi-asynchronous FL (SAFL) methods are proposed such that the server does not need to wait for stragglers. However, existing AFL and SAFL systems suffer from poor accuracy and low efficiency in realistic settings where the data is non-IID distributed across devices and the on-device resources are extremely heterogeneous. In this work, we propose FedSEA - a semi-asynchronous FL framework for extremely heterogeneous devices. We theoretically disclose that the unbalanced aggregation frequency is a root cause of accuracy drop in SAFL. Based on this analysis, we design a training configuration scheduler to balance the aggregation frequency of devices such that the accuracy can be improved. To improve the efficiency of the system in realistic settings where the devices have dynamic on-device resource availability, we design a scheduler that can efficiently predict the arriving time of local updates from devices and adjust the synchronization time point according to the devices' predicted arriving time. We also consider the extremely heterogeneous settings where there exist extremely lagging devices that take hundreds of times as long as the training time of the other devices. In the real world, there might be even some extreme stragglers which are not capable of training the global model. To enable these devices to join in training without impairing the systematic efficiency, Fed-SEA enables these extreme stragglers to conduct local training on much smaller models. Our experiments show that compared with status quo approaches, FedSEA improves the inference accuracy by 44.34% and reduces the systematic time cost and local training time cost by 87.02× and 792.9×. FedSEA also reduces the energy consumption of the devices with extremely limited resources by 752.9×},
-    url = {https://dl.acm.org/doi/10.1145/3560905.3568538},
+    html = {https://dl.acm.org/doi/10.1145/3560905.3568538},
     pdf = {https://dl.acm.org/doi/pdf/10.1145/3560905.3568538},
 }
 
@@ -39,7 +42,9 @@
     year = {2022},
     selected = {true},
     abstract = {Bengali is one of the most spoken languages in the world with over 300 million speakers globally. Despite its popularity, research into the development of Bengali speech recognition systems is hindered due to the lack of diverse open-source datasets. As a way forward, we have crowdsourced the Bengali Common Voice Speech Dataset, which is a sentence-level automatic speech recognition corpus. Collected on the Mozilla Common Voice platform, the dataset is part of an ongoing campaign that has led to the collection of over 400 hours of data in 2 months and is growing rapidly. Our analysis shows that this dataset has more speaker, phoneme, and environmental diversity compared to the OpenSLR Bengali ASR dataset, the largest existing open-source Bengali speech dataset. We present insights obtained from the dataset and discuss key linguistic challenges that need to be addressed in future versions. Additionally, we report the current performance of a few Automatic Speech Recognition (ASR) algorithms and set a benchmark for future research.},
-    url = {https://arxiv.org/abs/2206.14053},
+    html = {https://arxiv.org/abs/2206.14053},
+    arxiv = {2206.14053},
+    preview = {dlsprint.jpg},
 }
 
 @article{alam2021large,
@@ -51,8 +56,10 @@
     selected = {true},
     organization = {Springer, Cham},
     selected = {true},
-    url = {https://link.springer.com/chapter/10.1007/978-3-030-86337-1_26},
+    html = {https://link.springer.com/chapter/10.1007/978-3-030-86337-1_26},
+    arxiv = {2010.00170},
     pdf = {https://link.springer.com/content/pdf/10.1007/978-3-030-86337-1.pdf},
+    preview = {grapheme.png},
     abstract = {Latin has historically led the state-of-the-art in handwritten optical character recognition (OCR) research. Adapting existing systems from Latin to alpha-syllabary languages is particularly challenging due to a sharp contrast between their orthographies. Due to a cursive writing system and frequent use of diacritics, the segmentation and/or alignment of graphical constituents with corresponding characters becomes significantly convoluted. We propose a labeling scheme based on graphemes (linguistic segments of word formation) that makes segmentation inside alpha-syllabary words linear and present the first dataset of Bengali handwritten graphemes that are commonly used in everyday context. The dataset contains 411k curated samples of 1295 unique commonly used Bengali graphemes. Additionally, the test set contains 900 uncommon Bengali graphemes for out of dictionary performance evaluation. The dataset is open-sourced as a part of a public Handwritten Grapheme Classification Challenge on Kaggle to benchmark vision algorithms for multi-target grapheme classification. The unique graphemes present in this dataset are selected based on commonality in the Google Bengali ASR corpus. From competition proceedings, we see that deep learning methods can generalize to a large span of out of dictionary graphemes which are absent during training (Kaggle Competition kaggle.com/c/bengaliai-cv19, Supplementary materials and Appendix https://github.com/AhmedImtiazPrio/ICDAR2021supplementary).},
 }
 
@@ -62,8 +69,10 @@
     journal = {arXiv preprint arXiv:1806.02452},
     year = {2018},
     selected = {true},
-    url = {https://arxiv.org/abs/1806.02452},
+    html = {https://arxiv.org/abs/1806.02452},
+    arxiv = {1806.02452},
     pdf = {https://arxiv.org/pdf/1806.02452},
+    preview = {numta.gif},
     abstract = {To benchmark Bengali digit recognition algorithms, a large publicly available dataset is required which is free from biases originating from geographical location, gender, and age. With this aim in mind, NumtaDB, a dataset consisting of more than 85,000 images of hand-written Bengali digits, has been assembled. This paper documents the collection and curation process of numerals along with the salient statistics of the dataset. },
 }
 
@@ -81,7 +90,8 @@
     pages = {297--300},
     year = {2018},
     organization = {IEEE},
-    url = {https://ieeexplore.ieee.org/document/8397024},
+    html = {https://ieeexplore.ieee.org/document/8397024},
     pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8397024},
+    preview = {spcup.png},
     abstract = {Beat tracking from music signals has significant importance in multimedia information retrieval systems, especially in cover song detection. A predictive real-time beat tracking system can also be used to assist musicians performing live. In this paper we present a real-time beat tracking algorithm, fast enough to be implemented on an embedded system. The onset of a note is detected using a maximum filter approach that suppresses the effect of vibrato. Beats are predicted a second in advance using a causal variant of Dynamic Programming. We have employed an onset memoization algorithm, to reduce the computational resources required. Raspberry Pi was chosen as our preferred development board. We have demonstrated through experimental results that the proposed approach can satisfactorily estimate beat positions from a music signal in real-time with an average continuity score (AMLt) of 0.67.},
 }
