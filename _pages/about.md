@@ -4,6 +4,10 @@ title: about
 permalink: /
 subtitle: PhD Candidate, <a href='www.osu.edu'>Ohio State University</a>.
 
+scholar:
+  sort_by: year
+  order: ascending  # can be either "ascending" or "descending"
+
 profile:
   align: right
   image: prof_pic.jpg
