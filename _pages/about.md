@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='www.osu.edu'>Ohio State University</a>.
+subtitle: PhD Student, <a href='www.osu.edu'>Ohio State University</a>.
 
 scholar:
   sort_by: year
