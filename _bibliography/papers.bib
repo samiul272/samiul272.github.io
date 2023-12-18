@@ -1,4 +1,43 @@
 ---
+@article{wan2023efficient,
+  title={Efficient Large Language Models: A Survey},
+  author={Wan, Zhongwei and Wang, Xin and Liu, Che and Alam, Samiul and Zheng, Yu and Qu, Zhongnan and Yan, Shen and Zhu, Yi and Zhang, Quanlu and Chowdhury, Mosharaf and others},
+  year=2023,
+  arxiv = {2312.03863},
+  pdf = {https://arxiv.org/pdf/2312.03863},
+  doi={https://doi.org/10.48550/arXiv.2312.03863},
+  abstract={Large Language Models (LLMs) have demonstrated remarkable capabilities in important tasks such as natural language understanding, language generation, and complex reasoning and have the potential to make a substantial impact on our society. Such capabilities, however, come with the considerable resources they demand, highlighting the strong need to develop effective techniques for addressing their efficiency challenges. In this survey, we provide a systematic and comprehensive review of efficient LLMs research. We organize the literature in a taxonomy consisting of three main categories, covering distinct yet interconnected efficient LLMs topics from model-centric, data-centric, and framework-centric perspective, respectively. We have also created a GitHub repository where we compile the papers featured in this survey at https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey, this https URL, and will actively maintain this repository and incorporate new research as it emerges. We hope our survey can serve as a valuable resource to help researchers and practitioners gain a systematic understanding of the research developments in efficient LLMs and inspire them to contribute to this important and exciting field.},
+  preview={effllm.png},
+  selected={true},
+}
+
+@article{alam2023sparse,
+  author={Alam, Samiul and Amin, Md. Rafiul and Faghih, Rose T.},
+  journal={IEEE Open Journal of Engineering in Medicine and Biology},
+  title={Sparse Multichannel Decomposition of Electrodermal Activity With Physiological Priors},
+  year=2023,
+  volume={4},
+  pages={234-250},
+  abstract={Goal: Inferring autonomous nervous system (ANS) activity is a challenging issue and has critical applications in stress regulation. Sweat secretions caused by ANS activity influence the electrical conductance of the skin. Therefore, the variations in skin conductance (SC) measurements reflect the sudomotor nerve activity (SMNA) and can be used to infer the underlying ANS activity. These variations are strongly correlated with emotional arousal as well as thermoregulation. However, accurately recovering ANS activity and the corresponding state-space system from a single channel signal is difficult due to artifacts introduced by measurement noise. To minimize the impact of noise on inferring ANS activity, we utilize multiple channels of SC data. Methods: We model skin conductance using a second-order differential equation incorporating a time-shifted sparse impulse train input in combination with independent cubic basis spline functions. Finally, we develop a block coordinate descent method for SC signal decomposition by employing a generalized cross-validation sparse recovery approach while including physiological priors. Results: We analyze the experimental data to validate the performance of the proposed algorithm. We demonstrate its capacity to recover the ANS activations, the underlying physiological system parameters, and both tonic and phasic components. Finally, we present an overview of the algorithm's comparative performance under varying conditions and configurations to substantiate its ability to accurately model ANS activity. Our results show that our algorithm performs better in terms of multiple metrics like noise performance, AUC score, the goodness of fit of reconstructed signal, and lower missing impulses compared with the single channel decomposition approach. Conclusion: In this study, we highlight the challenges and benefits of concurrent decomposition and deconvolution of multichannel SC signals.},
+  doi={10.1109/OJEMB.2023.3332839},
+  ISSN={2644-1276},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10319803},
+  selected={true},
+  preview={sparse.jpg}
+  }
+
+
+@article{alam2023fedaiot,
+  title={FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things},
+  author={Alam, Samiul and Zhang, Tuo and Feng, Tiantian and Shen, Hui and Cao, Zhichao and Zhao, Dong and Ko, JeongGil and Somasundaram, Kiran and Narayanan, Shrikanth S and Avestimehr, Salman and others},
+  doi={https://doi.org/10.48550/arXiv.2310.00109},
+  pdf = {https://arxiv.org/pdf/2310.00109}
+  year=2023,
+  arxiv = {2310.00109},
+  preview = {fedaiot.png},
+  abstract = {There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. In this work, we introduce FedAIoT, an FL benchmark for AIoT to fill this critical gap. FedAIoT includes eight datatsets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT. The repository of FedAIoT is maintained at https://github.com/AIoT-MLSys-Lab/FedAIoT}
+}
+
 @inproceedings{rakib23_interspeech,
   author={Fazle Rabbi Rakib and Souhardya Saha Dip and Samiul Alam and Nazia Tasnim and Md. Istiak Hossain Shihab and Md. Nazmuddoha Ansary and Syed Mobassir Hossen and Marsia Haque Meghla and Mamunur Mamun and Farig Sadeque and Sayma Sultana Chowdhury and Tahsin Reasat and Asif Sushmit and Ahmed Imtiaz Humayun},
   title={{OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking}},
