@@ -15,12 +15,12 @@
       institution: Ohio State University (OSU)
       year: 2023-2026
       description:
-        - Will rejoin Dr. Zhang's Lab at OSU
+        - Awarded the prestigious OSU University Fellowship
+        - Formulating novel techniques for on-device AI for AR applications.
     - title: MS
       institution: Michigan State University (MSU)
       year: 2022-2023
       description:
-        - I joined MLSys lab under supervision of Prof. Mi Zhang.
         - Research Focus on Federated Learning
     - title: BSc
       institution: Bangladesh University of Engineering and Technology (BUET)
@@ -32,12 +32,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Associate
+      institution: The Ohio State University
+      year: 2023-Present
+      description:
+        - Formulating novel techniques for on-device AI for AR applications.
     - title: Graduate Research Assistant
       institution: Michigan State University
       year: 2022-2023
       description:
         - Worked as Research Assistant focussing on Federated Learning, Privacy Preserving ML and Distributed Edge computing
-        - Published several papers at distinguished venues as a researcher in MSU
+        - Published 5 papers at distinguished venues as a researcher in MSU
     - title: Engineer I
       institution: Samsung Research And Development Institute
       year: 2018-2021
