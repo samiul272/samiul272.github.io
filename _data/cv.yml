@@ -17,6 +17,7 @@
       description:
         - Awarded the prestigious OSU University Fellowship
         - Formulating novel techniques for on-device AI for AR applications.
+        - Benchmarking Video Understanding with agentic system.
     - title: MS
       institution: Michigan State University (MSU)
       year: 2022-2023
@@ -37,6 +38,12 @@
       year: 2023-Present
       description:
         - Formulating novel techniques for on-device AI for AR applications.
+    - title: Intern
+      institution: Google
+      year: 2025-2025
+      description:
+        - Worked with the SparkX team hosted by Yury Kirpichev.
+        - Generated synthetic user browsing activity data for training and evaluating recommendation systems.
     - title: Graduate Research Assistant
       institution: Michigan State University
       year: 2022-2023
