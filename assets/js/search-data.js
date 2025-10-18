@@ -497,13 +497,6 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-8458-4642", "_blank");
         },
       },{
-        id: 'social-contact_note',
-        title: 'Contact_note',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
