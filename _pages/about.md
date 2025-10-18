@@ -2,26 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, <a href='www.osu.edu'>Ohio State University</a>.
-
-scholar:
-  sort_by: year
-  order: descending  # can be either "ascending" or "descending"
+subtitle: <a href='www.osu.edu'>PhD Student</a>. Columbus, Ohio
+  University</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: true # crops the image to make it circular
-  # address: >
-  #   <p>East Lansing, MI 48823</p>
-  #   <p>East Lansing, MI 48823</p>
+  address: >
+     <p>2015 Neil Ave</p>
+     <p>Columbus OH</p>
+scholar:
+  sort_by: year
+  order: descending  # can be either "ascending" or "descending"
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 ---
