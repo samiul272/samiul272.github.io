@@ -59,7 +59,6 @@
         - Developed SDK for interfacing Samsung`s cloud service.
         - Earned Professional Certification in Samsung`s software certification exam
 
-
 # - title: Open Source Projects
 #   type: time_table
 #   contents:
@@ -93,7 +92,7 @@
 #   type: nested_list
 #   contents:
 #     - title: Topic 1.
-#       items: 
+#       items:
 #         - Description 1.
 #         - Description 2.
 #     - title: Topic 2.
