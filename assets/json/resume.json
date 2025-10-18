@@ -1,6 +1,11 @@
 {
   "basics": {
-    "name": "Samiul Alam"
+    "name": "Samiul Alam",
+    "summary": "PhD Candidate at the Ohio State University",
+    "location": {
+      "city": "Columbus",
+      "countryCode": "US",
+      "region": "Ohio"
   },
   "work": [
     {
