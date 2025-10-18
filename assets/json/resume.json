@@ -1,95 +1,353 @@
 {
   "basics": {
     "name": "Samiul Alam",
-    "label": "Research Associate",
+    "label": "Graduate Research Associate, PhD Candidate",
+    "image": "",
     "email": "alam dot 140 at osu dot edu",
+    "phone": "",
     "url": "https://samiul272.github.io",
-    "summary": "PhD Candidate at the Ohio State University",
+    "summary": "On-device AI, foundation models, federated learning, distributed ML, and large language models. “Perpetually Convalescent: Learning & Evolving.”",
     "location": {
+      "address": "",
+      "postalCode": "",
       "city": "Columbus",
       "countryCode": "US",
       "region": "Ohio"
-    }
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "samiul272",
+        "url": "[https://github.com/samiul272](https://github.com/samiul272)"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "samiul-alam",
+        "url": "[https://www.linkedin.com/in/samiul-alam](https://www.linkedin.com/in/samiul-alam)"
+      }
+    ]
   },
   "work": [
     {
-      "name": "The Ohio State University",
+      "name": "Ohio State University",
       "position": "Graduate Research Associate",
-      "summary": "Formulating novel techniques for on-device AI for AR applications.",
+      "url": "[https://cse.osu.edu](https://cse.osu.edu)",
+      "startDate": "2023-08",
+      "endDate": "",
+      "summary": "Research on on-device AI, model compression and quantization, and efficient retrieval with deep hashing for multimodal LLMs; collaboration with Meta Surreal.",
       "highlights": [
-        "On-device AI for AR"
+        "Model compression and quantization for edge",
+        "Deep hashing retrieval for efficient similarity search",
+        "Multimodal LLM efficiency"
       ]
     },
     {
       "name": "Google",
-      "position": "Intern",
-      "summary": "Worked with the SparkX team hosted by Yury Kirpichev. Generated synthetic user browsing activity data for training and evaluating recommendation systems.",
+      "position": "Software Engineering Intern",
+      "url": "[https://google.com](https://google.com)",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Aligned synthetic data from LLMs to real user data to improve personalized recommender systems.",
       "highlights": [
-        "Synthetic browsing data",
-        "Recommendation systems evaluation"
+        "Synthetic-to-real data alignment",
+        "Personalization for recommenders"
       ]
     },
     {
       "name": "Michigan State University",
-      "position": "Graduate Research Assistant",
-      "summary": "Federated Learning, Privacy-Preserving ML, Distributed Edge computing. Published 5 papers at distinguished venues.",
+      "position": "Research Assistant",
+      "url": "[https://msu.edu](https://msu.edu)",
+      "startDate": "2022-01",
+      "endDate": "2023-08",
+      "summary": "Built heterogeneity-aware federated learning systems; published across top venues.",
       "highlights": [
-        "Federated Learning",
-        "Privacy-Preserving ML",
-        "Distributed Edge"
+        "Geo-distributed and heterogeneous FL",
+        "Publications at NeurIPS, SenSys, ICASSP, InterSpeech, DMLR"
       ]
     },
     {
-      "name": "Samsung Research And Development Institute",
-      "position": "Engineer I",
-      "summary": "Galaxy Wearable App; controller app for 5G smart router; SDK for Samsung cloud service; earned professional certification.",
+      "name": "University of Houston",
+      "position": "Research Assistant",
+      "url": "[https://uh.edu](https://uh.edu)",
+      "startDate": "2021-05",
+      "endDate": "2021-12",
+      "summary": "Worked on deconvolution, state-space modeling, and Bayesian filters.",
       "highlights": [
-        "Galaxy Wearable App",
-        "5G router controller app",
-        "Samsung cloud SDK"
+        "State-space models",
+        "Bayesian filtering"
+      ]
+    },
+    {
+      "name": "Samsung R&D Institute Bangladesh",
+      "position": "Engineer I, Mobile Applications",
+      "url": "[https://research.samsung.com](https://research.samsung.com)",
+      "startDate": "2018-04",
+      "endDate": "2021-05",
+      "summary": "Extended BLE interfacing for wearable apps on iOS and Android; developed cloud service SDK; earned Samsung Software Certification (Top 10%).",
+      "highlights": [
+        "BLE interfacing for wearables",
+        "Cloud service SDK",
+        "Top 10% developer certification"
+      ]
+    },
+    {
+      "name": "Bengali.AI",
+      "position": "Co-Founder",
+      "url": "[https://bengali.ai](https://bengali.ai)",
+      "startDate": "2018-01",
+      "endDate": "",
+      "summary": "Non-profit for open-source Bengali datasets and benchmarks for speech and text.",
+      "highlights": [
+        "Community dataset curation",
+        "Benchmarks for Bengali speech and text"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Ohio State University (OSU)",
+      "institution": "The Ohio State University",
+      "location": "Columbus, Ohio",
+      "url": "[https://osu.edu](https://osu.edu)",
+      "area": "Computer Science and Engineering",
       "studyType": "PhD",
-      "summary": "OSU University Fellowship. On-device AI for AR. Benchmarking Video Understanding with agentic system.",
+      "startDate": "2023-08",
+      "endDate": "2026-05",
+      "score": "",
       "courses": []
     },
     {
-      "institution": "Michigan State University (MSU)",
+      "institution": "Michigan State University",
+      "location": "East Lansing, Michigan",
+      "url": "[https://msu.edu](https://msu.edu)",
+      "area": "Computer Science",
       "studyType": "MS",
-      "summary": "Research focus on Federated Learning.",
+      "startDate": "2022-01",
+      "endDate": "2023-08",
+      "score": "GPA: 3.86",
       "courses": []
     },
     {
       "institution": "Bangladesh University of Engineering and Technology (BUET)",
-      "studyType": "BSc",
-      "summary": "Major in Electronics; Minor in Communication. Thesis on Solar Cell Perovskite Simulation.",
+      "location": "Dhaka, Bangladesh",
+      "url": "[https://www.buet.ac.bd](https://www.buet.ac.bd)",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2013-02",
+      "endDate": "2017-09",
+      "score": "GPA: 3.67",
       "courses": []
     }
   ],
   "awards": [
-    { "title": "Ohio State University Graduate School Fellowship", "date": "2023" },
-    { "title": "Bangladesh Sweden Trust Fund Travel Scholarship", "date": "2022" },
-    { "title": "Kaggle Community Competition Creator Prize", "date": "2022" },
-    { "title": "Michigan State University Graduate School Travel Grant", "date": "2022" },
-    { "title": "Council of Graduate Studies Travel Grant", "date": "2022" },
-    { "title": "Honorable Mention in IEEE Signal Processing Cup", "date": "2017" },
-    { "title": "Semi-Finalist in IEEE Future Energy Challenge", "date": "2017" },
-    { "title": "Education Category Winner in IEEE Maker Project", "date": "2016" },
-    { "title": "Dean's List Distinction (2012-2013)", "date": "2012" }
+    {
+      "title": "Best Paper Award",
+      "date": "2024-08",
+      "awarder": "IEEE Internet Computing",
+      "url": "",
+      "summary": "Awarded for “The Internet of Things in the Era of Generative AI: Vision and Challenges.”"
+    },
+    {
+      "title": "Community Competition Creator Prize",
+      "date": "2022-07",
+      "awarder": "Kaggle",
+      "url": "",
+      "summary": "For organizing the DL Sprint speech transcription competition with BUET CSE."
+    },
+    {
+      "title": "Semifinalist, International Future Energy Challenge",
+      "date": "2017-03-26",
+      "awarder": "IFEC 2017",
+      "url": "",
+      "summary": "Designed a high-efficiency, high-density DC/DC converter."
+    },
+    {
+      "title": "Honorable Mention, IEEE Signal Processing Cup",
+      "date": "2017-03-05",
+      "awarder": "IEEE SP Cup 2017",
+      "url": "",
+      "summary": "Real-time musical beat tracking on Raspberry Pi."
+    },
+    {
+      "title": "Category Winner, IEEE Maker Project",
+      "date": "2016-11-11",
+      "awarder": "IEEE",
+      "url": "",
+      "summary": "Built an educational 3D scanner; winner in Education category."
+    }
   ],
   "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    { "language": "English" },
-    { "language": "Bengali"}
+  "publications": [
+    {
+      "name": "Benchmarking is Broken — Don’t Let AI be Its Own Judge",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Reading Recognition in the Wild",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "MTL-SVD: Minimizing Singular Value Truncation Loss for Large Language Model Compression",
+      "publisher": "NAACL 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Artificial Intelligence of Things: A Survey",
+      "publisher": "ACM TOSN",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "IoT in the Era of Generative AI: Vision and Challenges",
+      "publisher": "IEEE Internet Computing",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Efficient Large Language Models: A Survey",
+      "publisher": "TMLR",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "GPT-FL: Generative Pre-trained Model-Assisted Federated Learning",
+      "publisher": "arXiv",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "GeoFL: A Framework for Efficient Geo-Distributed Cross-Device Federated Learning",
+      "publisher": "IEEE INFOCOM 2025",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things",
+      "publisher": "J. of Data-centric ML Research",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "FedAudio: A Federated Learning Benchmark for Audio Tasks",
+      "publisher": "ICASSP 2023",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction",
+      "publisher": "NeurIPS 2022",
+      "releaseDate": "2022",
+      "url": "",
+      "summary": ""
+    }
   ],
+  "skills": [
+    {
+      "name": "Machine Learning Systems",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "On-device AI",
+        "Model compression",
+        "Quantization",
+        "Efficient retrieval",
+        "Deep hashing"
+      ]
+    },
+    {
+      "name": "Federated Learning",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Heterogeneity",
+        "Geo-distributed training",
+        "Benchmarks"
+      ]
+    },
+    {
+      "name": "Large Language Models",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Multimodal LLMs",
+        "Personalization",
+        "Edge deployment"
+      ]
+    }
+  ],
+  "languages": [],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "LLM-based AR Assistant",
+      "summary": "On-device retriever indexes AR device data and retrieves segments for a cloud multimodal LLM.",
+      "highlights": [
+        "Edge retrieval",
+        "Multimodal context"
+      ],
+      "startDate": "2024-01",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "Aria Eye Tracking Dataset",
+      "summary": "Multimodal benchmark and dataset for eye-tracking-enhanced video understanding.",
+      "highlights": [
+        "Eye gaze + video",
+        "Benchmarking"
+      ],
+      "startDate": "2023-11",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "SVD-LLM Model Compression",
+      "summary": "SVD-based compression for Jetson and mobile using ONNX Runtime, MLC LLM, and TVM.",
+      "highlights": [
+        "SVD compression",
+        "Edge deployment"
+      ],
+      "startDate": "2023-08",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "Federated Learning for Heterogeneous Edge Devices",
+      "summary": "Frameworks for model-heterogeneous FL under varied bandwidth and compute constraints.",
+      "highlights": [
+        "Model heterogeneity",
+        "Edge constraints"
+      ],
+      "startDate": "2022-01",
+      "endDate": "2023-12",
+      "url": ""
+    },
+    {
+      "name": "5G Smart Router Interfacing",
+      "summary": "Interface and AR visualization for mesh network strength and optimal placement.",
+      "highlights": [
+        "5G router",
+        "AR visualization"
+      ],
+      "startDate": "2020-01",
+      "endDate": "2020-12",
+      "url": ""
+    }
+  ]
 }
