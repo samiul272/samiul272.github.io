@@ -103,7 +103,6 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "The Ohio State University",
@@ -176,7 +175,6 @@
       "summary": "Built an educational 3D scanner; winner in Education category."
     }
   ],
-  "certificates": [],
   "skills": [
     {
       "name": "Machine Learning Systems",
@@ -211,9 +209,6 @@
       ]
     }
   ],
-  "languages": [],
-  "interests": [],
-  "references": [],
   "projects": [
     {
       "name": "LLM-based AR Assistant",
