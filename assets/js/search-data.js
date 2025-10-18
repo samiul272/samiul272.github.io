@@ -82,7 +82,12 @@ ninja.data = [{
           section: "News",},{id: "news-two-of-my-papers-have-been-accepted-at-neurips-2025",
           title: 'Two of my papers have been accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-project-1",
+          title: 'project 1',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_projects/";
+            },},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
