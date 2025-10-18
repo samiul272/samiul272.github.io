@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.osu.edu'>PhD Candidate</a>. Columbus, Ohio State University.
+subtitle: <a href='www.osu.edu'>PhD Candidate</a>., Ohio State University.
 
 profile:
   align: right
