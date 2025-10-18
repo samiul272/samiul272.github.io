@@ -19,6 +19,11 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+---
 ---
 
 Hi there! I am an incoming PhD. student at Ohio State University. I work on improving privacy and fairness in deep learning. I used to work at Samsung Research and Development Institute in Bangladesh as a Software Engineer till 2021. I graduated from Bangladesh University of Engineering and Technology in 2017. 
