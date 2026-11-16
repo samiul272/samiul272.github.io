@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - samiul272
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - AIoT-MLSys-Lab/FedRolex
+  - AIoT-MLSys-Lab/FedAIoT
+  - AIoT-MLSys-Lab/SVD-LLM
+  - AIoT-MLSys-Lab/Efficient-LLMs-Survey
+  - AIoT-MLSys-Lab/AIoT-Survey

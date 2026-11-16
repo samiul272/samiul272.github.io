@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to present my research on model heterogeneous federated learning at Google's Workshop on Federated Learning and Analyics
+Invited to present my research on model heterogeneous federated learning at Google's Workshop on Federated Learning and Analytics

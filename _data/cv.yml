@@ -3,27 +3,30 @@
   contents:
     - name: Full Name
       value: Samiul Alam
-    - name: Date of Birth
-      value: 1995
+    - name: Current Role
+      value: Software Engineer, Google
+    - name: Location
+      value: Mountain View, California
     - name: Languages
       value: English, Bengali
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Ohio State University (OSU)
+    - title: Ph.D. in Computer Science and Engineering
+      institution: The Ohio State University (OSU)
       year: 2023-2026
       description:
-        - Awarded the prestigious OSU University Fellowship
-        - Formulating novel techniques for on-device AI for AR applications.
-        - Benchmarking Video Understanding with agentic system.
-    - title: MS
+        - "Dissertation: “Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning”"
+        - "Advisor: Prof. Mi Zhang | Committee: Prof. Xueru Zhang, Prof. Zhihui Zhu"
+        - Awarded the OSU Graduate School University Fellowship
+    - title: M.S. in Computer Science
       institution: Michigan State University (MSU)
       year: 2022-2023
       description:
-        - Research Focus on Federated Learning
-    - title: BSc
+        - "Thesis: “Federated Learning Benchmarks and Frameworks for Artificial Intelligence of Things”"
+        - Research Focus on Heterogeneous and Geo-Distributed Federated Learning
+    - title: B.Sc. in Electrical and Electronic Engineering
       institution: Bangladesh University of Engineering and Technology (BUET)
       year: 2013-2017
       description:
@@ -33,51 +36,69 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Research Associate
+    - title: Software Engineer
+      institution: Google (Mountain View, CA)
+      year: 2026-Present
+      description:
+        - Working on user activity modeling and development of agentic recommendation systems.
+    - title: Research Scientist Intern
+      institution: Meta Reality Labs (Redmond, WA)
+      year: Summer 2026
+      description:
+        - Worked with the Sensors and Systems Research team to develop and deploy a reinforcement learning-based dynamic camera capture model on prototype wearable glasses, minimizing energy and maximizing AI assistant performance.
+    - title: Graduate Research Associate & University Fellow
       institution: The Ohio State University
-      year: 2023-Present
+      year: 2023-2026
       description:
-        - Formulating novel techniques for on-device AI for AR applications.
-    - title: Intern
-      institution: Google
-      year: 2025-2025
+        - Conducted doctoral research in the AIoT-MLSys Lab on spatial computing, on-device multimodal AI for AR glasses, model compression, and long-horizon memory benchmarks.
+    - title: Software Engineering Intern
+      institution: Google (Mountain View, CA)
+      year: Summer 2025
       description:
-        - Worked with the SparkX team hosted by Yury Kirpichev.
-        - Generated synthetic user browsing activity data for training and evaluating recommendation systems.
+        - Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.
     - title: Graduate Research Assistant
       institution: Michigan State University
       year: 2022-2023
       description:
-        - Worked as Research Assistant focussing on Federated Learning, Privacy Preserving ML and Distributed Edge computing
-        - Published 5 papers at distinguished venues as a researcher in MSU
-    - title: Engineer I
-      institution: Samsung Research And Development Institute
+        - Worked as Research Assistant focusing on Federated Learning, Privacy-Preserving ML, and Distributed Edge Computing.
+        - Published 5 papers at distinguished venues as a researcher at MSU.
+    - title: Research Assistant
+      institution: University of Houston
+      year: 2021
+      description:
+        - Worked on physiological signal deconvolution, state-space modeling, and Bayesian filtering.
+    - title: Software Engineer (Engineer I)
+      institution: Samsung R&D Institute Bangladesh
       year: 2018-2021
       description:
-        - Worked on Samsung`s Galaxy Wearable App
-        - Developed controller app for Samsung`s 5G smart router.
-        - Developed SDK for interfacing Samsung`s cloud service.
-        - Earned Professional Certification in Samsung`s software certification exam
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Worked on Samsung's Galaxy Wearable App across Android and iOS.
+        - Developed controller app for Samsung's 5G smart router.
+        - Developed SDK for interfacing with Samsung's cloud service.
+        - Earned SWC Professional Certification (Top 10%) in Samsung's software certification exam.
+    - title: Co-Founder
+      institution: Bengali.AI
+      year: 2018-Present
+      description:
+        - Co-founded non-profit accelerating open-source datasets and benchmarks for Bengali speech, vision, and NLP.
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - IEEE Internet Computing Best Paper Award (“The Internet of Things in the Era of Generative AI: Vision and Challenges”)
     - year: 2023
       items:
-        - Ohio State University Graduate School Fellowship
+        - Ohio State University Graduate School University Fellowship
     - year: 2022
       items:
         - Bangladesh Sweden Trust Fund Travel Scholarship
         - Kaggle Community Competition Creator Prize
         - Michigan State University Graduate School Travel Grant
         - Council of Graduate Studies Travel Grant
+    - year: 2019
+      items:
+        - Samsung SWC Professional Certification (Top 10%)
     - year: 2017
       items:
         - Honorable Mention in IEEE Signal Processing Cup
@@ -88,19 +109,3 @@
     - year: 2012
       items:
         - Dean's List Distinction in 2012-2013 session
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
