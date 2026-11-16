@@ -1,1 +1,298 @@
-{"basics":{"name":"Samiul Alam","label":"Software Engineer at Google | Ph.D. in Computer Science & Engineering","image":"","email":"samiul272@gmail.com","phone":"","url":"https://samiul272.github.io","summary":"Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Ohio State University. Spatial computing, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning. “Perpetually Convalescent: Learning & Evolving.”","location":{"address":"","postalCode":"","city":"Mountain View","countryCode":"US","region":"California"},"profiles":[{"network":"GitHub","username":"samiul272","url":"https://github.com/samiul272"},{"network":"LinkedIn","username":"samiul-alam","url":"https://www.linkedin.com/in/samiul-alam"},{"network":"Google Scholar","username":"2Un1c7QAAAAJ","url":"https://scholar.google.com/citations?user=2Un1c7QAAAAJ"}]},"work":[{"name":"Google","position":"Software Engineer","location":"Mountain View, CA","url":"https://about.google","startDate":"2026-09","endDate":"","summary":"Working on user activity modeling and development of agentic recommendation systems.","highlights":["User activity modeling for personalization","Agentic recommendation systems"]},{"name":"Meta","position":"Research Scientist Intern","location":"Redmond, WA","url":"https://ai.meta.com","startDate":"2026-05","endDate":"2026-08","summary":"Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.","highlights":["Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses","Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance"]},{"name":"Google","position":"Software Engineering Intern","location":"Mountain View, CA","url":"https://about.google","startDate":"2025-05","endDate":"2025-08","summary":"Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.","highlights":["Multimodal LLMs for personalized recommendation systems","Synthetic-to-real user data alignment"]},{"name":"The Ohio State University","position":"Graduate Research Associate & University Fellow","location":"Columbus, OH","url":"https://cse.osu.edu","startDate":"2023-08","endDate":"2026-08","summary":"Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang on spatial computing, supermemory for AR glasses, model compression, and multimodal foundation models.","highlights":["Built MemoLens (MobiSys '26), SuperMemory-VQA, and Reading Recognition in the Wild (NeurIPS '25) for AR glasses","Developed SVD-LLM V2 (NAACL '25) for large language model compression"]},{"name":"Michigan State University","position":"Graduate Research Assistant","location":"East Lansing, MI","url":"https://msu.edu","startDate":"2022-01","endDate":"2023-08","summary":"Built heterogeneity-aware federated learning systems; published across top venues.","highlights":["Geo-distributed and heterogeneous federated learning (FedRolex, FedAIoT, FedSEA, FedAudio)","Publications at NeurIPS, SenSys, ICASSP, INTERSPEECH, and DMLR"]},{"name":"University of Houston","position":"Research Assistant","location":"Houston, TX","url":"https://uh.edu","startDate":"2021-05","endDate":"2021-12","summary":"Worked on deconvolution, state-space modeling, and Bayesian filters.","highlights":["State-space models for physiological and cognitive signal analysis","Bayesian filtering and sparse multichannel decomposition"]},{"name":"Samsung R&D Institute Bangladesh","position":"Software Engineer (Engineer I, Mobile Applications)","location":"Dhaka, Bangladesh","url":"https://research.samsung.com","startDate":"2018-04","endDate":"2021-05","summary":"Extended BLE interfacing for wearable apps on iOS and Android; developed cloud service SDK; earned Samsung Software Certification (Top 10%).","highlights":["BLE interfacing for Samsung Galaxy Wearable apps","Controller app for 5G smart router and cloud service SDK","Samsung SWC Professional Certification (Top 10%)"]},{"name":"Bengali.AI","position":"Co-Founder","url":"https://bengali.ai","startDate":"2018-01","endDate":"","summary":"Non-profit for open-source Bengali datasets and benchmarks for speech, vision, and text.","highlights":["Community dataset curation (NumtaDB, Bengali Handwritten Graphemes, Common Voice Bengali, OOD-Speech)","Organized international machine learning competitions on Kaggle"]}],"education":[{"institution":"The Ohio State University","location":"Columbus, Ohio","url":"https://osu.edu","area":"Computer Science and Engineering","studyType":"Ph.D.","startDate":"2023-08","endDate":"2026-08","score":"GPA: 3.75","courses":["Dissertation: “Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning”","Advisor: Prof. Mi Zhang | Committee: Prof. Xueru Zhang, Prof. Zhihui Zhu","Awarded the OSU Graduate School University Fellowship"]},{"institution":"Michigan State University","location":"East Lansing, Michigan","url":"https://msu.edu","area":"Computer Science","studyType":"M.S.","startDate":"2022-01","endDate":"2023-08","score":"GPA: 3.86","courses":["Thesis: “Federated Learning Benchmarks and Frameworks for Artificial Intelligence of Things”"]},{"institution":"Bangladesh University of Engineering and Technology (BUET)","location":"Dhaka, Bangladesh","url":"https://www.buet.ac.bd","area":"Electrical and Electronic Engineering","studyType":"B.Sc.","startDate":"2013-02","endDate":"2017-09","score":"GPA: 3.67","courses":[]}],"awards":[{"title":"Best Paper Award","date":"2024-08","awarder":"IEEE Internet Computing","url":"","summary":"Awarded for “The Internet of Things in the Era of Generative AI: Vision and Challenges.”"},{"title":"Graduate School University Fellowship","date":"2023-08","awarder":"The Ohio State University","url":"","summary":"Awarded the competitive OSU Graduate School University Fellowship."},{"title":"Community Competition Creator Prize","date":"2022-07","awarder":"Kaggle","url":"","summary":"For organizing the DL Sprint speech transcription competition with BUET CSE."},{"title":"SWC Professional Certification","date":"2019-06","awarder":"Samsung Electronics","url":"","summary":"Earned Samsung Software Certification (Top 10%) in data structures and algorithms."},{"title":"Semifinalist, International Future Energy Challenge","date":"2017-03-26","awarder":"IFEC 2017","url":"","summary":"Designed a high-efficiency, high-density DC/DC converter."},{"title":"Honorable Mention, IEEE Signal Processing Cup","date":"2017-03-05","awarder":"IEEE SP Cup 2017","url":"","summary":"Real-time musical beat tracking on Raspberry Pi."},{"title":"Category Winner, IEEE Maker Project","date":"2016-11-11","awarder":"IEEE","url":"","summary":"Built an educational 3D scanner; winner in Education category."}],"skills":[{"name":"Spatial Computing & Egocentric AI","level":"","icon":"","keywords":["AR smart glasses memory","Egocentric video & eye gaze","Long-horizon VQA","Selective memory creation"]},{"name":"Foundation & Large Language Models","level":"","icon":"","keywords":["Agentic systems","Multimodal LLMs","Personalized recommenders","Deep research agents"]},{"name":"Machine Learning Systems","level":"","icon":"","keywords":["On-device AI","Model compression & quantization","Efficient retrieval","RL sensor control"]},{"name":"Federated & Distributed Learning","level":"","icon":"","keywords":["Model heterogeneity","Geo-distributed training","AIoT benchmarks"]}],"projects":[{"name":"MemoLens","summary":"Empowering augmented reality glasses with super memory via gaze-guided spatio-temporal token compression and hierarchical multimodal retrieval (ACM MobiSys '26).","highlights":["Gaze-aware token compression","Hierarchical multimodal retrieval"],"startDate":"2024-01","endDate":"2026-06","url":"https://dl.acm.org/doi/abs/10.1145/3745756.3809235"},{"name":"SuperMemory-VQA","summary":"Long-horizon egocentric visual question-answering benchmark built from 52.9 hours of multi-sensor AI glasses recordings with 4,853 human-verified QA pairs.","highlights":["Longitudinal egocentric memory","Hallucination-robust VQA evaluation"],"startDate":"2025-01","endDate":"2026-06","url":"https://arxiv.org/abs/2606.00825"},{"name":"Reading Recognition in the Wild","summary":"First large-scale multimodal dataset (100 hours) and transformer model using egocentric RGB, eye gaze, and head pose for selective memory creation on smart glasses (NeurIPS '25).","highlights":["100-hour multimodal dataset","RGB + gaze + head pose fusion"],"startDate":"2024-01","endDate":"2025-12","url":"https://proceedings.neurips.cc/paper_files/paper/2025/hash/cf21f05f83772beeecb4ade4e524076b-Abstract-Conference.html"},{"name":"SVD-LLM V2 Model Compression","summary":"Optimizing singular value truncation via dynamic compression ratio allocation and loss-optimized truncation for efficient LLM deployment (NAACL '25).","highlights":["SVD compression","Dynamic rank allocation"],"startDate":"2023-08","endDate":"2025-04","url":"https://github.com/AIoT-MLSys-Lab/SVD-LLM"},{"name":"FedRolex & FedAIoT","summary":"Frameworks and benchmarks for model-heterogeneous and authentic AIoT federated learning under varied bandwidth and compute constraints (NeurIPS '22, DMLR '24).","highlights":["Rolling sub-model extraction","8 authentic IoT device datasets"],"startDate":"2022-01","endDate":"2024-09","url":"https://github.com/AIoT-MLSys-Lab/FedRolex"},{"name":"5G Smart Router Interfacing","summary":"Interface and AR visualization for mesh network strength, channel estimation, and optimal router placement.","highlights":["5G router","AR visualization"],"startDate":"2019-07","endDate":"2020-06","url":""}]}
+{
+  "basics": {
+    "name": "Samiul Alam",
+    "label": "Software Engineer at Google | Ph.D. in Computer Science & Engineering",
+    "image": "",
+    "email": "samiul272@gmail.com",
+    "phone": "",
+    "url": "https://samiul272.github.io",
+    "summary": "Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Ohio State University. Spatial computing, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning. “Perpetually Convalescent: Learning & Evolving.”",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Mountain View",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "samiul272",
+        "url": "https://github.com/samiul272"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "samiul-alam",
+        "url": "https://www.linkedin.com/in/samiul-alam"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "2Un1c7QAAAAJ",
+        "url": "https://scholar.google.com/citations?user=2Un1c7QAAAAJ"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Google",
+      "position": "Software Engineer",
+      "location": "Mountain View, CA",
+      "url": "https://about.google",
+      "startDate": "2026-09",
+      "endDate": "",
+      "summary": "Working on user activity modeling and development of agentic recommendation systems.",
+      "highlights": ["User activity modeling for personalization", "Agentic recommendation systems"]
+    },
+    {
+      "name": "Meta",
+      "position": "Research Scientist Intern",
+      "location": "Redmond, WA",
+      "url": "https://ai.meta.com",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "summary": "Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.",
+      "highlights": [
+        "Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses",
+        "Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance"
+      ]
+    },
+    {
+      "name": "Google",
+      "position": "Software Engineering Intern",
+      "location": "Mountain View, CA",
+      "url": "https://about.google",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.",
+      "highlights": ["Multimodal LLMs for personalized recommendation systems", "Synthetic-to-real user data alignment"]
+    },
+    {
+      "name": "The Ohio State University",
+      "position": "Graduate Research Associate & University Fellow",
+      "location": "Columbus, OH",
+      "url": "https://cse.osu.edu",
+      "startDate": "2023-08",
+      "endDate": "2026-08",
+      "summary": "Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang on spatial computing, supermemory for AR glasses, model compression, and multimodal foundation models.",
+      "highlights": [
+        "Built MemoLens (MobiSys '26), SuperMemory-VQA, and Reading Recognition in the Wild (NeurIPS '25) for AR glasses",
+        "Developed SVD-LLM V2 (NAACL '25) for large language model compression"
+      ]
+    },
+    {
+      "name": "Michigan State University",
+      "position": "Graduate Research Assistant",
+      "location": "East Lansing, MI",
+      "url": "https://msu.edu",
+      "startDate": "2022-01",
+      "endDate": "2023-08",
+      "summary": "Built heterogeneity-aware federated learning systems; published across top venues.",
+      "highlights": [
+        "Geo-distributed and heterogeneous federated learning (FedRolex, FedAIoT, FedSEA, FedAudio)",
+        "Publications at NeurIPS, SenSys, ICASSP, INTERSPEECH, and DMLR"
+      ]
+    },
+    {
+      "name": "University of Houston",
+      "position": "Research Assistant",
+      "location": "Houston, TX",
+      "url": "https://uh.edu",
+      "startDate": "2021-05",
+      "endDate": "2021-12",
+      "summary": "Worked on deconvolution, state-space modeling, and Bayesian filters.",
+      "highlights": ["State-space models for physiological and cognitive signal analysis", "Bayesian filtering and sparse multichannel decomposition"]
+    },
+    {
+      "name": "Samsung R&D Institute Bangladesh",
+      "position": "Software Engineer (Engineer I, Mobile Applications)",
+      "location": "Dhaka, Bangladesh",
+      "url": "https://research.samsung.com",
+      "startDate": "2018-04",
+      "endDate": "2021-05",
+      "summary": "Extended BLE interfacing for wearable apps on iOS and Android; developed cloud service SDK; earned Samsung Software Certification (Top 10%).",
+      "highlights": [
+        "BLE interfacing for Samsung Galaxy Wearable apps",
+        "Controller app for 5G smart router and cloud service SDK",
+        "Samsung SWC Professional Certification (Top 10%)"
+      ]
+    },
+    {
+      "name": "Bengali.AI",
+      "position": "Co-Founder",
+      "url": "https://bengali.ai",
+      "startDate": "2018-01",
+      "endDate": "",
+      "summary": "Non-profit for open-source Bengali datasets and benchmarks for speech, vision, and text.",
+      "highlights": [
+        "Community dataset curation (NumtaDB, Bengali Handwritten Graphemes, Common Voice Bengali, OOD-Speech)",
+        "Organized international machine learning competitions on Kaggle"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Ohio State University",
+      "location": "Columbus, Ohio",
+      "url": "https://osu.edu",
+      "area": "Computer Science and Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2023-08",
+      "endDate": "2026-08",
+      "score": "GPA: 3.75",
+      "courses": [
+        "Dissertation: “Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning”",
+        "Advisor: Prof. Mi Zhang | Committee: Prof. Xueru Zhang, Prof. Zhihui Zhu",
+        "Awarded the OSU Graduate School University Fellowship"
+      ]
+    },
+    {
+      "institution": "Michigan State University",
+      "location": "East Lansing, Michigan",
+      "url": "https://msu.edu",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2022-01",
+      "endDate": "2023-08",
+      "score": "GPA: 3.86",
+      "courses": ["Thesis: “Federated Learning Benchmarks and Frameworks for Artificial Intelligence of Things”"]
+    },
+    {
+      "institution": "Bangladesh University of Engineering and Technology (BUET)",
+      "location": "Dhaka, Bangladesh",
+      "url": "https://www.buet.ac.bd",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2013-02",
+      "endDate": "2017-09",
+      "score": "GPA: 3.67",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Paper Award",
+      "date": "2024-08",
+      "awarder": "IEEE Internet Computing",
+      "url": "",
+      "summary": "Awarded for “The Internet of Things in the Era of Generative AI: Vision and Challenges.”"
+    },
+    {
+      "title": "Graduate School University Fellowship",
+      "date": "2023-08",
+      "awarder": "The Ohio State University",
+      "url": "",
+      "summary": "Awarded the competitive OSU Graduate School University Fellowship."
+    },
+    {
+      "title": "Community Competition Creator Prize",
+      "date": "2022-07",
+      "awarder": "Kaggle",
+      "url": "",
+      "summary": "For organizing the DL Sprint speech transcription competition with BUET CSE."
+    },
+    {
+      "title": "SWC Professional Certification",
+      "date": "2019-06",
+      "awarder": "Samsung Electronics",
+      "url": "",
+      "summary": "Earned Samsung Software Certification (Top 10%) in data structures and algorithms."
+    },
+    {
+      "title": "Semifinalist, International Future Energy Challenge",
+      "date": "2017-03-26",
+      "awarder": "IFEC 2017",
+      "url": "",
+      "summary": "Designed a high-efficiency, high-density DC/DC converter."
+    },
+    {
+      "title": "Honorable Mention, IEEE Signal Processing Cup",
+      "date": "2017-03-05",
+      "awarder": "IEEE SP Cup 2017",
+      "url": "",
+      "summary": "Real-time musical beat tracking on Raspberry Pi."
+    },
+    {
+      "title": "Category Winner, IEEE Maker Project",
+      "date": "2016-11-11",
+      "awarder": "IEEE",
+      "url": "",
+      "summary": "Built an educational 3D scanner; winner in Education category."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Spatial Computing & Egocentric AI",
+      "level": "",
+      "icon": "",
+      "keywords": ["AR smart glasses memory", "Egocentric video & eye gaze", "Long-horizon VQA", "Selective memory creation"]
+    },
+    {
+      "name": "Foundation & Large Language Models",
+      "level": "",
+      "icon": "",
+      "keywords": ["Agentic systems", "Multimodal LLMs", "Personalized recommenders", "Deep research agents"]
+    },
+    {
+      "name": "Machine Learning Systems",
+      "level": "",
+      "icon": "",
+      "keywords": ["On-device AI", "Model compression & quantization", "Efficient retrieval", "RL sensor control"]
+    },
+    {
+      "name": "Federated & Distributed Learning",
+      "level": "",
+      "icon": "",
+      "keywords": ["Model heterogeneity", "Geo-distributed training", "AIoT benchmarks"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MemoLens",
+      "summary": "Empowering augmented reality glasses with super memory via gaze-guided spatio-temporal token compression and hierarchical multimodal retrieval (ACM MobiSys '26).",
+      "highlights": ["Gaze-aware token compression", "Hierarchical multimodal retrieval"],
+      "startDate": "2024-01",
+      "endDate": "2026-06",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3745756.3809235"
+    },
+    {
+      "name": "SuperMemory-VQA",
+      "summary": "Long-horizon egocentric visual question-answering benchmark built from 52.9 hours of multi-sensor AI glasses recordings with 4,853 human-verified QA pairs.",
+      "highlights": ["Longitudinal egocentric memory", "Hallucination-robust VQA evaluation"],
+      "startDate": "2025-01",
+      "endDate": "2026-06",
+      "url": "https://arxiv.org/abs/2606.00825"
+    },
+    {
+      "name": "Reading Recognition in the Wild",
+      "summary": "First large-scale multimodal dataset (100 hours) and transformer model using egocentric RGB, eye gaze, and head pose for selective memory creation on smart glasses (NeurIPS '25).",
+      "highlights": ["100-hour multimodal dataset", "RGB + gaze + head pose fusion"],
+      "startDate": "2024-01",
+      "endDate": "2025-12",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/cf21f05f83772beeecb4ade4e524076b-Abstract-Conference.html"
+    },
+    {
+      "name": "SVD-LLM V2 Model Compression",
+      "summary": "Optimizing singular value truncation via dynamic compression ratio allocation and loss-optimized truncation for efficient LLM deployment (NAACL '25).",
+      "highlights": ["SVD compression", "Dynamic rank allocation"],
+      "startDate": "2023-08",
+      "endDate": "2025-04",
+      "url": "https://github.com/AIoT-MLSys-Lab/SVD-LLM"
+    },
+    {
+      "name": "FedRolex & FedAIoT",
+      "summary": "Frameworks and benchmarks for model-heterogeneous and authentic AIoT federated learning under varied bandwidth and compute constraints (NeurIPS '22, DMLR '24).",
+      "highlights": ["Rolling sub-model extraction", "8 authentic IoT device datasets"],
+      "startDate": "2022-01",
+      "endDate": "2024-09",
+      "url": "https://github.com/AIoT-MLSys-Lab/FedRolex"
+    },
+    {
+      "name": "5G Smart Router Interfacing",
+      "summary": "Interface and AR visualization for mesh network strength, channel estimation, and optimal router placement.",
+      "highlights": ["5G router", "AR visualization"],
+      "startDate": "2019-07",
+      "endDate": "2020-06",
+      "url": ""
+    }
+  ]
+}

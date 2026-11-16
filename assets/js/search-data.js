@@ -4,31 +4,26 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "My publications by year in chronological order.",
+          title: "Publications",
+          description: "Peer-reviewed publications by Samiul Alam across NeurIPS, MobiSys, NAACL, SenSys, ICASSP, INTERSPEECH, TMLR, and IEEE — spanning spatial computing, AR supermemory (MemoLens, SuperMemory-VQA), LLM compression (SVD-LLM V2), federated learning (FedRolex, FedAIoT), and Bengali.AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "For latest resume, please download the pdf.",
+          title: "CV",
+          description: "Curriculum Vitae of Samiul Alam — Software Engineer at Google, CSE Ph.D. from The Ohio State University, former Research Scientist Intern at Meta Reality Labs, and Co-Founder of Bengali.AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-msu-aiot-mlsys-lab-as-a-graduate-research-assistant",
+        },{id: "news-joined-msu-aiot-mlsys-lab-as-a-graduate-research-assistant",
           title: 'Joined MSU AIoT-MLSys Lab as a Graduate Research Assistant',
           description: "",
           section: "News",},{id: "news-invited-to-present-my-research-on-model-heterogeneous-federated-learning-at-google-s-workshop-on-federated-learning-and-analytics",
@@ -67,12 +62,7 @@ ninja.data = [{
           section: "News",},{id: "news-completed-my-ph-d-at-osu-and-joined-google-in-mountain-view-ca-full-time-as-a-software-engineer",
           title: 'Completed my Ph.D. at OSU and joined Google in Mountain View, CA full-time...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_projects/";
-            },},{
+          section: "News",},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',

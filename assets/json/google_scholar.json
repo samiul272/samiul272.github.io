@@ -1,0 +1,151 @@
+{
+  "user_id": "2Un1c7QAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=2Un1c7QAAAAJ&hl=en",
+  "updated_at": "2026-11-16",
+  "since_label": "Since 2021",
+  "metrics": {
+    "citations_all": 1730,
+    "citations_recent": 1699,
+    "h_index_all": 15,
+    "h_index_recent": 15,
+    "i10_index_all": 19,
+    "i10_index_recent": 18
+  },
+  "publications": {
+    "YOwf2qJgpHMC": {
+      "title": "Efficient large language models: A survey",
+      "citations": 512,
+      "year": "2024"
+    },
+    "eQOLeE2rZwMC": {
+      "title": "FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction",
+      "citations": 390,
+      "year": "2022"
+    },
+    "ULOm3_A8WrAC": {
+      "title": "Artificial intelligence of things: A survey",
+      "citations": 158,
+      "year": "2025"
+    },
+    "aqlVkmm33-oC": {
+      "title": "Svd-llm v2: Optimizing singular value truncation for large language model compression",
+      "citations": 101,
+      "year": "2025"
+    },
+    "MXK_kJrjxJIC": {
+      "title": "Iot in the era of generative ai: Vision and challenges",
+      "citations": 84,
+      "year": "2024"
+    },
+    "WF5omc3nYNoC": {
+      "title": "Fedsea: A semi-asynchronous federated learning framework for extremely heterogeneous devices",
+      "citations": 66,
+      "year": "2022"
+    },
+    "d1gkVwhDpl0C": {
+      "title": "Numtadb-assembled bengali handwritten digits",
+      "citations": 65,
+      "year": "2018"
+    },
+    "YsMSGLbcyi4C": {
+      "title": "Fedaudio: A federated learning benchmark for audio tasks",
+      "citations": 56,
+      "year": "2023"
+    },
+    "_FxGoFyzp5QC": {
+      "title": "Gpt-fl: Generative pre-trained model-assisted federated learning",
+      "citations": 48,
+      "year": "2025"
+    },
+    "IjCSPb-OGe4C": {
+      "title": "Bengali common voice speech dataset for automatic speech recognition",
+      "citations": 34,
+      "year": "2022"
+    },
+    "qjMakFHDy7sC": {
+      "title": "A large multi-target dataset of common bengali handwritten graphemes",
+      "citations": 34,
+      "year": "2021"
+    },
+    "0EnyYjriUFMC": {
+      "title": "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things",
+      "citations": 32,
+      "year": "2024"
+    },
+    "9ZlFYXVOiuMC": {
+      "title": "Mmdeepresearch-bench: A benchmark for multimodal deep research agents",
+      "citations": 27,
+      "year": "2026"
+    },
+    "mVmsd5A6BfQC": {
+      "title": "Benchmarking is Broken-Don't Let AI Be Its Own Judge",
+      "citations": 26,
+      "year": "2025"
+    },
+    "hqOjcs7Dif8C": {
+      "title": "OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking",
+      "citations": 22,
+      "year": "2023"
+    },
+    "QIV2ME_5wuYC": {
+      "title": "SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills",
+      "citations": 13,
+      "year": "2026"
+    },
+    "4DMP91E08xMC": {
+      "title": "Reading Recognition in the Wild",
+      "citations": 11,
+      "year": "2025"
+    },
+    "M3ejUd6NZC8C": {
+      "title": "GeoFL: A Framework for Efficient Geo-Distributed Cross-Device Federated Learning",
+      "citations": 11,
+      "year": "2025"
+    },
+    "u-x6o8ySG0sC": {
+      "title": "Predictive real-time beat tracking from music for embedded application",
+      "citations": 11,
+      "year": "2018"
+    },
+    "3fE2CSJIrl8C": {
+      "title": "Skin conductance response artifact reduction: Leveraging accelerometer noise reference and deep breath detection",
+      "citations": 7,
+      "year": "2024"
+    },
+    "8k81kl-MbHgC": {
+      "title": "Sparse multichannel decomposition of electrodermal activity with physiological priors",
+      "citations": 5,
+      "year": "2023"
+    },
+    "dhFuZR0502QC": {
+      "title": "SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory",
+      "citations": 4,
+      "year": "2026"
+    },
+    "Zph67rFs4hoC": {
+      "title": "A multimodal dataset for investigating working memory in presence of music: a pilot study",
+      "citations": 4,
+      "year": "2024"
+    },
+    "UeHWp8X0CEIC": {
+      "title": "AI learns to recognize Bengali handwritten digits: Bengali. AI computer vision challenge 2018",
+      "citations": 4,
+      "year": "2018"
+    },
+    "kNdYIx-mwKoC": {
+      "title": "Unveiling productivity: The interplay of cognitive arousal and expressive typing in remote work with multi-state filtering",
+      "citations": 3,
+      "year": "2024"
+    },
+    "roLk4NBRz8UC": {
+      "title": "Federated learning benchmarks and frameworks for artificial intelligence of things",
+      "citations": 2,
+      "year": "2023"
+    },
+    "7PzlFSSx8tAC": {
+      "title": "MemoLens: Empowering Augmented Reality Glasses with Super Memory",
+      "citations": 0,
+      "year": "2026"
+    }
+  }
+}

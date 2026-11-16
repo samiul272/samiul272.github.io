@@ -1,4 +1,50 @@
 User-agent: *
+Allow: /
 Disallow:
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://samiul272.github.io/sitemap.xml
+
+# LLM / AI Agent Context Endpoints
+# Summary index: https://samiul272.github.io/llms.txt
+# Full profile & publication catalog: https://samiul272.github.io/llms-full.txt
+# Structured publications JSON: https://samiul272.github.io/assets/json/publications.json
+# Structured JSON Resume: https://samiul272.github.io/assets/json/resume.json
