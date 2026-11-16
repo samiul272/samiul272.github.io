@@ -1,4 +1,80 @@
+<script src="{{ '/assets/js/scholar-metrics.js' | relative_url | bust_file_cache }}" type="module"></script>
+
+{% if site.data.socials.scholar_userid %}
+  {% assign gs_data = site.data.google_scholar %}
+  {% assign gs_metrics = gs_data.metrics %}
+  <section
+    id="scholar-metrics-bar"
+    class="scholar-metrics-bar{% if gs_metrics %} is-loaded{% endif %}"
+    data-scholar-json="{{ '/assets/json/google_scholar.json' | relative_url }}"
+    aria-label="Google Scholar citation metrics"
+  >
+    <div class="gs-bar-brand">
+      <a
+        class="gs-profile-link"
+        href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        <span>Google Scholar</span>
+        <i class="fa-solid fa-arrow-up-right-from-square gs-ext-icon" aria-hidden="true"></i>
+      </a>
+      <span id="gs-updated-at" class="gs-sync-meta" aria-live="polite">
+        {%- if gs_data.updated_at %}Synced {{ gs_data.updated_at }}{% else %}Loading live metrics…{% endif -%}
+      </span>
+    </div>
+    <div class="gs-metrics-row">
+      <div class="gs-metric">
+        <span class="gs-metric-label">Citations</span>
+        <span class="gs-metric-val">
+          <strong id="gs-citations-all">{{ gs_metrics.citations_all | default: '--' }}</strong>
+          <span class="gs-stat-sub" id="gs-citations-recent">
+            {%- if gs_metrics.citations_recent %}
+              ({{ gs_metrics.citations_recent }}
+              {{ gs_data.since_label | default: 'recent' | downcase }})
+            {%- endif -%}
+          </span>
+        </span>
+      </div>
+      <div class="gs-metric">
+        <span class="gs-metric-label">h-index</span>
+        <strong id="gs-hindex-all" class="gs-metric-val">{{ gs_metrics.h_index_all | default: '--' }}</strong>
+      </div>
+      <div class="gs-metric">
+        <span class="gs-metric-label">i10-index</span>
+        <strong id="gs-i10-all" class="gs-metric-val">{{ gs_metrics.i10_index_all | default: '--' }}</strong>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <search class="pub-controls" aria-label="Filter publications">
+    <div class="pub-search-row">
+      <div class="pub-search-input-wrap">
+        <label for="bibsearch" class="visually-hidden">Filter publications by title, author, venue, or year</label>
+        <i class="ti ti-search pub-search-icon" aria-hidden="true"></i>
+        <input
+          type="text"
+          id="bibsearch"
+          spellcheck="false"
+          autocomplete="off"
+          class="search bibsearch-form-input"
+          placeholder="Search by title, author, venue, or year..."
+        >
+      </div>
+      <p id="pub-count" class="pub-count" aria-live="polite"></p>
+    </div>
+    <div class="pub-filter-pills" role="group" aria-label="Filter publications by topic">
+      <button type="button" class="pub-pill" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="pub-pill" data-filter="selected" aria-pressed="false">Selected</button>
+      <button type="button" class="pub-pill" data-filter="spatial" aria-pressed="false">Spatial &amp; AR</button>
+      <button type="button" class="pub-pill" data-filter="llm" aria-pressed="false">LLMs &amp; Agents</button>
+      <button type="button" class="pub-pill" data-filter="fl" aria-pressed="false">Federated &amp; AIoT</button>
+      <button type="button" class="pub-pill" data-filter="bengali" aria-pressed="false">Bengali AI</button>
+      <button type="button" class="pub-pill" data-filter="biosignals" aria-pressed="false">Signal &amp; Bio</button>
+    </div>
+  </search>
 {% endif %}

@@ -1,0 +1,38 @@
+name: Sync Google Scholar Metrics
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-scholar:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Fetch Google Scholar metrics
+        run: |
+          python3 bin/fetch_google_scholar.py
+          python3 bin/generate_agent_docs.py
+
+      - name: Commit updated metrics if changed
+        run: |
+          if [ -n "$(git status --porcelain assets/json/google_scholar.json _data/google_scholar.json assets/json/publications.json llms.txt llms-full.txt)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/json/google_scholar.json _data/google_scholar.json assets/json/publications.json llms.txt llms-full.txt
+            git commit -m "chore: update Google Scholar citation metrics"
+            git push
+          else
+            echo "No changes to Google Scholar metrics."
+          fi

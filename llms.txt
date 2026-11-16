@@ -1,0 +1,52 @@
+# Samiul Alam
+
+> Software Engineer at Google (Mountain View, CA) & Ph.D. in Computer Science and Engineering from The Ohio State University. Research & engineering focus: spatial computing and supermemory for AR smart glasses, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning.
+
+## Identity & Affiliations
+
+- **Current Role**: Software Engineer, Google (Mountain View, CA) — user activity modeling & agentic recommendation systems
+- **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)
+- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI
+- **Google Scholar Metrics** (synced 2026-11-16): 1,730 citations | h-index: 15 | i10-index: 19
+- **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize
+
+## Pages & Machine-Readable Endpoints
+
+- [About & Overview](https://samiul272.github.io/): Biography, current affiliations, research pillars, selected publications, and news
+- [Publications (28 papers)](https://samiul272.github.io/publications/): Interactive search, topic filters, per-paper Google Scholar citation counts, abstracts, and BibTeX
+- [Curriculum Vitae](https://samiul272.github.io/cv/): Complete academic and industry timeline, awards, and technical skills
+- [Full Agent Context (llms-full.txt)](https://samiul272.github.io/llms-full.txt): Self-contained Markdown dossier with full CV and all 28 paper abstracts & citations
+- [Publications JSON](https://samiul272.github.io/assets/json/publications.json): Structured catalog of all 28 publications with venues, citations, DOIs, and links
+- [JSON Resume](https://samiul272.github.io/assets/json/resume.json): Schema-compliant JSON Resume for experience, education, awards, and skills
+- [Google Scholar Metrics JSON](https://samiul272.github.io/assets/json/google_scholar.json): Profile citation summary and per-paper citation map
+- [XML Sitemap](https://samiul272.github.io/sitemap.xml): Canonical URL index
+
+## Research Pillars
+
+- **Spatial Computing & Supermemory**: Selective memory creation (Reading Recognition in the Wild, NeurIPS '25), gaze-guided retrieval (MemoLens, MobiSys '26), and longitudinal egocentric VQA (SuperMemory-VQA).
+- **Agentic & Multimodal Recommenders**: User activity modeling, synthetic-to-real browsing alignment, and multimodal LLM personalization.
+- **Efficient & On-Device AI**: Singular value truncation for LLM compression (SVD-LLM V2, NAACL '25) and RL dynamic sensor capture for prototype smart glasses.
+- **Federated Learning & Bengali.AI**: Model-heterogeneous & geo-distributed FL (FedRolex, FedAIoT, GeoFL) and large open-source Bengali datasets (NumtaDB, Graphemes, Bengali Common Voice, OOD-Speech).
+
+## Selected Publications
+
+- [Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning](https://samiul272.github.io/publications/) (PhD Thesis, 2026)
+- [MemoLens: Empowering Augmented Reality Glasses with Super Memory](https://doi.org/10.1145/3745756.3809235) (MobiSys, 2026)
+- [SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory](https://arxiv.org/abs/2606.00825) (arXiv, 2026 · Cited by 4)
+- [Reading Recognition in the Wild](https://proceedings.neurips.cc/paper_files/paper/2025/hash/cf21f05f83772beeecb4ade4e524076b-Abstract-Conference.html) (NeurIPS, 2025 · Cited by 11)
+- [SVD-LLM V2: Optimizing Singular Value Truncation for Large Language Model Compression](https://aclanthology.org/2025.naacl-long.217/) (NAACL, 2025 · Cited by 101)
+- [Efficient Large Language Models: A Survey](https://doi.org/10.48550/arXiv.2312.03863) (TMLR, 2024 · Cited by 512)
+- [Sparse Multichannel Decomposition of Electrodermal Activity With Physiological Priors](https://doi.org/10.1109/OJEMB.2023.3332839) (IEEE OJEMB, 2023 · Cited by 5)
+- [OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking](https://doi.org/10.21437/Interspeech.2023-2585) (INTERSPEECH, 2023 · Cited by 22)
+- [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://openreview.net/forum?id=OtxyysUdBE) (NeurIPS, 2022 · Cited by 390)
+- [Bengali Common Voice Speech Dataset for Automatic Speech Recognition](https://arxiv.org/abs/2206.14053) (arXiv, 2022 · Cited by 34)
+- [A large multi-target dataset of common bengali handwritten graphemes](https://link.springer.com/chapter/10.1007/978-3-030-86337-1_26) (ICDAR, 2021 · Cited by 34)
+- [Numtadb-assembled bengali handwritten digits](https://arxiv.org/abs/1806.02452) (arXiv, 2018 · Cited by 65)
+
+## Profiles & Contact
+
+- Google Scholar: https://scholar.google.com/citations?user=2Un1c7QAAAAJ&hl=en
+- GitHub: https://github.com/samiul272
+- LinkedIn: https://www.linkedin.com/in/samiul-alam
+- ORCID: https://orcid.org/0000-0002-8458-4642
+- Email: samiul272@gmail.com

@@ -1,9 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: My publications by year in chronological order.
-years: [2026, 2025, 2024, 2023, 2022, 2021, 2018]
+title: Publications
+description: "Peer-reviewed publications by Samiul Alam across NeurIPS, MobiSys, NAACL, SenSys, ICASSP, INTERSPEECH, TMLR, and IEEE — spanning spatial computing, AR supermemory (MemoLens, SuperMemory-VQA), LLM compression (SVD-LLM V2), federated learning (FedRolex, FedAIoT), and Bengali.AI."
 nav: true
 nav_order: 1
 ---
@@ -13,11 +12,6 @@ nav_order: 1
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{%- for y in page.years %}
-
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
+  {% bibliography %}
+  <p id="pub-empty" class="post-description unloaded">No publications match the current filter.</p>
 </div>

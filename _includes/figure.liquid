@@ -1,6 +1,6 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign parts = include.path | split: '.' %}
-{% assign ext = parts.last %}
+{% assign ext = parts.last | downcase %}
 
 <figure
   {% if include.slot %}
@@ -9,11 +9,7 @@
 >
   <picture>
     <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    {% if site.imagemagick.enabled %}
+    {% if site.imagemagick.enabled and ext != 'svg' %}
       {% unless include.avoid_scaling %}
         <source
           class="responsive-img-srcset"
@@ -49,16 +45,16 @@
       {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
           {% if include['min-width'] %}
-            min-width: {{ include.min-width }};
+            min-width: {{ include['min-width'] }};
           {% endif %}
           {% if include['min-height'] %}
-            min-height: {{ include.min-height }};
+            min-height: {{ include['min-height'] }};
           {% endif %}
           {% if include['max-width'] %}
-            max-width: {{ include.max-width }};
+            max-width: {{ include['max-width'] }};
           {% endif %}
           {% if include['max-height'] %}
-            max-height: {{ include.max-height }};
+            max-height: {{ include['max-height'] }};
           {% endif %}
         "
       {% endif %}
@@ -71,7 +67,12 @@
       {% if include.zoomable %}
         data-zoomable
       {% endif %}
-      {% if include.loading %}
+      {% if include.fetchpriority and include.fetchpriority != 'auto' %}
+        fetchpriority="{{ include.fetchpriority }}"
+      {% endif %}
+      {% if include.fetchpriority == 'high' %}
+        loading="eager"
+      {% elsif include.loading %}
         loading="{{ include.loading }}"
       {% elsif site.lazy_loading_images %}
         loading="lazy"

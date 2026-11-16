@@ -3,35 +3,36 @@ layout: default
 ---
 {% unless site.data.resume %}
   <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
+    <header class="post-header cv-header-bar">
+      <div>
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="post-description">{{ page.description }}</p>
         {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+      </div>
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary-cta"
+        >
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          <span>Download PDF Resume</span>
+        </a>
       {% endif %}
     </header>
 
     <article>
       <div class="cv">
         {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
+          <a class="anchor" id="{{ entry.title | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h2 class="card-title">{{ entry.title }}</h2>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
@@ -54,26 +55,27 @@ layout: default
   </div>
 {% else %}
   <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
+    <header class="post-header cv-header-bar">
+      <div>
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="post-description">{{ page.description }}</p>
         {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+      </div>
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary-cta"
+        >
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          <span>Download PDF Resume</span>
+        </a>
       {% endif %}
     </header>
 
@@ -86,9 +88,25 @@ layout: default
             {% endunless %}
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          {% case data[0] %}
+            {% when 'basics' %}
+              {% assign section_title = 'Summary' %}
+            {% when 'work' %}
+              {% assign section_title = 'Experience' %}
+            {% when 'education' %}
+              {% assign section_title = 'Education' %}
+            {% when 'skills' %}
+              {% assign section_title = 'Core Areas & Skills' %}
+            {% when 'projects' %}
+              {% assign section_title = 'Selected Systems & Benchmarks' %}
+            {% when 'awards' %}
+              {% assign section_title = 'Honors & Awards' %}
+            {% else %}
+              {% assign section_title = data[0] | capitalize %}
+          {% endcase %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h2 class="card-title">{{ section_title }}</h2>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
@@ -115,8 +133,6 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
-                {% else %}
-
               {% endcase %}
             </div>
           </div>

@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 3
+nav_order: 2
 cv_pdf: resume.pdf
-description: For latest resume, please download the pdf.
+description: "Curriculum Vitae of Samiul Alam — Software Engineer at Google, CSE Ph.D. from The Ohio State University, former Research Scientist Intern at Meta Reality Labs, and Co-Founder of Bengali.AI."
 toc:
   sidebar: left
 ---

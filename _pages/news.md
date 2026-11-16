@@ -1,6 +1,7 @@
 ---
 layout: page
-title: news
+title: News
+description: "Recent career, research, and publication milestones from Samiul Alam."
 permalink: /news/
 ---
 

@@ -1,0 +1,256 @@
+# Samiul Alam — Complete Profile, CV & Publications Context
+
+Canonical website: https://samiul272.github.io/
+Structured JSON catalog: https://samiul272.github.io/assets/json/publications.json
+Structured JSON Resume: https://samiul272.github.io/assets/json/resume.json
+Google Scholar metrics JSON: https://samiul272.github.io/assets/json/google_scholar.json (synced 2026-11-16)
+
+## Biography & Summary
+
+Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Ohio State University. Spatial computing, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning. “Perpetually Convalescent: Learning & Evolving.”
+
+- **Email**: samiul272@gmail.com
+- **Location**: Mountain View, CA, USA
+- **Google Scholar**: https://scholar.google.com/citations?user=2Un1c7QAAAAJ&hl=en (1,730 citations, h-index 15, i10-index 19)
+- **GitHub**: https://github.com/samiul272
+- **LinkedIn**: https://www.linkedin.com/in/samiul-alam
+- **ORCID**: https://orcid.org/0000-0002-8458-4642
+- **Bengali.AI**: https://bengali.ai
+
+## Experience
+
+### Software Engineer — Google (2026-09 – Present | Mountain View, CA)
+Working on user activity modeling and development of agentic recommendation systems.
+- User activity modeling for personalization
+- Agentic recommendation systems
+
+### Research Scientist Intern — Meta (2026-05 – 2026-08 | Redmond, WA)
+Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.
+- Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses
+- Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance
+
+### Software Engineering Intern — Google (2025-05 – 2025-08 | Mountain View, CA)
+Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.
+- Multimodal LLMs for personalized recommendation systems
+- Synthetic-to-real user data alignment
+
+### Graduate Research Associate & University Fellow — The Ohio State University (2023-08 – 2026-08 | Columbus, OH)
+Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang on spatial computing, supermemory for AR glasses, model compression, and multimodal foundation models.
+- Built MemoLens (MobiSys '26), SuperMemory-VQA, and Reading Recognition in the Wild (NeurIPS '25) for AR glasses
+- Developed SVD-LLM V2 (NAACL '25) for large language model compression
+
+### Graduate Research Assistant — Michigan State University (2022-01 – 2023-08 | East Lansing, MI)
+Built heterogeneity-aware federated learning systems; published across top venues.
+- Geo-distributed and heterogeneous federated learning (FedRolex, FedAIoT, FedSEA, FedAudio)
+- Publications at NeurIPS, SenSys, ICASSP, INTERSPEECH, and DMLR
+
+### Research Assistant — University of Houston (2021-05 – 2021-12 | Houston, TX)
+Worked on deconvolution, state-space modeling, and Bayesian filters.
+- State-space models for physiological and cognitive signal analysis
+- Bayesian filtering and sparse multichannel decomposition
+
+### Software Engineer (Engineer I, Mobile Applications) — Samsung R&D Institute Bangladesh (2018-04 – 2021-05 | Dhaka, Bangladesh)
+Extended BLE interfacing for wearable apps on iOS and Android; developed cloud service SDK; earned Samsung Software Certification (Top 10%).
+- BLE interfacing for Samsung Galaxy Wearable apps
+- Controller app for 5G smart router and cloud service SDK
+- Samsung SWC Professional Certification (Top 10%)
+
+### Co-Founder — Bengali.AI (2018-01 – Present)
+Non-profit for open-source Bengali datasets and benchmarks for speech, vision, and text.
+- Community dataset curation (NumtaDB, Bengali Handwritten Graphemes, Common Voice Bengali, OOD-Speech)
+- Organized international machine learning competitions on Kaggle
+
+## Education
+
+### Ph.D. in Computer Science and Engineering — The Ohio State University (2023-08 – 2026-08 | GPA: 3.75)
+- Dissertation: “Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning”
+- Advisor: Prof. Mi Zhang | Committee: Prof. Xueru Zhang, Prof. Zhihui Zhu
+- Awarded the OSU Graduate School University Fellowship
+
+### M.S. in Computer Science — Michigan State University (2022-01 – 2023-08 | GPA: 3.86)
+- Thesis: “Federated Learning Benchmarks and Frameworks for Artificial Intelligence of Things”
+
+### B.Sc. in Electrical and Electronic Engineering — Bangladesh University of Engineering and Technology (BUET) (2013-02 – 2017-09 | GPA: 3.67)
+
+## Honors & Awards
+
+- **Best Paper Award** (IEEE Internet Computing, 2024-08): Awarded for “The Internet of Things in the Era of Generative AI: Vision and Challenges.”
+- **Graduate School University Fellowship** (The Ohio State University, 2023-08): Awarded the competitive OSU Graduate School University Fellowship.
+- **Community Competition Creator Prize** (Kaggle, 2022-07): For organizing the DL Sprint speech transcription competition with BUET CSE.
+- **SWC Professional Certification** (Samsung Electronics, 2019-06): Earned Samsung Software Certification (Top 10%) in data structures and algorithms.
+- **Semifinalist, International Future Energy Challenge** (IFEC 2017, 2017-03-26): Designed a high-efficiency, high-density DC/DC converter.
+- **Honorable Mention, IEEE Signal Processing Cup** (IEEE SP Cup 2017, 2017-03-05): Real-time musical beat tracking on Raspberry Pi.
+- **Category Winner, IEEE Maker Project** (IEEE, 2016-11-11): Built an educational 3D scanner; winner in Education category.
+
+## Technical & Research Skills
+
+- **Spatial Computing & Egocentric AI**: AR smart glasses memory, Egocentric video & eye gaze, Long-horizon VQA, Selective memory creation
+- **Foundation & Large Language Models**: Agentic systems, Multimodal LLMs, Personalized recommenders, Deep research agents
+- **Machine Learning Systems**: On-device AI, Model compression & quantization, Efficient retrieval, RL sensor control
+- **Federated & Distributed Learning**: Model heterogeneity, Geo-distributed training, AIoT benchmarks
+
+## Publications (28 Total)
+
+### 1. Towards Supermemory in Spatial Computing: A Multimodal Approach for Memory Creation, Retrieval, and Visual Reasoning
+- **Authors**: Samiul Alam
+- **Venue & Year**: Ph.D. Dissertation, The Ohio State University (2026)
+- **Abstract**: Spatial computing promises interfaces that perceive the physical world from a user's point of view and assist with tasks that unfold across places, objects, conversations, documents, and time. This dissertation develops supermemory as a multimodal systems problem, focusing on how egocentric sensing, on-device artificial intelligence, efficient foundation models, and long-horizon visual reasoning can support useful personal memory. The dissertation makes three main contributions: Reading Recognition in the Wild for selective memory creation, MemoLens for efficient memory retrieval in augmented-reality glasses, and SuperMemory-VQA for evaluating grounded visual reasoning over long-horizon egocentric memory.
+
+### 2. MemoLens: Empowering Augmented Reality Glasses with Super Memory
+- **Authors**: Samiul Alam, Shakhrul Iman Siam, Mi Zhang
+- **Venue & Year**: Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services (MobiSys) (2026)
+- **Links**: DOI: https://doi.org/10.1145/3745756.3809235 | HTML: https://dl.acm.org/doi/abs/10.1145/3745756.3809235 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:7PzlFSSx8tAC
+- **Abstract**: Spatial computing empowered by augmented reality (AR) glasses emerges as a new computing paradigm. One of its most transformative capabilities is super memory – the superpower to accurately recall objects and people an individual has been paying attention to or interacting with in the physical world. In this work, we propose MemoLens that empowers AR glasses with super memory. Achieving such capability is not trivial: it requires storing vast amounts of visual data as compact digital memory and retrieving relevant information from the memory efficiently when being prompted. MemoLens achieves this via two key innovations. First, MemoLens leverages eye gaze information captured by the AR glasses to detect what the individual is paying attention to, and introduces a spatio-temporal token compression technique to generate highly compact visual memory. Second, MemoLens introduces a hierarchical retrieval architecture for fast and accurate multimodal memory recall.
+
+### 3. SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory
+- **Authors**: Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe, Hyo Jin Kim, Mi Zhang
+- **Venue & Year**: arXiv preprint arXiv:2606.00825 (2026) | Cited by 4
+- **Links**: ARXIV: https://arxiv.org/abs/2606.00825 | HTML: https://arxiv.org/abs/2606.00825 | PDF: https://arxiv.org/pdf/2606.00825 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:dhFuZR0502QC
+- **Abstract**: AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition or generic QAs from short clips, measuring perceptual capabilities rather than realistic human memory needs. We introduce SuperMemory-VQA, an egocentric visual question answering (VQA) dataset for evaluating AI assistants on practical, long-horizon memory tasks. It contains 52.9 hours of everyday activities recorded with AI glasses, including synchronized RGB video, audio transcription, eye gaze, IMU, and SLAM trajectories. Through a human-verified annotation pipeline, we construct 4,853 grounded question-answer pairs that span object and location memory, intent recall, visual scene recall, timeline reconstruction, conversational memory, and in-context retrieval. Each question is posed as multiple-choice with an explicit unanswerable option to test hallucination robustness. Benchmarking leading agentic frameworks and LLM backbones reveals that existing systems remain far from reliable on real-world memory tasks, highlighting the need for new architectures for grounded AI memory that can answer only when evidence is sufficient.
+
+### 4. SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills
+- **Authors**: Yingtie Lei, Zhongwei Wan, Jiankun Zhang, Samiul Alam, Zixuan Zhong, Peizhou Huang, Xin Wang, Jingxuan Zhang, Donghao Zhou, Yunta Hsieh, Zhihao Dou, Hui Shen, Yan Xu, Dimitrios Dimitriadis, Tuo Zhang, Mi Zhang
+- **Venue & Year**: arXiv preprint arXiv:2605.24117 (2026) | Cited by 13
+- **Links**: ARXIV: https://arxiv.org/abs/2605.24117 | HTML: https://arxiv.org/abs/2605.24117 | PDF: https://arxiv.org/pdf/2605.24117 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:QIV2ME_5wuYC
+- **Abstract**: Large language model (LLM) agents accumulate rich episodic trajectories while solving real-world tasks, but it remains unclear whether such experience can be distilled into reusable procedural skills. We introduce SkillEvolBench, a diagnostic benchmark for evaluating this step from experience reuse to skill formation. It contains 180 tasks across six real-world agent environments, organized into role-conditioned task families with shared latent procedures. Agents learn from acquisition tasks, update an external skill library using compacted trajectories and verifier feedback, and then face frozen deployment tasks testing context shift, adversarial shortcuts, and composition.
+
+### 5. MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents
+- **Authors**: Peizhou Huang, Zixuan Zhong, Zhongwei Wan, Donghao Zhou, Samiul Alam, Xin Wang, Zexin Li, Zhihao Dou, Li Zhu, Jing Xiong, Chaofan Tao, Yan Xu, Dimitrios Dimitriadis, Tuo Zhang, Mi Zhang
+- **Venue & Year**: arXiv preprint arXiv:2601.12346 (2026) | Cited by 27
+- **Links**: ARXIV: https://arxiv.org/abs/2601.12346 | HTML: https://arxiv.org/abs/2601.12346 | PDF: https://arxiv.org/pdf/2601.12346 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:9ZlFYXVOiuMC
+- **Abstract**: Deep Research Agents (DRAs) generate citation-rich reports via multi-step search and synthesis, yet existing benchmarks mainly target text-only settings or short-form multimodal QA, missing end-to-end multimodal evidence use. We introduce MMDeepResearch-Bench (MMDR-Bench), a benchmark of 140 expert-crafted tasks across 21 domains, where each task provides an image-text bundle to evaluate multimodal understanding and citation-grounded report generation.
+
+### 6. Reading Recognition in the Wild
+- **Authors**: Charig Yang, Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, Lambert Mathias, Kiran Somasundaram, Luis Pesqueira, James Fort, Sheroze Sheriffdeen, Omkar Parkhi, Carl Ren, Mi Zhang, Yuning Chai, Richard Newcombe, Hyo Jin Kim
+- **Venue & Year**: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (2025) | Cited by 11
+- **Links**: HTML: https://proceedings.neurips.cc/paper_files/paper/2025/hash/cf21f05f83772beeecb4ade4e524076b-Abstract-Conference.html | PDF: https://proceedings.neurips.cc/paper_files/paper/2025/file/cf21f05f83772beeecb4ade4e524076b-Paper-Conference.pdf | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:4DMP91E08xMC
+- **Abstract**: To enable egocentric contextual AI in always-on smart glasses, it is crucial to be able to keep a record of the user's interactions with the world, including during reading. In this paper, we introduce a new task of reading recognition to determine when the user is reading. We first introduce the first-of-its-kind large-scale multimodal Reading in the Wild dataset, containing 100 hours of reading and non-reading videos in diverse and realistic scenarios. We then identify three modalities (egocentric RGB, eye gaze, head pose) that can be used to solve the task, and present a flexible transformer model that performs the task using these modalities, either individually or combined. We show that these modalities are relevant and complementary to the task, and investigate how to efficiently and effectively encode each modality. Additionally, we show the usefulness of this dataset towards classifying types of reading, extending current reading understanding studies conducted in constrained settings to larger scale, diversity and realism.
+
+### 7. SVD-LLM V2: Optimizing Singular Value Truncation for Large Language Model Compression
+- **Authors**: Xin Wang, Samiul Alam, Zhongwei Wan, Hui Shen, Mi Zhang
+- **Venue & Year**: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) (2025) | Cited by 101
+- **Links**: HTML: https://aclanthology.org/2025.naacl-long.217/ | PDF: https://aclanthology.org/2025.naacl-long.217.pdf | CODE: https://github.com/AIoT-MLSys-Lab/SVD-LLM | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:aqlVkmm33-oC
+- **Abstract**: Despite significant advancements, the practical deployment of Large Language Models (LLMs) is often hampered by their immense sizes, highlighting the need for effective compression techniques. Singular Value Decomposition (SVD) emerges as a promising method for compressing LLMs. However, existing SVD-based compression approaches suffer from substantial truncation losses, leading to severe performance degradation in compressed models. In this work, we introduce SVD-LLM V2, a novel SVD-based LLM compression method that optimizes singular value truncation in SVD compression with dynamic compression ratio allocation across layers and loss-optimized weight truncation.
+
+### 8. Benchmarking is Broken-Don't Let AI Be Its Own Judge
+- **Authors**: Zerui Cheng, Stella Wohnig, Ruchika Gupta, Samiul Alam, Tassallah Abdullahi, João Alves Ribeiro, Christiana Nielsen-Garcia, Saif Mir, Siran Li, Jason Orender, Seyed Ali Bahrainian, Daniel Kirste, Aaron Gokaslan, Carsten Eickhoff, Pramod Viswanath, Ruben Wolff
+- **Venue & Year**: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (2025) | Cited by 26
+- **Links**: ARXIV: https://arxiv.org/abs/2510.07575 | HTML: https://arxiv.org/abs/2510.07575 | PDF: https://arxiv.org/pdf/2510.07575 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:mVmsd5A6BfQC
+- **Abstract**: The meteoric rise of AI presents urgent challenges for trustworthy evaluation, as current benchmarks increasingly reveal critical vulnerabilities such as data contamination, selective reporting, and inadequate quality control. This position paper argues for a paradigm shift toward a unified, live, and quality-controlled benchmarking framework robust by construction, and introduces PeerBench, a community-governed, proctored evaluation blueprint.
+
+### 9. GPT-FL: Generative Pre-Trained Model-Assisted Federated Learning
+- **Authors**: Tuo Zhang, Tiantian Feng, Samiul Alam, Dimitrios Dimitriadis, Sunwoo Lee, Mi Zhang, Shrikanth S. Narayanan, Salman Avestimehr
+- **Venue & Year**: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2025) | Cited by 48
+- **Links**: ARXIV: https://arxiv.org/abs/2306.02210 | HTML: https://ieeexplore.ieee.org/abstract/document/11147823/ | PDF: https://arxiv.org/pdf/2306.02210 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:_FxGoFyzp5QC
+- **Abstract**: In this work, we propose GPT-FL, a generative pre-trained model-assisted federated learning (FL) framework. At its core, GPT-FL leverages generative pre-trained models to generate diversified synthetic data. These generated data are used to train a downstream model on the server, which is then fine-tuned with private client data under the standard FL framework. We show that GPT-FL consistently outperforms state-of-the-art FL methods in terms of model test accuracy, communication efficiency, and client sampling efficiency.
+
+### 10. GeoFL: A Framework for Efficient Geo-Distributed Cross-Device Federated Learning
+- **Authors**: Maolin Gan, Lanpeng Li, Samiul Alam, Li Liu, Luyang Liu, Mi Zhang, Zhichao Cao
+- **Venue & Year**: IEEE International Conference on Computer Communications (INFOCOM) (2025) | Cited by 11
+- **Links**: HTML: https://ieeexplore.ieee.org/abstract/document/11414207/ | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:M3ejUd6NZC8C
+- **Abstract**: GeoFL develops a hierarchical federated learning (FL) framework to address the unique challenges in large-scale geo-distributed scenarios by deploying multiple aggregators as a relay layer under inadequate and heterogeneous WAN bandwidth constraints and addressing statistical heterogeneity across geo-distributed aggregators.
+
+### 11. Artificial Intelligence of Things: A Survey
+- **Authors**: Shakhrul Iman Siam, Hyunho Ahn, Li Liu, Samiul Alam, Hui Shen, Zhichao Cao, Ness Shroff, Bhaskar Krishnamachari, Mani Srivastava, Mi Zhang
+- **Venue & Year**: ACM Transactions on Sensor Networks (2025) | Cited by 158
+- **Links**: DOI: https://doi.org/10.1145/3690639 | HTML: https://dl.acm.org/doi/abs/10.1145/3690639 | CODE: https://github.com/AIoT-MLSys-Lab/AIoT-Survey | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:ULOm3_A8WrAC
+- **Abstract**: The integration of the Internet of Things (IoT) and modern Artificial Intelligence (AI) has given rise to a new paradigm known as the Artificial Intelligence of Things (AIoT). In this survey, we provide a systematic and comprehensive review of AIoT research. We examine AIoT literature related to sensing, computing, and networking & communication, which form the three key components of AIoT. In addition to advancements in these areas, we review domain-specific AIoT systems that are designed for various important application domains. We have also created an accompanying GitHub repository, where we compile the papers included in this survey: https://github.com/AIoT-MLSys-Lab/AIoT-Survey. This repository will be actively maintained and updated with new research as it becomes available. As both IoT and AI become increasingly critical to our society, we believe AIoT is emerging as an essential research field at the intersection of IoT and modern AI. We hope this survey will serve as a valuable resource for those engaged in AIoT research and act as a catalyst for future explorations to bridge gaps and drive advancements in this exciting field.
+
+### 12. FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things
+- **Authors**: Samiul Alam, Tuo Zhang, Tiantian Feng, Hui Shen, Zhichao Cao, Dong Zhao, JeongGil Ko, Kiran Somasundaram, Shrikanth S. Narayanan, Salman Avestimehr, Mi Zhang
+- **Venue & Year**: Journal of Data-centric Machine Learning Research (2024) | Cited by 32
+- **Links**: DOI: https://doi.org/10.48550/arXiv.2310.00109 | ARXIV: https://arxiv.org/abs/2310.00109 | PDF: https://openreview.net/pdf?id=fYNw9Ukljz | CODE: https://github.com/AIoT-MLSys-Lab/FedAIoT | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:0EnyYjriUFMC
+- **Abstract**: There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. In this work, we introduce FedAIoT, an FL benchmark for AIoT to fill this critical gap. FedAIoT includes eight datasets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT. The repository of FedAIoT is maintained at https://github.com/AIoT-MLSys-Lab/FedAIoT
+
+### 13. The Internet of Things in the Era of Generative AI: Vision and Challenges
+- **Authors**: Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari
+- **Venue & Year**: IEEE Internet Computing (2024) | Cited by 84
+- **Award**: Awarded the 2024 IEEE Internet Computing Best Paper Award.
+- **Links**: ARXIV: https://arxiv.org/abs/2401.01923 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:MXK_kJrjxJIC
+- **Abstract**: Equipped with sensing, networking, and computing capabilities, Internet of Things (IoT) such as smartphones, wearables, smart speakers, and household robots have been seamlessly weaved into our daily lives. Recent advancements in Generative AI exemplified by GPT, LLaMA, DALL-E, and Stable Diffusion hold immense promise to push IoT to the next level. In this article, we share our vision and views on the benefits that Generative AI brings to IoT, and discuss some of the most important applications of Generative AI in IoT-related domains. Fully harnessing Generative AI in IoT is a complex challenge. We identify some of the most critical challenges including high resource demands of the Generative AI models, prompt engineering, on-device inference, offloading, on-device fine-tuning, federated learning, security, as well as development tools and benchmarks, and discuss current gaps as well as promising opportunities on enabling Generative AI for IoT. We hope this article can inspire new research on IoT in the era of Generative AI.
+
+### 14. Skin Conductance Response Artifact Reduction: Leveraging Accelerometer Noise Reference and Deep Breath Detection
+- **Authors**: Md Rafiul Amin, Samiul Alam, Saman Khazaei, Hamid Fekri Azgomi, Rose T. Faghih
+- **Venue & Year**: IEEE Access (2024) | Cited by 7
+- **Links**: PDF: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10508382 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:3fE2CSJIrl8C
+- **Abstract**: Electrodermal activity (EDA) shows a significant correlation with activation of the autonomic nervous system (ANS) activation. Regular ambulatory monitoring via wearables and consequent inference of ANS activation has a wide range of applications tracking mental health. The real-world implementation of a closed-loop system to regulate one’s emotional state to improve their mental well-being requires an accurate and reliable estimation of ANS activation in ambulatory settings. However, the presence of motion artifacts in skin conductance (SC) data collected in ambulatory settings makes the analysis for such estimation unreliable. We propose a multi-rate adaptive filtering scheme to reduce motion artifacts in SC data that utilizes three-axis accelerometer data. We investigate four types of linear and nonlinear adaptive filters. We use both simulated and experimental data to investigate the performance of adaptive filters. Furthermore, we utilize the respiration signal to identify the probability of respiration-induced SC artifacts. Next, we use a Bayesian filter-based deconvolution approach to identify SC responses (SCRs) induced by underlying arousal events and deep breaths. Finally, we propose to use the respiration signal to separate the artifacts in SC due to deep breaths. Our results show that linear finite impulse response least squares recursive filters perform best among the four types of adaptive filters studied. We draw this conclusion by obtaining receiver operating characteristics of event-related SCRs detection with deconvolution after artifact reduction with different adaptive filters. Moreover, for all of our simulated and experimental datasets investigated in this study, we observe that the recursive least-squares filter always provides stable results. Additionally, our results show our ability to detect respiration-induced SCRs and the corresponding activation of ANS. The evaluation of adaptive filters shows the potential to utilize reference signals for successful artifact modeling and reduction. Effective artifact reduction will lead to reliable ANS activation monitoring and consequent robust implementation of a closed-loop wearable machine interface architecture to eventually improve one’s mental health.
+
+### 15. Unveiling productivity: The interplay of cognitive arousal and expressive typing in remote work with multi-state filtering
+- **Authors**: Samiul Alam, Saman Khazaei, Rose T. Faghih
+- **Venue & Year**: PLOS ONE (2024) | Cited by 3
+- **Links**: PDF: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0300786&type=printable | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:kNdYIx-mwKoC
+- **Abstract**: Cognitive Arousal, frequently elicited by environmental stressors that exceed personal coping resources, manifests in measurable physiological markers, notably in galvanic skin responses. This effect is prominent in cognitive tasks such as composition, where fluctuations in these biomarkers correlate with individual expressiveness. It is crucial to understand the nexus between cognitive arousal and expressiveness. However, there has not been a concrete study that investigates this inter-relation concurrently. Addressing this, we introduce an innovative methodology for simultaneous monitoring of these elements. Our strategy employs Bayesian analysis in a multi-state filtering format to dissect psychomotor performance (captured through typing speed), galvanic skin response or skin conductance (SC), and heart rate variability (HRV). This integrative analysis facilitates the quantification of expressive behavior and arousal states. At the core, we deploy a state-space model connecting one latent psychological arousal condition to neural activities impacting sweating (inferred through SC responses) and another latent state to expressive behavior during typing. These states are concurrently evaluated with model parameters using an expectation-maximization algorithms approach. Assessments using both computer-simulated data and experimental data substantiate the validity of our approach. Outcomes display distinguishable latent state patterns in expressive typing and arousal across different computer software used in office management, offering profound implications for Human-Computer Interaction (HCI) and productivity analysis. This research marks a significant advancement in decoding human productivity dynamics, with extensive repercussions for optimizing performance in telecommuting scenarios.
+
+### 16. A Multimodal Dataset for Investigating Working Memory in Presence of Music: A Pilot Study
+- **Authors**: Saman Khazaei, Shiva Parshi, Samiul Alam, Md. Rafiul Amin, Rose T. Faghih
+- **Venue & Year**: Frontiers in Neuroscience (2024) | Cited by 4
+- **Links**: DOI: https://doi.org/10.3389/fnins.2024.1406814 | HTML: https://doi.org/10.3389/fnins.2024.1406814 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:Zph67rFs4hoC
+
+### 17. Efficient Large Language Models: A Survey
+- **Authors**: Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang
+- **Venue & Year**: Transactions on Machine Learning Research (2024) | Cited by 512
+- **Links**: DOI: https://doi.org/10.48550/arXiv.2312.03863 | ARXIV: https://arxiv.org/abs/2312.03863 | URL: https://openreview.net/forum?id=bsCCJHbO8A | PDF: https://arxiv.org/pdf/2312.03863 | CODE: https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:YOwf2qJgpHMC
+- **Abstract**: Large Language Models (LLMs) have demonstrated remarkable capabilities in important tasks such as natural language understanding, language generation, and complex reasoning and have the potential to make a substantial impact on our society. Such capabilities, however, come with the considerable resources they demand, highlighting the strong need to develop effective techniques for addressing their efficiency challenges. In this survey, we provide a systematic and comprehensive review of efficient LLMs research. We organize the literature in a taxonomy consisting of three main categories, covering distinct yet interconnected efficient LLMs topics from model-centric, data-centric, and framework-centric perspective, respectively. We have also created a GitHub repository where we compile the papers featured in this survey at https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey, and will actively maintain this repository and incorporate new research as it emerges. We hope our survey can serve as a valuable resource to help researchers and practitioners gain a systematic understanding of the research developments in efficient LLMs and inspire them to contribute to this important and exciting field.
+
+### 18. Sparse Multichannel Decomposition of Electrodermal Activity With Physiological Priors
+- **Authors**: Samiul Alam, Md. Rafiul Amin, Rose T. Faghih
+- **Venue & Year**: IEEE Open Journal of Engineering in Medicine and Biology (2023) | Cited by 5
+- **Links**: DOI: https://doi.org/10.1109/OJEMB.2023.3332839 | PDF: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10319803 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:8k81kl-MbHgC
+- **Abstract**: Goal: Inferring autonomous nervous system (ANS) activity is a challenging issue and has critical applications in stress regulation. Sweat secretions caused by ANS activity influence the electrical conductance of the skin. Therefore, the variations in skin conductance (SC) measurements reflect the sudomotor nerve activity (SMNA) and can be used to infer the underlying ANS activity. These variations are strongly correlated with emotional arousal as well as thermoregulation. However, accurately recovering ANS activity and the corresponding state-space system from a single channel signal is difficult due to artifacts introduced by measurement noise. To minimize the impact of noise on inferring ANS activity, we utilize multiple channels of SC data. Methods: We model skin conductance using a second-order differential equation incorporating a time-shifted sparse impulse train input in combination with independent cubic basis spline functions. Finally, we develop a block coordinate descent method for SC signal decomposition by employing a generalized cross-validation sparse recovery approach while including physiological priors. Results: We analyze the experimental data to validate the performance of the proposed algorithm. We demonstrate its capacity to recover the ANS activations, the underlying physiological system parameters, and both tonic and phasic components. Finally, we present an overview of the algorithm's comparative performance under varying conditions and configurations to substantiate its ability to accurately model ANS activity. Our results show that our algorithm performs better in terms of multiple metrics like noise performance, AUC score, the goodness of fit of reconstructed signal, and lower missing impulses compared with the single channel decomposition approach. Conclusion: In this study, we highlight the challenges and benefits of concurrent decomposition and deconvolution of multichannel SC signals.
+
+### 19. OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking
+- **Authors**: Fazle Rabbi Rakib, Souhardya Saha Dip, Samiul Alam, Nazia Tasnim, Md. Istiak Hossain Shihab, Md. Nazmuddoha Ansary, Syed Mobassir Hossen, Marsia Haque Meghla, Mamunur Mamun, Farig Sadeque, Sayma Sultana Chowdhury, Tahsin Reasat, Asif Sushmit, Ahmed Imtiaz Humayun
+- **Venue & Year**: Proc. INTERSPEECH 2023 (2023) | Cited by 22
+- **Links**: DOI: https://doi.org/10.21437/Interspeech.2023-2585 | ARXIV: https://arxiv.org/abs/2305.09688 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:hqOjcs7Dif8C
+
+### 20. Federated Learning Benchmarks and Frameworks for Artificial Intelligence of Things
+- **Authors**: Samiul Alam
+- **Venue & Year**: M.S. Thesis, Michigan State University (2023) | Cited by 2
+- **Links**: SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:roLk4NBRz8UC
+
+### 21. FedAudio: A Federated Learning Benchmark for Audio Tasks
+- **Authors**: Tuo Zhang, Tiantian Feng, Samiul Alam, Sunwoo Lee, Mi Zhang, Shrikanth S. Narayanan, Salman Avestimehr
+- **Venue & Year**: IEEE International Conference on Acoustics, Speech, and Signal Processing (2023) | Cited by 56
+- **Links**: ARXIV: https://arxiv.org/abs/2210.15707 | HTML: https://arxiv.org/abs/2210.15707 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:YsMSGLbcyi4C
+- **Abstract**: Federated learning (FL) has gained substantial attention in recent years due to the data privacy concerns related to the pervasiveness of consumer devices that continuously collect data from users. While a number of FL benchmarks have been developed to facilitate FL research, none of them include audio data and audio-related tasks. In this paper, we fill this critical gap by introducing a new FL benchmark for audio tasks which we refer to as FedAudio. FedAudio includes four representative and commonly used audio datasets from three important audio tasks that are well aligned with FL use cases. In particular, a unique contribution of FedAudio is the introduction of data noises and label errors to the datasets to emulate challenges when deploying FL systems in real-world settings. FedAudio also includes the benchmark results of the datasets and a PyTorch library with the objective of facilitating researchers to fairly compare their algorithms. We hope FedAudio could act as a catalyst to inspire new FL research for audio tasks and thus benefit the acoustic and speech research community.
+
+### 22. FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction
+- **Authors**: Samiul Alam, Luyang Liu, Ming Yan, Mi Zhang
+- **Venue & Year**: Advances in Neural Information Processing Systems (2022) | Cited by 390
+- **Links**: ARXIV: https://arxiv.org/abs/2212.01548 | HTML: https://openreview.net/forum?id=OtxyysUdBE | PDF: https://openreview.net/pdf?id=OtxyysUdBE | CODE: https://github.com/AIoT-MLSys-Lab/FedRolex | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:eQOLeE2rZwMC
+- **Abstract**: Most cross-device federated learning (FL) studies focus on the model-homogeneous setting where the global server model and local client models are identical. However, such constraint not only excludes low-end clients who would otherwise make unique contributions to model training but also restrains clients from training large models due to on-device resource bottlenecks. In this work, we propose FedRolex, a partial training (PT)-based approach that enables model-heterogeneous FL and can train a global server model larger than the largest client model. At its core, FedRolex employs a rolling sub-model extraction scheme that allows different parts of the global server model to be evenly trained, which mitigates the client drift induced by the inconsistency between individual client models and server model architectures. Empirically, we show that FedRolex outperforms state-of-the-art PT-based model-heterogeneous FL methods (e.g. Federated Dropout) and reduces the gap between model-heterogeneous and model-homogeneous FL, especially under the large-model large-dataset regime. In addition, we provide theoretical statistical analysis on its advantage over Federated Dropout. Lastly, we evaluate FedRolex on an emulated real-world device distribution to show that FedRolex can enhance the inclusiveness of FL and boost the performance of low-end devices that would otherwise not benefit from FL. Our code is available at: https://github.com/AIoT-MLSys-Lab/FedRolex.
+
+### 23. FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices
+- **Authors**: Jingwei Sun, Ang Li, Lin Duan, Samiul Alam, Xuliang Deng, Xin Guo, Haiming Wang, Maria Gorlatova, Mi Zhang, Yiran Chen
+- **Venue & Year**: ACM Conference on Embedded Networked Sensor Systems (2022) | Cited by 66
+- **Links**: HTML: https://dl.acm.org/doi/10.1145/3560905.3568538 | PDF: https://dl.acm.org/doi/pdf/10.1145/3560905.3568538 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:WF5omc3nYNoC
+- **Abstract**: Federated learning (FL) has attracted increasing attention as a promising technique to drive a vast number of edge devices with artificial intelligence. However, it is very challenging to guarantee the efficiency of a FL system in practice due to the heterogeneous computation resources on different devices. To improve the efficiency of FL systems in the real world, asynchronous FL (AFL) and semi-asynchronous FL (SAFL) methods are proposed such that the server does not need to wait for stragglers. However, existing AFL and SAFL systems suffer from poor accuracy and low efficiency in realistic settings where the data is non-IID distributed across devices and the on-device resources are extremely heterogeneous. In this work, we propose FedSEA - a semi-asynchronous FL framework for extremely heterogeneous devices. We theoretically disclose that the unbalanced aggregation frequency is a root cause of accuracy drop in SAFL. Based on this analysis, we design a training configuration scheduler to balance the aggregation frequency of devices such that the accuracy can be improved. To improve the efficiency of the system in realistic settings where the devices have dynamic on-device resource availability, we design a scheduler that can efficiently predict the arriving time of local updates from devices and adjust the synchronization time point according to the devices' predicted arriving time. We also consider the extremely heterogeneous settings where there exist extremely lagging devices that take hundreds of times as long as the training time of the other devices. In the real world, there might be even some extreme stragglers which are not capable of training the global model. To enable these devices to join in training without impairing the systematic efficiency, FedSEA enables these extreme stragglers to conduct local training on much smaller models. Our experiments show that compared with status quo approaches, FedSEA improves the inference accuracy by 44.34% and reduces the systematic time cost and local training time cost by 87.02x and 792.9x. FedSEA also reduces the energy consumption of the devices with extremely limited resources by 752.9x.
+
+### 24. Bengali Common Voice Speech Dataset for Automatic Speech Recognition
+- **Authors**: Samiul Alam, Asif Sushmit, Zaowad Abdullah, Shahrin Nakkhatra, Md. Nazmuddoha Ansary, Syed Mobassir Hossen, Sazia Morshed Mehnaz, Tahsin Reasat, Ahmed Imtiaz Humayun
+- **Venue & Year**: arXiv preprint arXiv:2206.14053 (2022) | Cited by 34
+- **Links**: ARXIV: https://arxiv.org/abs/2206.14053 | HTML: https://arxiv.org/abs/2206.14053 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:IjCSPb-OGe4C
+- **Abstract**: Bengali is one of the most spoken languages in the world with over 300 million speakers globally. Despite its popularity, research into the development of Bengali speech recognition systems is hindered due to the lack of diverse open-source datasets. As a way forward, we have crowdsourced the Bengali Common Voice Speech Dataset, which is a sentence-level automatic speech recognition corpus. Collected on the Mozilla Common Voice platform, the dataset is part of an ongoing campaign that has led to the collection of over 400 hours of data in 2 months and is growing rapidly. Our analysis shows that this dataset has more speaker, phoneme, and environmental diversity compared to the OpenSLR Bengali ASR dataset, the largest existing open-source Bengali speech dataset. We present insights obtained from the dataset and discuss key linguistic challenges that need to be addressed in future versions. Additionally, we report the current performance of a few Automatic Speech Recognition (ASR) algorithms and set a benchmark for future research.
+
+### 25. A large multi-target dataset of common bengali handwritten graphemes
+- **Authors**: Samiul Alam, Tahsin Reasat, Asif Shahriyar Sushmit, Sadi Mohammad Siddique, Fuad Rahman, Mahady Hasan, Ahmed Imtiaz Humayun
+- **Venue & Year**: International Conference on Document Analysis and Recognition (2021) | Cited by 34
+- **Links**: ARXIV: https://arxiv.org/abs/2010.00170 | HTML: https://link.springer.com/chapter/10.1007/978-3-030-86337-1_26 | PDF: https://link.springer.com/content/pdf/10.1007/978-3-030-86337-1.pdf | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:qjMakFHDy7sC
+- **Abstract**: Latin has historically led the state-of-the-art in handwritten optical character recognition (OCR) research. Adapting existing systems from Latin to alpha-syllabary languages is particularly challenging due to a sharp contrast between their orthographies. Due to a cursive writing system and frequent use of diacritics, the segmentation and/or alignment of graphical constituents with corresponding characters becomes significantly convoluted. We propose a labeling scheme based on graphemes (linguistic segments of word formation) that makes segmentation inside alpha-syllabary words linear and present the first dataset of Bengali handwritten graphemes that are commonly used in everyday context. The dataset contains 411k curated samples of 1295 unique commonly used Bengali graphemes. Additionally, the test set contains 900 uncommon Bengali graphemes for out of dictionary performance evaluation. The dataset is open-sourced as a part of a public Handwritten Grapheme Classification Challenge on Kaggle to benchmark vision algorithms for multi-target grapheme classification. The unique graphemes present in this dataset are selected based on commonality in the Google Bengali ASR corpus. From competition proceedings, we see that deep learning methods can generalize to a large span of out of dictionary graphemes which are absent during training (Kaggle Competition kaggle.com/c/bengaliai-cv19, Supplementary materials and Appendix https://github.com/AhmedImtiazPrio/ICDAR2021supplementary).
+
+### 26. Numtadb-assembled bengali handwritten digits
+- **Authors**: Samiul Alam, Tahsin Reasat, Rashed Mohammad Doha, Ahmed Imtiaz Humayun
+- **Venue & Year**: arXiv preprint arXiv:1806.02452 (2018) | Cited by 65
+- **Links**: ARXIV: https://arxiv.org/abs/1806.02452 | HTML: https://arxiv.org/abs/1806.02452 | PDF: https://arxiv.org/pdf/1806.02452 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:d1gkVwhDpl0C
+- **Abstract**: To benchmark Bengali digit recognition algorithms, a large publicly available dataset is required which is free from biases originating from geographical location, gender, and age. With this aim in mind, NumtaDB, a dataset consisting of more than 85,000 images of hand-written Bengali digits, has been assembled. This paper documents the collection and curation process of numerals along with the salient statistics of the dataset.
+
+### 27. AI Learns to Recognize Bengali Handwritten Digits: Bengali. AI Computer Vision Challenge 2018
+- **Authors**: Sharif Amit Kamran, Ahmed Imtiaz Humayun, Samiul Alam, Rashed Mohammad Doha, Manash Kumar Mandal, Tahsin Reasat, Fuad Rahman
+- **Venue & Year**: arXiv preprint arXiv:1810.04452 (2018) | Cited by 4
+- **Links**: ARXIV: https://arxiv.org/abs/1810.04452 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:UeHWp8X0CEIC
+
+### 28. Predictive real-time beat tracking from music for embedded application
+- **Authors**: Irfan Al-Hussaini, Ahmed Imtiaz Humayun, Samiul Alam, Shariful Islam Foysal, Abdullah Al Masud, Arafat Mahmud, Rakibul Islam Chowdhury, Nabil Ibtehaz, Sums Uz Zaman, Rakib Hyder, et al.
+- **Venue & Year**: 2018 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR) (2018) | Cited by 11
+- **Links**: HTML: https://ieeexplore.ieee.org/document/8397024 | PDF: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8397024 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:u-x6o8ySG0sC
+- **Abstract**: Beat tracking from music signals has significant importance in multimedia information retrieval systems, especially in cover song detection. A predictive real-time beat tracking system can also be used to assist musicians performing live. In this paper we present a real-time beat tracking algorithm, fast enough to be implemented on an embedded system. The onset of a note is detected using a maximum filter approach that suppresses the effect of vibrato. Beats are predicted a second in advance using a causal variant of Dynamic Programming. We have employed an onset memoization algorithm, to reduce the computational resources required. Raspberry Pi was chosen as our preferred development board. We have demonstrated through experimental results that the proposed approach can satisfactorily estimate beat positions from a music signal in real-time with an average continuity score (AMLt) of 0.67.

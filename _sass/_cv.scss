@@ -19,13 +19,10 @@ a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
   border-radius: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding: 0.25rem 1rem;
   text-decoration: none;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -38,12 +35,8 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
-/*****************************
- * CV TIME_TABLE styles
- *****************************/
-
 p.location {
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   white-space: nowrap;
 }
 
@@ -82,10 +75,6 @@ div.container-links {
   margin-bottom: 0.5rem;
 }
 
-/*****************************
- * CV MAP styles
- *****************************/
-
 div.container-pdf {
   display: flex;
   flex-direction: row;
@@ -94,70 +83,10 @@ div.container-pdf {
   justify-content: flex-start;
 }
 
-/*****************************
- * CV LIST_GROUPS styles
- *****************************/
-
-div.list-groups {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: row;
-  align-content: center;
-}
-
-div.list-group {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-td.list-group-category {
-  color: var(--global-theme-color);
-  margin-bottom: 0.5rem;
-}
-
-td.list-group-category-icon {
-  font-size: 0.8rem;
-  color: var(--global-theme-color);
-  width: 1.4rem;
-  padding-right: 0.4rem;
-}
-
-td.list-group-name {
-  font-size: 0.8rem;
-}
-
-td.list-group-level {
-  font-size: 0.8rem;
-  padding-left: 0.5rem;
-}
-
-td.list-group-school {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
-  text-align: center;
-}
-
-p.list-group-time {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
-}
-
-td.list-group-link {
-  padding-left: 0.5rem;
-}
-
-/*****************************
- * CV TOC styles
- *****************************/
-
 a.anchor {
   display: block;
   position: relative;
-  top: -50px;
+  top: -5.5rem;
   visibility: hidden;
 }
 
@@ -177,7 +106,7 @@ span.badge-toc {
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
   border-radius: 0.125rem;
-  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+  padding: 0.125rem 0.5rem;
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;
@@ -194,27 +123,3 @@ ul.timeline li::before {
   left: 2px;
   top: -0.5rem;
 }
-
-/*ul.timeline::before {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: 0.4rem;
-     color: var(--global-text-color);
-}
- ul.timeline::after {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: -1rem;
-     color: var(--global-text-color);
-}
-*/

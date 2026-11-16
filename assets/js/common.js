@@ -1,26 +1,33 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  // Toggle abstract, award, and bibtex drawers with accessible aria-expanded state
+  function toggleDrawer(trigger, targetSelector) {
+    const container = $(trigger).closest(".links").parent();
+    const target = container.find(targetSelector);
+    const willOpen = !target.hasClass("open");
+
+    container.find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open").removeClass("open");
+    container.find(".links .abstract, .links .award, .links .bibtex").attr("aria-expanded", "false");
+
+    if (willOpen) {
+      target.addClass("open");
+      $(trigger).attr("aria-expanded", "true");
+    }
+  }
+
+  $("button.abstract, a.abstract").on("click", function () {
+    toggleDrawer(this, ".abstract.hidden");
   });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  $("button.award, a.award").on("click", function () {
+    toggleDrawer(this, ".award.hidden");
   });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  $("button.bibtex, a.bibtex").on("click", function () {
+    toggleDrawer(this, ".bibtex.hidden");
   });
   $("a").removeClass("waves-effect waves-light");
 
   // bootstrap-toc
   if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
-    $(".publications h2").each(function () {
+    $(".publications h2, .cv h3").each(function () {
       $(this).attr("data-toc-skip", "");
     });
     var navSelector = "#toc-sidebar";

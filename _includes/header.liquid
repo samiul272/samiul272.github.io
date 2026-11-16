@@ -1,29 +1,29 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    aria-label="Primary"
+  >
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
+      <a class="navbar-brand title" href="{{ '/' | relative_url }}">
+        {% if site.title == 'blank' %}
+          <span class="brand-dot" aria-hidden="true"></span>
+          {% if site.first_name %}
+            <span>{{- site.first_name -}}</span>
           {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
+          {% if site.middle_name %}
+            <span>{{- site.middle_name -}}</span>
+          {% endif %}
+          {% if site.last_name %}
+            <span class="brand-last">{{- site.last_name -}}</span>
+          {% endif %}
+        {% else %}
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>{{- site.title -}}</span>
+        {% endif %}
+      </a>
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -42,8 +42,8 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          {% for p in site.pages %}
+            {% if p.permalink == '/' %} {% assign about_title = p.title %} {% endif %}
           {% endfor %}
 
           <!-- About -->
@@ -117,24 +117,24 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+
+          <li class="nav-controls">
+            {% if site.search_enabled %}
+              <!-- Search -->
+              <button id="search-toggle" type="button" title="Search" aria-label="Search site" onclick="openSearchModal()">
+                <i class="ti ti-search" aria-hidden="true"></i>
+                <kbd class="search-kbd">Ctrl K</kbd>
               </button>
-            </li>
-          {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+            {% endif %}
+            {% if site.enable_darkmode %}
+              <!-- Toggle theme mode -->
+              <button id="light-toggle" type="button" title="Change theme" aria-label="Toggle color theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system" aria-hidden="true"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark" aria-hidden="true"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light" aria-hidden="true"></i>
               </button>
-            </li>
-          {% endif %}
+            {% endif %}
+          </li>
         </ul>
       </div>
     </div>

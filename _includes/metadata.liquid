@@ -15,34 +15,60 @@
 {% endif %}
 
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+{% assign author_name = author_name | strip %}
+
+{% if site.title == 'blank' %}
+  {% assign site_title = author_name %}
+{% else %}
+  {% assign site_title = site.title %}
+{% endif %}
+
+{% if page.url == '/' %}
+  {% assign page_title_full = author_name | append: ' — Software Engineer at Google · CSE Ph.D.' %}
+{% elsif page.url == '/blog/index.html' %}
+  {% assign page_title_full = page.title | append: ' | ' | append: site_title %}
+{% elsif page.title and page.title != 'blank' %}
+  {% assign page_title_full = page.title | append: ' | ' | append: site_title %}
+{% elsif page.date %}
+  {% assign page_year = page.date | date: '%Y' %}
+  {% assign page_title_full = page_year | append: ' | ' | append: site_title %}
+{% else %}
+  {% assign page_title_full = site_title %}
+{% endif %}
+
+{% assign meta_description = page.description | default: site.description | strip_html | strip_newlines | strip %}
+{% assign site_description_clean = site.description | strip_html | strip_newlines | strip %}
+{% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+{% assign og_image_url = page.og_image | default: site.og_image %}
+{% assign home_url = '/' | absolute_url %}
 
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>
-  {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
-  {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
-  {% endif %}
-  {% if page.url == '/blog/index.html' %}
-    {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
-    {% if page.title == null or page.title == '' %}
-      {{ page.date | date: '%Y' }} | {{ title }}
-    {% else %}
-      {{ page.title }} | {{ title }}
-    {% endif %}
-  {% else %}
-    {{ title }}
-  {% endif %}
-</title>
+<title>{{ page_title_full }}</title>
 <meta name="author" content="{{ author_name }}">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{{ meta_description | escape }}">
 {% if page.keywords or site.keywords %}
-  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
 {% endif %}
+{% if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+{% else %}
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{% endif %}
+
+<!-- AI Agent & Machine-Readable Discovery -->
+<link rel="alternate" type="text/markdown" href="{{ '/llms.txt' | absolute_url }}" title="LLM Summary (llms.txt)">
+<link rel="alternate" type="text/markdown" href="{{ '/llms-full.txt' | absolute_url }}" title="LLM Complete Context (llms-full.txt)">
+<link rel="alternate" type="application/json" href="{{ '/assets/json/publications.json' | absolute_url }}" title="Publications Catalog (JSON)">
+<link rel="alternate" type="application/json" href="{{ '/assets/json/resume.json' | absolute_url }}" title="Curriculum Vitae (JSON Resume)">
+<link
+  rel="alternate"
+  type="application/json"
+  href="{{ '/assets/json/google_scholar.json' | absolute_url }}"
+  title="Google Scholar Citation Metrics (JSON)"
+>
 
 {% assign is_blog_post = false %}
 {% if page.url != '/blog/index.html' and page.url contains '/blog/' %}
@@ -53,22 +79,31 @@
 
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}">
-  <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  <meta property="og:site_name" content="{{ site_title | escape }}">
+  <meta property="og:type" content="{% if page.url == '/' %}profile{% elsif is_blog_post %}article{% else %}website{% endif %}">
+  {% if page.url == '/' %}
+    <meta property="profile:first_name" content="{{ site.first_name }}">
+    <meta property="profile:last_name" content="{{ site.last_name }}">
+    {% if site.data.socials.github_username %}
+      <meta property="profile:username" content="{{ site.data.socials.github_username }}">
+    {% endif %}
   {% endif %}
-  <meta property="og:locale" content="{{ site.lang }}">
+  <meta property="og:title" content="{{ page_title_full | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  {% if og_image_url %}
+    <meta property="og:image" content="{{ og_image_url }}">
+    <meta property="og:image:alt" content="Portrait of {{ author_name }}">
+  {% endif %}
+  <meta property="og:locale" content="{% if site.lang == 'en' %}en_US{% else %}{{ site.lang }}{% endif %}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title_full | escape }}">
+  <meta name="twitter:description" content="{{ meta_description | escape }}">
+  {% if og_image_url %}
+    <meta name="twitter:image" content="{{ og_image_url }}">
+    <meta name="twitter:image:alt" content="Portrait of {{ author_name }}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
@@ -98,10 +133,7 @@
         {% capture link %}https://discord.com/users/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'email' %}
-        {% comment %}
-          {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
-          {% assign sameaslinks = sameaslinks | push: link %}
-        {% endcomment %}
+
       {% when 'facebook_id' %}
         {% capture link %}https://facebook.com/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -169,10 +201,7 @@
         {% capture link %}https://www.researchgate.net/profile/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'rss_icon' %}
-        {% comment %}
-          {% capture link %}{{ site.baseurl }}/feed.xml{% endcapture %}
-          {% assign sameaslinks = sameaslinks | push: link %}
-        {% endcomment %}
+
       {% when 'scholar_userid' %}
         {% capture link %}https://scholar.google.com/citations?user={{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -219,26 +248,119 @@
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% if social[1].url %}
+          {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% endif %}
     {% endcase %}
   {% endfor %}
 
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "WebSite",
+          "@id": "{{ home_url }}#website",
+          "url": {{ home_url | jsonify }},
+          "name": {{ site_title | jsonify }},
+          "description": {{ site_description_clean | jsonify }},
+          "inLanguage": {{ site.lang | default: 'en' | jsonify }},
+          "publisher": {
+            "@id": "{{ home_url }}#person"
+          }
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "Person",
+          "@id": "{{ home_url }}#person",
+          "name": {{ author_name | jsonify }},
+          "givenName": {{ site.first_name | jsonify }},
+          "familyName": {{ site.last_name | jsonify }},
+          "honorificSuffix": "Ph.D.",
+          "jobTitle": "Software Engineer",
+          "url": {{ home_url | jsonify }},
+          {% if site.og_image %}
+          "image": {{ site.og_image | jsonify }},
+          {% endif %}
+          "description": {{ site_description_clean | jsonify }},
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Google",
+            "url": "https://about.google"
+          },
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "The Ohio State University",
+              "url": "https://www.osu.edu"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Michigan State University",
+              "url": "https://msu.edu"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Bangladesh University of Engineering and Technology",
+              "url": "https://www.buet.ac.bd"
+            }
+          ],
+          "memberOf": {
+            "@type": "Organization",
+            "name": "Bengali.AI",
+            "url": "https://bengali.ai"
+          },
+          "knowsAbout": [
+            "Spatial Computing",
+            "Augmented Reality Smart Glasses",
+            "Multimodal Foundation Models",
+            "Agentic Recommendation Systems",
+            "Model Compression",
+            "On-Device AI",
+            "Federated Learning",
+            "Bengali NLP and Speech"
+          ]{% if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+        }{% unless page.noindex %},
+        {
+          "@type": "{% if page.url == '/' %}ProfilePage{% elsif page.url == '/publications/' %}CollectionPage{% elsif is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
+          "@id": "{{ canonical_url }}#webpage",
+          "url": {{ canonical_url | jsonify }},
+          "name": {{ page_title_full | jsonify }},
+          {% if is_blog_post %}"headline": {{ page.title | jsonify }},{% endif %}
+          "description": {{ meta_description | jsonify }},
+          "inLanguage": {{ site.lang | default: 'en' | jsonify }},
+          "isPartOf": {
+            "@id": "{{ home_url }}#website"
+          },
+          "about": {
+            "@id": "{{ home_url }}#person"
+          }{% if page.url == '/' %},
+          "mainEntity": {
+            "@id": "{{ home_url }}#person"
+          }{% elsif is_blog_post %},
+          "author": {
+            "@id": "{{ home_url }}#person"
+          }{% endif %}
+        }{% if page.url != '/' and page.title and page.title != 'blank' %},
+        {
+          "@type": "BreadcrumbList",
+          "@id": "{{ canonical_url }}#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": {{ home_url | jsonify }}
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": {{ page.title | jsonify }},
+              "item": {{ canonical_url | jsonify }}
+            }
+          ]
+        }{% endif %}{% endunless %}
+      ]
     }
   </script>
 {% endif %}
