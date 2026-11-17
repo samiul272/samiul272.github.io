@@ -3,18 +3,19 @@
 Canonical website: https://samiul272.github.io/
 Structured JSON catalog: https://samiul272.github.io/assets/json/publications.json
 Structured JSON Resume: https://samiul272.github.io/assets/json/resume.json
-Google Scholar metrics JSON: https://samiul272.github.io/assets/json/google_scholar.json (synced 2026-11-17)
+Google Scholar metrics JSON: https://samiul272.github.io/assets/json/google_scholar.json (synced 2026-11-16)
 
 ## Biography & Summary
 
-Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Ohio State University. Spatial computing, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning. “Perpetually Convalescent: Learning & Evolving.”
+Samiul Alam is a Software Engineer and AI Researcher at Google (Mountain View, CA) with a Ph.D. in Computer Science and Engineering from The Ohio State University and prior Research Scientist experience at Meta Reality Labs. His research and engineering span spatial computing, supermemory for augmented reality smart glasses, egocentric computer vision, multimodal foundation models, agentic recommendation systems, machine learning systems, on-device AI, model compression, and federated learning.
 
 - **Email**: samiul272@gmail.com
 - **Location**: Mountain View, CA, USA
-- **Google Scholar**: https://scholar.google.com/citations?user=2Un1c7QAAAAJ&hl=en (1,733 citations, h-index 15, i10-index 19)
+- **Google Scholar**: https://scholar.google.com/citations?user=2Un1c7QAAAAJ&hl=en (1,730 citations, h-index 15, i10-index 19)
 - **GitHub**: https://github.com/samiul272
 - **LinkedIn**: https://www.linkedin.com/in/samiul-alam
 - **ORCID**: https://orcid.org/0000-0002-8458-4642
+- **OpenAlex**: https://openalex.org/A5084705208
 - **Bengali.AI**: https://bengali.ai
 
 ## Experience
@@ -157,7 +158,7 @@ Non-profit for open-source Bengali datasets and benchmarks for speech, vision, a
 
 ### 11. Artificial Intelligence of Things: A Survey
 - **Authors**: Shakhrul Iman Siam, Hyunho Ahn, Li Liu, Samiul Alam, Hui Shen, Zhichao Cao, Ness Shroff, Bhaskar Krishnamachari, Mani Srivastava, Mi Zhang
-- **Venue & Year**: ACM Transactions on Sensor Networks (2025) | Cited by 159
+- **Venue & Year**: ACM Transactions on Sensor Networks (2025) | Cited by 158
 - **Links**: DOI: https://doi.org/10.1145/3690639 | HTML: https://dl.acm.org/doi/abs/10.1145/3690639 | CODE: https://github.com/AIoT-MLSys-Lab/AIoT-Survey | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:ULOm3_A8WrAC
 - **Abstract**: The integration of the Internet of Things (IoT) and modern Artificial Intelligence (AI) has given rise to a new paradigm known as the Artificial Intelligence of Things (AIoT). In this survey, we provide a systematic and comprehensive review of AIoT research. We examine AIoT literature related to sensing, computing, and networking & communication, which form the three key components of AIoT. In addition to advancements in these areas, we review domain-specific AIoT systems that are designed for various important application domains. We have also created an accompanying GitHub repository, where we compile the papers included in this survey: https://github.com/AIoT-MLSys-Lab/AIoT-Survey. This repository will be actively maintained and updated with new research as it becomes available. As both IoT and AI become increasingly critical to our society, we believe AIoT is emerging as an essential research field at the intersection of IoT and modern AI. We hope this survey will serve as a valuable resource for those engaged in AIoT research and act as a catalyst for future explorations to bridge gaps and drive advancements in this exciting field.
 
@@ -169,7 +170,7 @@ Non-profit for open-source Bengali datasets and benchmarks for speech, vision, a
 
 ### 13. The Internet of Things in the Era of Generative AI: Vision and Challenges
 - **Authors**: Xin Wang, Zhongwei Wan, Arvin Hekmati, Mingyu Zong, Samiul Alam, Mi Zhang, Bhaskar Krishnamachari
-- **Venue & Year**: IEEE Internet Computing (2024) | Cited by 85
+- **Venue & Year**: IEEE Internet Computing (2024) | Cited by 84
 - **Award**: Awarded the 2024 IEEE Internet Computing Best Paper Award.
 - **Links**: ARXIV: https://arxiv.org/abs/2401.01923 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:MXK_kJrjxJIC
 - **Abstract**: Equipped with sensing, networking, and computing capabilities, Internet of Things (IoT) such as smartphones, wearables, smart speakers, and household robots have been seamlessly weaved into our daily lives. Recent advancements in Generative AI exemplified by GPT, LLaMA, DALL-E, and Stable Diffusion hold immense promise to push IoT to the next level. In this article, we share our vision and views on the benefits that Generative AI brings to IoT, and discuss some of the most important applications of Generative AI in IoT-related domains. Fully harnessing Generative AI in IoT is a complex challenge. We identify some of the most critical challenges including high resource demands of the Generative AI models, prompt engineering, on-device inference, offloading, on-device fine-tuning, federated learning, security, as well as development tools and benchmarks, and discuss current gaps as well as promising opportunities on enabling Generative AI for IoT. We hope this article can inspire new research on IoT in the era of Generative AI.
@@ -233,7 +234,7 @@ Non-profit for open-source Bengali datasets and benchmarks for speech, vision, a
 
 ### 24. Bengali Common Voice Speech Dataset for Automatic Speech Recognition
 - **Authors**: Samiul Alam, Asif Sushmit, Zaowad Abdullah, Shahrin Nakkhatra, Md. Nazmuddoha Ansary, Syed Mobassir Hossen, Sazia Morshed Mehnaz, Tahsin Reasat, Ahmed Imtiaz Humayun
-- **Venue & Year**: arXiv preprint arXiv:2206.14053 (2022) | Cited by 35
+- **Venue & Year**: arXiv preprint arXiv:2206.14053 (2022) | Cited by 34
 - **Links**: ARXIV: https://arxiv.org/abs/2206.14053 | HTML: https://arxiv.org/abs/2206.14053 | SCHOLAR: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2Un1c7QAAAAJ&citation_for_view=2Un1c7QAAAAJ:IjCSPb-OGe4C
 - **Abstract**: Bengali is one of the most spoken languages in the world with over 300 million speakers globally. Despite its popularity, research into the development of Bengali speech recognition systems is hindered due to the lack of diverse open-source datasets. As a way forward, we have crowdsourced the Bengali Common Voice Speech Dataset, which is a sentence-level automatic speech recognition corpus. Collected on the Mozilla Common Voice platform, the dataset is part of an ongoing campaign that has led to the collection of over 400 hours of data in 2 months and is growing rapidly. Our analysis shows that this dataset has more speaker, phoneme, and environmental diversity compared to the OpenSLR Bengali ASR dataset, the largest existing open-source Bengali speech dataset. We present insights obtained from the dataset and discuss key linguistic challenges that need to be addressed in future versions. Additionally, we report the current performance of a few Automatic Speech Recognition (ASR) algorithms and set a benchmark for future research.
 
