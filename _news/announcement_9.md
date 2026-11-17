@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2025-08-15 11:59:00-0400
+date: 2025-08-15 12:00:00-0700
 inline: true
+related_posts: false
 ---
 
-Happy to announce that I wrapped up my PhD internship at Google.
+Wrapped up my summer Software Engineering Internship at **Google** in Mountain View, CA!

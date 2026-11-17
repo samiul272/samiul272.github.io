@@ -69,7 +69,7 @@ social: false
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 9
 ---
 
 I am a Software Engineer at **Google** in Mountain View, CA, working on user activity modeling and agentic recommendation systems.

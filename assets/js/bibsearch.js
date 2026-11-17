@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       } else {
         document.querySelectorAll(".bibliography > li").forEach((element) => {
-          const text = element.innerText.toLowerCase();
+          const text = (element.textContent || "").toLowerCase();
           if (!text.includes(normalizedTerm)) {
             nonMatchingBySearch.add(element);
           }
@@ -98,7 +98,12 @@ document.addEventListener("DOMContentLoaded", function () {
       filterButtons.forEach((other) => {
         other.setAttribute("aria-pressed", other === btn ? "true" : "false");
       });
-      filterItems(searchInput.value);
+      const applyFilter = () => filterItems(searchInput.value);
+      if (document.startViewTransition && window.matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+        document.startViewTransition(applyFilter);
+      } else {
+        applyFilter();
+      }
     });
   });
 

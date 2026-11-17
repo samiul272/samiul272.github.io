@@ -1,4 +1,13 @@
-{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign img_path = include.path
+  | remove: '.jpg'
+  | remove: '.jpeg'
+  | remove: '.png'
+  | remove: '.tiff'
+  | remove: '.gif'
+  | remove: '.JPG'
+  | remove: '.JPEG'
+  | remove: '.PNG'
+%}
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last | downcase %}
 
@@ -74,8 +83,10 @@
         loading="eager"
       {% elsif include.loading %}
         loading="{{ include.loading }}"
+        decoding="async"
       {% elsif site.lazy_loading_images %}
         loading="lazy"
+        decoding="async"
       {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >

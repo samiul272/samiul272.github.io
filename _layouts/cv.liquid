@@ -101,6 +101,8 @@ layout: default
               {% assign section_title = 'Selected Systems & Benchmarks' %}
             {% when 'awards' %}
               {% assign section_title = 'Honors & Awards' %}
+            {% when 'volunteer' %}
+              {% assign section_title = 'Academic Service' %}
             {% else %}
               {% assign section_title = data[0] | capitalize %}
           {% endcase %}

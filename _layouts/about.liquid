@@ -142,6 +142,18 @@ layout: default
   </section>
 {% endif %}
 
+{% if page.announcements and page.announcements.enabled %}
+  <section class="home-section" aria-labelledby="heading-recent-news">
+    <div class="section-header">
+      <h2 id="heading-recent-news">
+        <a href="{{ '/news/' | relative_url }}">Recent News &amp; Milestones</a>
+      </h2>
+      <a class="section-link" href="{{ '/news/' | relative_url }}"> All updates <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> </a>
+    </div>
+    {% include news.liquid limit=true %}
+  </section>
+{% endif %}
+
 {% if page.selected_papers %}
   <script src="{{ '/assets/js/scholar-metrics.js' | relative_url | bust_file_cache }}" type="module"></script>
   <section class="home-section" aria-labelledby="heading-selected-papers">
@@ -154,17 +166,5 @@ layout: default
       </a>
     </div>
     {% include selected_papers.liquid %}
-  </section>
-{% endif %}
-
-{% if page.announcements and page.announcements.enabled %}
-  <section class="home-section" aria-labelledby="heading-recent-news">
-    <div class="section-header">
-      <h2 id="heading-recent-news">
-        <a href="{{ '/news/' | relative_url }}">Recent News &amp; Milestones</a>
-      </h2>
-      <a class="section-link" href="{{ '/news/' | relative_url }}"> All updates <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> </a>
-    </div>
-    {% include news.liquid limit=true %}
   </section>
 {% endif %}

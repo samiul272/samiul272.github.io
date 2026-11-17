@@ -242,6 +242,7 @@ def main() -> int:
             f"{citations_all:,} citations | h-index: {h_index} | i10-index: {i10_index}"
         ),
         "- **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize",
+        "- **Academic Service**: IEEE MSN 2026 Technical Program Committee (TPC); PC / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS), NeurIPS, TMLR, and ACM TOSN",
         "",
         "## Pages & Machine-Readable Endpoints",
         "",
@@ -338,6 +339,15 @@ def main() -> int:
     for award in resume.get("awards", []):
         full_lines.append(f"- **{award['title']}** ({award['awarder']}, {award['date']}): {award['summary']}")
     full_lines.append("")
+
+    volunteer = resume.get("volunteer", [])
+    if volunteer:
+        full_lines.extend(["## Academic Service", ""])
+        for svc in volunteer:
+            dates = f"{svc.get('startDate', '')} – {svc.get('endDate') or 'Present'}"
+            summary_part = f": {svc['summary']}" if svc.get("summary") else ""
+            full_lines.append(f"- **{svc['position']}**, {svc['organization']} ({dates}){summary_part}")
+        full_lines.append("")
 
     full_lines.extend(["## Technical & Research Skills", ""])
     for skill in resume.get("skills", []):

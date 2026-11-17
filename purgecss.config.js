@@ -4,7 +4,20 @@ module.exports = {
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: {
-    standard: ["open", "active", "unloaded", "dark", "table-dark", "copied", "collapsing", "show", "is-loaded", "has-citations"],
+    standard: [
+      "open",
+      "active",
+      "unloaded",
+      "dark",
+      "table-dark",
+      "copied",
+      "collapsing",
+      "show",
+      "is-loaded",
+      "has-citations",
+      "reveal-pending",
+      "is-revealed",
+    ],
     greedy: [/^ninja-/, /^medium-zoom/],
   },
 };

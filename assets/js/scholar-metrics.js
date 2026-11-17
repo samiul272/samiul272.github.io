@@ -41,6 +41,34 @@ async function loadScholarMetrics(jsonUrl) {
   return data;
 }
 
+function animateMetricValue(id, target, nf) {
+  const el = document.getElementById(id);
+  if (!el || target === undefined || target === null) return;
+  const endVal = Number(target || 0);
+  if (!window.matchMedia("(prefers-reduced-motion: no-preference)").matches || endVal <= 0) {
+    el.textContent = nf.format(endVal);
+    return;
+  }
+
+  const startVal = Math.floor(endVal * 0.8);
+  const duration = 320;
+  const startTime = performance.now();
+
+  const step = (now) => {
+    const t = Math.min(1, (now - startTime) / duration);
+    const eased = 1 - Math.pow(1 - t, 3);
+    const current = Math.round(startVal + (endVal - startVal) * eased);
+    el.textContent = nf.format(current);
+    if (t < 1) {
+      requestAnimationFrame(step);
+    } else {
+      el.textContent = nf.format(endVal);
+    }
+  };
+
+  requestAnimationFrame(step);
+}
+
 function renderSummaryBar(data, nf) {
   const bar = document.getElementById("scholar-metrics-bar");
   if (!bar || !data || !data.metrics) return;
@@ -53,13 +81,13 @@ function renderSummaryBar(data, nf) {
     }
   };
 
-  setText("gs-citations-all", nf.format(m.citations_all || 0));
+  animateMetricValue("gs-citations-all", m.citations_all || 0, nf);
   if (m.citations_recent !== undefined) {
     const sinceText = (data.since_label || "recent").toLowerCase();
     setText("gs-citations-recent", `(${nf.format(m.citations_recent)} ${sinceText})`);
   }
-  setText("gs-hindex-all", nf.format(m.h_index_all || 0));
-  setText("gs-i10-all", nf.format(m.i10_index_all || 0));
+  animateMetricValue("gs-hindex-all", m.h_index_all || 0, nf);
+  animateMetricValue("gs-i10-all", m.i10_index_all || 0, nf);
   if (m.h_index_recent !== undefined) {
     setText("gs-hindex-recent", nf.format(m.h_index_recent));
   }

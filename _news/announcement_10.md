@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2025-09-15 11:59:00-0400
+date: 2025-09-18 12:00:00-0400
 inline: true
+related_posts: false
 ---
 
-Two of my papers have been accepted at NeurIPS 2025!
+Two papers — **Reading Recognition in the Wild** and **Benchmarking is Broken** — have been accepted at **NeurIPS 2025**!

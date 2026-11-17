@@ -41,17 +41,31 @@
     {% if has_preview %}
       {% assign preview_alt = 'Preview figure for ' | append: entry.title | escape %}
       {% if entry.preview contains '://' %}
-        <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ preview_alt }}">
+        <img
+          class="preview z-depth-1 rounded"
+          src="{{ entry.preview }}"
+          alt="{{ preview_alt }}"
+          width="320"
+          height="200"
+          loading="lazy"
+          decoding="async"
+        >
       {% else %}
         {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+        {% assign is_gif_preview = false %}
+        {% if entry.preview contains '.gif' or entry.preview contains '.GIF' %}
+          {% assign is_gif_preview = true %}
+        {% endif %}
         {%
           include figure.liquid
           loading="lazy"
           path=entry_path
+          width="320"
+          height="200"
           sizes="(min-width: 640px) 140px, 45vw"
           class="preview z-depth-1 rounded"
           zoomable=true
-          avoid_scaling=true
+          avoid_scaling=is_gif_preview
           alt=preview_alt
         %}
       {% endif %}

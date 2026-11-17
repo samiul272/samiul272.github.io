@@ -63,4 +63,29 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // Fallback scroll-reveal animation only when native CSS view timelines are unsupported
+  if (
+    !CSS.supports("(animation-timeline: view()) and (animation-range: entry)") &&
+    window.matchMedia("(prefers-reduced-motion: no-preference)").matches
+  ) {
+    const targets = document.querySelectorAll(".bento-card, .publications ol.bibliography > li, .cv .card");
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-revealed");
+            obs.unobserve(entry.target);
+          }
+        }
+      },
+      { threshold: 0.06, rootMargin: "0px 0px -24px 0px" }
+    );
+    targets.forEach((el) => {
+      if (el.getBoundingClientRect().top > window.innerHeight * 0.92) {
+        el.classList.add("reveal-pending");
+        observer.observe(el);
+      }
+    });
+  }
 });

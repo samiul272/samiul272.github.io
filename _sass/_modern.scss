@@ -991,9 +991,12 @@ progress {
       background-color: var(--global-card-bg-color);
       border: 1px solid var(--global-divider-color);
       box-shadow: var(--global-shadow-sm);
+      content-visibility: auto;
+      contain-intrinsic-block-size: auto 7.5rem;
       transition:
         border-color 0.16s ease,
-        box-shadow 0.16s ease;
+        box-shadow 0.16s ease,
+        transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
 
       &:hover {
         border-color: var(--global-accent-border);
@@ -1177,17 +1180,42 @@ progress {
       }
 
       .hidden {
+        display: none;
+        max-height: none;
+        overflow: visible;
         text-align: start;
         text-wrap: pretty;
         font-size: 0.86rem;
         border-radius: $radius-sm;
         border: 0;
 
+        @media (prefers-reduced-motion: no-preference) {
+          opacity: 0;
+          transform: translateY(-6px);
+          transition:
+            opacity 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+            transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+            display 0.22s;
+          transition-behavior: allow-discrete;
+        }
+
         &.open {
+          display: block;
+          max-height: none;
           margin-top: 0.55rem;
           padding: 0.68rem 0.85rem;
           background-color: var(--global-surface-subtle);
           border: 1px solid var(--global-divider-color);
+
+          @media (prefers-reduced-motion: no-preference) {
+            opacity: 1;
+            transform: translateY(0);
+
+            @starting-style {
+              opacity: 0;
+              transform: translateY(-6px);
+            }
+          }
         }
 
         p {
@@ -1483,6 +1511,148 @@ footer.site-footer {
       background-color: var(--global-accent-soft);
       text-decoration: none;
     }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Motion, Scroll-Driven Reveals & Micro-Interactions
+// -----------------------------------------------------------------------------
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes hero-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes status-ring-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.55;
+    }
+
+    100% {
+      transform: scale(2.3);
+      opacity: 0;
+    }
+  }
+
+  .hero-status-pill .status-dot {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: $radius-pill;
+      background-color: var(--global-theme-color);
+      animation: status-ring-pulse 1.6s ease-out 2;
+    }
+  }
+
+  .hero-status-pill {
+    animation: hero-fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .hero-subtitle {
+    animation: hero-fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.04s both;
+  }
+
+  .hero-bio {
+    animation: hero-fade-up 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+  }
+
+  .hero-affiliations {
+    animation: hero-fade-up 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+  }
+
+  .hero-actions {
+    animation: hero-fade-up 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both;
+  }
+
+  .bento-card .bento-icon {
+    transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .bento-card:hover .bento-icon {
+    transform: scale(1.08) rotate(-3deg);
+  }
+
+  .publications ol.bibliography > li {
+    .bib-aside .preview {
+      transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    &:hover {
+      transform: translateY(-1.5px);
+
+      .bib-aside .preview {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  .news-item::before {
+    transition: transform 0.18s ease;
+  }
+
+  .news-item:hover::before {
+    transform: scale(1.3);
+  }
+
+  .section-header .section-link i {
+    transition: transform 0.18s ease;
+  }
+
+  .section-header .section-link:hover i {
+    transform: translateX(3px);
+  }
+
+  .btn-primary-cta:active,
+  .btn-secondary-cta:active,
+  .pub-pill:active {
+    transform: scale(0.98);
+  }
+
+  @supports ((animation-timeline: view()) and (animation-range: entry)) {
+    @keyframes scroll-card-in {
+      from {
+        opacity: 0.01;
+        transform: translateY(14px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .bento-card,
+    .publications ol.bibliography > li,
+    .cv .card {
+      animation: scroll-card-in auto cubic-bezier(0.22, 1, 0.36, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+
+  .reveal-pending {
+    opacity: 0.01;
+    transform: translateY(12px);
+    transition:
+      opacity 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-pending.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

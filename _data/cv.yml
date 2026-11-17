@@ -109,3 +109,17 @@
     - year: 2012
       items:
         - Dean's List Distinction in 2012-2013 session
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Technical Program Committee (TPC) Member
+      institution: IEEE International Conference on Mobility, Sensing and Networking (IEEE MSN 2026)
+      year: 2026
+      description:
+        - Served on the Regular Tracks Program Committee reviewing mobile systems, sensing, and edge networking research.
+    - title: Program Committee Member & Conference Reviewer
+      institution: Top-Tier AI, Vision & Systems Venues
+      year: 2024-Present
+      description:
+        - Program Committee / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS Workshop), NeurIPS, TMLR, and ACM TOSN.
