@@ -19,12 +19,12 @@ Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Oh
 
 ## Experience
 
-### Software Engineer — Google (2026-09 – Present | Mountain View, CA)
+### Software Engineer — Google (2026-09-15 – Present | Mountain View, CA)
 Working on user activity modeling and development of agentic recommendation systems.
 - User activity modeling for personalization
 - Agentic recommendation systems
 
-### Research Scientist Intern — Meta (2026-05 – 2026-08 | Redmond, WA)
+### Research Scientist Intern — Meta (2026-05-11 – 2026-08-28 | Redmond, WA)
 Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.
 - Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses
 - Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance
@@ -81,6 +81,11 @@ Non-profit for open-source Bengali datasets and benchmarks for speech, vision, a
 - **Semifinalist, International Future Energy Challenge** (IFEC 2017, 2017-03-26): Designed a high-efficiency, high-density DC/DC converter.
 - **Honorable Mention, IEEE Signal Processing Cup** (IEEE SP Cup 2017, 2017-03-05): Real-time musical beat tracking on Raspberry Pi.
 - **Category Winner, IEEE Maker Project** (IEEE, 2016-11-11): Built an educational 3D scanner; winner in Education category.
+
+## Academic Service
+
+- **Technical Program Committee (TPC) Member**, IEEE International Conference on Mobility, Sensing and Networking (IEEE MSN 2026) (2026-07 – 2026-12): Served on the Regular Tracks Program Committee reviewing mobile systems, sensing, and edge networking research.
+- **Program Committee Member & Conference Reviewer**, Top-Tier AI, Vision & Systems Venues (2024-01 – Present): Program Committee / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS Workshop), NeurIPS, TMLR, and ACM TOSN.
 
 ## Technical & Research Skills
 
