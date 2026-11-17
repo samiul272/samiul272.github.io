@@ -32,32 +32,32 @@ affiliations:
 research_pillars:
   - title: Spatial Computing & Supermemory
     icon: ti ti-eye
-    summary: Collaborated with the Surreal team at Meta Reality Labs during my Ph.D. to build personal memory assistants for AR smart glasses—covering multimodal selective capture from gaze and head pose, spatio-temporal token compression, hierarchical memory retrieval, and long-horizon egocentric visual reasoning.
+    summary: Collaborated with the Surreal team at Meta Reality Labs during my Ph.D. to build agentic supermemory systems for AR smart glasses—spanning selective capture, gaze-guided retrieval, and long-horizon egocentric reasoning.
     tags:
+      - Agentic Supermemory
       - AR Smart Glasses
       - Egocentric AI
-      - Long-Horizon VQA
   - title: Agentic & Multimodal Recommenders
     icon: ti ti-sparkles
-    summary: Building user activity modeling and agentic recommendation systems on Google's Shopping Personalization team, alongside multimodal LLM pipelines and synthetic-to-real user browsing alignment for personalized commerce.
+    summary: Building user activity modeling and agentic recommendation systems on Google's Shopping Personalization team, alongside synthetic user data generation for personalization.
     tags:
       - Agentic Systems
-      - Multimodal LLMs
+      - Synthetic User Data
       - Personalization
-  - title: Efficient & On-Device AI
+  - title: Efficient & On-Sensor AI
     icon: ti ti-cpu
-    summary: Designing resource-efficient foundation models and wearable sensing policies—from dynamic-rank singular value truncation for LLM compression to RL-driven adaptive camera capture on prototype smart glasses with Meta Reality Labs' Sensors and Systems Research team.
+    summary: Designing resource-efficient foundation models and wearable intelligence—from singular-value truncation for LLM compression to on-sensor AI with Meta Reality Labs' Sensors and Systems Research team.
     tags:
+      - On-Sensor AI
       - Model Compression
-      - RL Sensor Control
       - Edge Inference
-  - title: Federated Learning & Bengali.AI
+  - title: Privacy-Preserving Distributed Systems
     icon: ti ti-network
-    summary: Developing model-heterogeneous, semi-asynchronous, and geo-distributed federated learning frameworks and authentic IoT benchmarks, while co-founding Bengali.AI to release open-source speech, OCR, and NLP datasets.
+    summary: Designing model-heterogeneous, semi-asynchronous, and geo-distributed federated learning frameworks and authentic IoT benchmarks—enabling collaborative training across edge devices without centralizing private user data.
     tags:
       - Federated Learning
-      - AIoT Benchmarks
-      - Open Datasets
+      - Geo-Distributed ML
+      - Edge & AIoT
 
 scholar:
   sort_by: year
@@ -72,8 +72,8 @@ announcements:
   limit: 5
 ---
 
-I am a **Software Engineer** on the **Shopping Personalization** team at **Google** in Mountain View, CA, working on user activity modeling and agentic recommendation systems. Earlier, I interned with the same team on multimodal large language models and synthetic-to-real user browsing alignment for personalized recommendations.
+I am a **Software Engineer** on the **Shopping Personalization** team at **Google** in Mountain View, CA, working on user activity modeling and agentic recommendation systems. Earlier, I interned with the same team working on synthetic user data generation.
 
-I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as a Graduate School University Fellow in the AIoT-MLSys Lab advised by [Prof. Mi Zhang](https://mi-zhang.github.io/). My doctoral work was conducted in collaboration with the **Surreal** team at **Meta Reality Labs**, designing personal supermemory systems for AR smart glasses—covering multimodal selective memory capture from egocentric video, eye gaze, and head pose, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning—alongside singular-value-truncation compression for efficient LLMs. In Summer 2026, I interned as a **Research Scientist** with **Meta Reality Labs'** **Sensors and Systems Research** team, deploying an RL-based dynamic camera capture model on prototype wearable glasses to minimize sensor energy and maximize AI assistant performance.
+I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as a Graduate School University Fellow in the AIoT-MLSys Lab advised by [Prof. Mi Zhang](https://mi-zhang.github.io/), collaborating with the **Surreal** team at **Meta Reality Labs** on agentic supermemory. In Summer 2026, I also interned as a **Research Scientist** with the **Sensors and Systems Research** team at **Meta Reality Labs**, working on on-sensor AI.
 
-Previously, I earned my M.S. in CS at **Michigan State University** (2023) developing model-heterogeneous and geo-distributed federated learning frameworks and AIoT benchmarks, engineered mobile apps for wearables and 5G smart routers at **Samsung R&D** (2018–2021), and co-founded [Bengali.AI](https://bengali.ai) to curate open-source Bengali speech, OCR, and NLP datasets.
+Previously, I earned my M.S. in CS at **Michigan State University** (2023) researching privacy-preserving distributed systems and federated learning, engineered wearable and 5G smart-router software at **Samsung R&D** (2018–2021), and co-founded [Bengali.AI](https://bengali.ai).

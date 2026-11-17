@@ -232,16 +232,16 @@ def main() -> int:
             "agentic recommendation systems, on-device AI, model compression, and federated learning."
         ),
         "",
-        f"- **Current Role**: Software Engineer, Shopping Personalization team at Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
-        "- **Education & Doctoral Collaboration**: Ph.D. in CSE, The Ohio State University (2026, advised by Prof. Mi Zhang, https://mi-zhang.github.io/) in collaboration with the Surreal team at Meta Reality Labs on AR smart glasses personal supermemory & efficient LLMs; M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
-        "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs Sensors and Systems Research (2026); SWE Intern, Google Shopping Personalization (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
+        f"- **Current Role**: Software Engineer, Shopping Personalization team at Google (Mountain View, CA) — user activity modeling & agentic recommendation systems",
+        "- **Education & Doctoral Collaboration**: Ph.D. in CSE, The Ohio State University (2026, advised by Prof. Mi Zhang, https://mi-zhang.github.io/) collaborating with the Surreal team at Meta Reality Labs on agentic supermemory; M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
+        "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs Sensors and Systems Research on on-sensor AI (2026); SWE Intern, Google Shopping Personalization on synthetic user data generation (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
         (
             f"- **Google Scholar Metrics** (synced {updated_at}): "
             f"{citations_all:,} citations | h-index: {h_index} | i10-index: {i10_index}"
         ),
         "- **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize",
         "- **Academic Service**: IEEE MSN 2026 Technical Program Committee (TPC); PC / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS), NeurIPS, TMLR, and ACM TOSN",
-        "- **Research Pillars**: Spatial Computing & Supermemory (MemoLens, MobiSys '26; SuperMemory-VQA; Reading Recognition in the Wild, NeurIPS '25); Agentic & Multimodal Recommenders; Efficient & On-Device AI (SVD-LLM V2, NAACL '25); Federated Learning & Bengali.AI (FedRolex, NeurIPS '22; FedAIoT; GeoFL)",
+        "- **Research Pillars**: Spatial Computing & Supermemory; Agentic & Multimodal Recommenders; Efficient & On-Sensor AI; Privacy-Preserving Distributed Systems",
         "- **Contact**: samiul272@gmail.com | Mountain View, CA",
         "",
         "## Pages & Machine-Readable Endpoints",
