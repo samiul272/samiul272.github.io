@@ -22,9 +22,9 @@ affiliations:
   - name: Meta Reality Labs
     role: "Research Scientist Intern '26 · Ph.D. Collaborator"
     logo: meta-reality-labs
-  - name: OSU
-    role: "The Ohio State University — Ph.D. in CSE '26 · University Fellow"
-    icon: fa-solid fa-graduation-cap
+  - name: The Ohio State University
+    role: "Ph.D. in CSE '26 · University Fellow"
+    logo: osu
   - name: Bengali.AI
     role: Co-Founder
     icon: fa-solid fa-earth-asia
@@ -74,6 +74,6 @@ announcements:
 
 I am a **Software Engineer** on the **Shopping Personalization** team at **Google** in Mountain View, CA, working on user activity modeling and agentic recommendation systems. Earlier, I interned with the same team on multimodal large language models and synthetic-to-real user browsing alignment for personalized recommendations.
 
-I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as an OSU University Fellow in the AIoT-MLSys Lab advised by [Prof. Mi Zhang](https://mi-zhang.github.io/). My doctoral work was conducted in collaboration with the **Surreal** team at **Meta Reality Labs**, designing personal supermemory systems for AR smart glasses—covering multimodal selective memory capture from egocentric video, eye gaze, and head pose, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning—alongside singular-value-truncation compression for efficient LLMs. In Summer 2026, I interned as a **Research Scientist** with **Meta Reality Labs'** **Sensors and Systems Research** team, deploying an RL-based dynamic camera capture model on prototype wearable glasses to minimize sensor energy and maximize AI assistant performance.
+I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as a Graduate School University Fellow in the AIoT-MLSys Lab advised by [Prof. Mi Zhang](https://mi-zhang.github.io/). My doctoral work was conducted in collaboration with the **Surreal** team at **Meta Reality Labs**, designing personal supermemory systems for AR smart glasses—covering multimodal selective memory capture from egocentric video, eye gaze, and head pose, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning—alongside singular-value-truncation compression for efficient LLMs. In Summer 2026, I interned as a **Research Scientist** with **Meta Reality Labs'** **Sensors and Systems Research** team, deploying an RL-based dynamic camera capture model on prototype wearable glasses to minimize sensor energy and maximize AI assistant performance.
 
 Previously, I earned my M.S. in CS at **Michigan State University** (2023) developing model-heterogeneous and geo-distributed federated learning frameworks and AIoT benchmarks, engineered mobile apps for wearables and 5G smart routers at **Samsung R&D** (2018–2021), and co-founded [Bengali.AI](https://bengali.ai) to curate open-source Bengali speech, OCR, and NLP datasets.
