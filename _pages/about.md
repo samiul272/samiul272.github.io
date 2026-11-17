@@ -16,46 +16,44 @@ profile:
 
 affiliations:
   - name: Google
-    role: Software Engineer
-    icon: fa-brands fa-google
-  - name: The Ohio State University
-    role: "Ph.D. '26 · University Fellow"
-    icon: fa-solid fa-graduation-cap
+    role: "Software Engineer · Shopping Personalization (Current)"
+    logo: google
+    current: true
   - name: Meta Reality Labs
-    role: "Research Scientist Intern '26"
-    icon: fa-solid fa-glasses
+    role: "Research Scientist Intern '26 · Ph.D. Collaborator"
+    logo: meta-reality-labs
+  - name: OSU
+    role: "The Ohio State University — Ph.D. in CSE '26 · University Fellow"
+    icon: fa-solid fa-graduation-cap
   - name: Bengali.AI
     role: Co-Founder
     icon: fa-solid fa-earth-asia
-  - name: "IEEE IC Best Paper '24"
-    role: Award Recipient
-    icon: fa-solid fa-award
 
 research_pillars:
   - title: Spatial Computing & Supermemory
     icon: ti ti-eye
-    summary: Building personal memory assistants for AR smart glasses—spanning selective capture (Reading Recognition in the Wild, NeurIPS '25), gaze-guided retrieval (MemoLens, MobiSys '26), and long-horizon reasoning (SuperMemory-VQA).
+    summary: Collaborated with the Surreal team at Meta Reality Labs during my Ph.D. to build personal memory assistants for AR smart glasses—covering multimodal selective capture from gaze and head pose, spatio-temporal token compression, hierarchical memory retrieval, and long-horizon egocentric visual reasoning.
     tags:
       - AR Smart Glasses
       - Egocentric AI
       - Long-Horizon VQA
   - title: Agentic & Multimodal Recommenders
     icon: ti ti-sparkles
-    summary: Designing user activity modeling and agentic recommendation pipelines at Google, bridging multimodal large language models with synthetic-to-real browsing alignment for personalization.
+    summary: Building user activity modeling and agentic recommendation systems on Google's Shopping Personalization team, alongside multimodal LLM pipelines and synthetic-to-real user browsing alignment for personalized commerce.
     tags:
       - Agentic Systems
       - Multimodal LLMs
       - Personalization
   - title: Efficient & On-Device AI
     icon: ti ti-cpu
-    summary: Enabling foundation models and wearable sensors under tight compute and energy budgets—including dynamic rank SVD compression (SVD-LLM V2, NAACL '25) and RL sensor control at Meta Reality Labs.
+    summary: Designing resource-efficient foundation models and wearable sensing policies—from dynamic-rank singular value truncation for LLM compression to RL-driven adaptive camera capture on prototype smart glasses with Meta Reality Labs' Sensors and Systems Research team.
     tags:
       - Model Compression
       - RL Sensor Control
       - Edge Inference
   - title: Federated Learning & Bengali.AI
     icon: ti ti-network
-    summary: Developing model-heterogeneous and geo-distributed federated learning frameworks (FedRolex, FedAIoT, GeoFL) alongside co-founding Bengali.AI to curate open-source speech, OCR, and NLP benchmarks.
+    summary: Developing model-heterogeneous, semi-asynchronous, and geo-distributed federated learning frameworks and authentic IoT benchmarks, while co-founding Bengali.AI to release open-source speech, OCR, and NLP datasets.
     tags:
       - Federated Learning
       - AIoT Benchmarks
@@ -74,6 +72,8 @@ announcements:
   limit: 5
 ---
 
-I am a **Software Engineer** and **AI Researcher** at **Google** in Mountain View, CA, working on user activity modeling, multimodal foundation models, and agentic recommendation systems.
+I am a **Software Engineer** on the **Shopping Personalization** team at **Google** in Mountain View, CA, working on user activity modeling and agentic recommendation systems. Earlier, I interned with the same team on multimodal large language models and synthetic-to-real user browsing alignment for personalized recommendations.
 
-I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as an OSU University Fellow in the AIoT-MLSys Lab with [Prof. Mi Zhang](https://mizhang.info/), where my research in **spatial computing**, **egocentric computer vision**, **machine learning systems**, and **on-device AI** produced _MemoLens_ (MobiSys '26), _SuperMemory-VQA_, _Reading Recognition in the Wild_ (NeurIPS '25), and _SVD-LLM V2_ (NAACL '25). Previously, I was a **Research Scientist Intern** at **Meta Reality Labs** (2026), a Software Engineering Intern at **Google** (2025), earned my M.S. in CS at **Michigan State University** (2023) researching **federated learning** (_FedRolex_, NeurIPS '22), built wearable software as a Software Engineer at **Samsung R&D** (2018–2021), and co-founded [Bengali.AI](https://bengali.ai).
+I earned my Ph.D. in Computer Science and Engineering at **The Ohio State University** (2026) as an OSU University Fellow in the AIoT-MLSys Lab advised by [Prof. Mi Zhang](https://mi-zhang.github.io/). My doctoral work was conducted in collaboration with the **Surreal** team at **Meta Reality Labs**, designing personal supermemory systems for AR smart glasses—covering multimodal selective memory capture from egocentric video, eye gaze, and head pose, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning—alongside singular-value-truncation compression for efficient LLMs. In Summer 2026, I interned as a **Research Scientist** with **Meta Reality Labs'** **Sensors and Systems Research** team, deploying an RL-based dynamic camera capture model on prototype wearable glasses to minimize sensor energy and maximize AI assistant performance.
+
+Previously, I earned my M.S. in CS at **Michigan State University** (2023) developing model-heterogeneous and geo-distributed federated learning frameworks and AIoT benchmarks, engineered mobile apps for wearables and 5G smart routers at **Samsung R&D** (2018–2021), and co-founded [Bengali.AI](https://bengali.ai) to curate open-source Bengali speech, OCR, and NLP datasets.

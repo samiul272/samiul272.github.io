@@ -436,7 +436,7 @@
       "venue": "IEEE Internet Computing",
       "abbr": "IEEE IC",
       "topic": "llm",
-      "selected": false,
+      "selected": true,
       "citations": 84,
       "google_scholar_id": "MXK_kJrjxJIC",
       "award": "Awarded the 2024 IEEE Internet Computing Best Paper Award.",

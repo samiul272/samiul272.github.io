@@ -28,11 +28,20 @@ layout: default
       <div class="hero-bio">{{ content }}</div>
 
       {% if page.affiliations %}
-        <div class="hero-affiliations" aria-label="Affiliations and honors">
+        <div class="hero-affiliations" aria-label="Affiliations">
           {% for item in page.affiliations %}
-            <span class="affiliation-pill" title="{{ item.role }}">
-              <i class="{{ item.icon }}" aria-hidden="true"></i>
+            <span class="affiliation-pill{% if item.current %} is-current{% endif %}" title="{{ item.role }}">
+              {% if item.logo == 'google' %}
+                {% include icons/google.liquid %}
+              {% elsif item.logo == 'meta-reality-labs' %}
+                {% include icons/meta_reality_labs.liquid %}
+              {% elsif item.icon %}
+                <i class="{{ item.icon }}" aria-hidden="true"></i>
+              {% endif %}
               <span>{{ item.name }}</span>
+              {% if item.current %}
+                <span class="affiliation-current-badge"><span class="affiliation-live-dot" aria-hidden="true"></span>Current</span>
+              {% endif %}
             </span>
           {% endfor %}
         </div>

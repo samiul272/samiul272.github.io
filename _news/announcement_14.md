@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **Google** in Mountain View, CA full-time as a Software Engineer working on user activity modeling and agentic recommendation systems!
+Joined the **Shopping Personalization** team at **Google** in Mountain View, CA full-time as a Software Engineer working on user activity modeling and agentic recommendation systems!

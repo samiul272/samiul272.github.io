@@ -232,9 +232,9 @@ def main() -> int:
             "agentic recommendation systems, on-device AI, model compression, and federated learning."
         ),
         "",
-        f"- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
-        "- **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
-        "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
+        f"- **Current Role**: Software Engineer, Shopping Personalization team at Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
+        "- **Education & Doctoral Collaboration**: Ph.D. in CSE, The Ohio State University (2026, advised by Prof. Mi Zhang, https://mi-zhang.github.io/) in collaboration with the Surreal team at Meta Reality Labs on AR smart glasses personal supermemory & efficient LLMs; M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
+        "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs Sensors and Systems Research (2026); SWE Intern, Google Shopping Personalization (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
         (
             f"- **Google Scholar Metrics** (synced {updated_at}): "
             f"{citations_all:,} citations | h-index: {h_index} | i10-index: {i10_index}"

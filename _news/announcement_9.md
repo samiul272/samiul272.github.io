@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wrapped up my summer Software Engineering Internship at **Google** in Mountain View, CA!
+Wrapped up my summer Software Engineering Internship on the **Shopping Personalization** team at **Google** in Mountain View, CA!

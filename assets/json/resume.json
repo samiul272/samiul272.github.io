@@ -45,22 +45,22 @@
   "work": [
     {
       "name": "Google",
-      "position": "Software Engineer",
+      "position": "Software Engineer, Shopping Personalization",
       "location": "Mountain View, CA",
       "url": "https://about.google",
       "startDate": "2026-09-15",
       "endDate": "",
-      "summary": "Working on user activity modeling and development of agentic recommendation systems.",
+      "summary": "Working with the Shopping Personalization team on user activity modeling and development of agentic recommendation systems.",
       "highlights": ["User activity modeling for personalization", "Agentic recommendation systems"]
     },
     {
-      "name": "Meta",
-      "position": "Research Scientist Intern",
+      "name": "Meta Reality Labs",
+      "position": "Research Scientist Intern, Sensors and Systems Research",
       "location": "Redmond, WA",
       "url": "https://ai.meta.com",
       "startDate": "2026-05-11",
       "endDate": "2026-08-28",
-      "summary": "Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.",
+      "summary": "Worked with the Sensors and Systems Research team at Meta Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.",
       "highlights": [
         "Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses",
         "Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance"
@@ -68,12 +68,12 @@
     },
     {
       "name": "Google",
-      "position": "Software Engineering Intern",
+      "position": "Software Engineering Intern, Shopping Personalization",
       "location": "Mountain View, CA",
       "url": "https://about.google",
       "startDate": "2025-05",
       "endDate": "2025-08",
-      "summary": "Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.",
+      "summary": "Worked with the Shopping Personalization team on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.",
       "highlights": ["Multimodal LLMs for personalized recommendation systems", "Synthetic-to-real user data alignment"]
     },
     {
@@ -83,10 +83,10 @@
       "url": "https://cse.osu.edu",
       "startDate": "2023-08",
       "endDate": "2026-08",
-      "summary": "Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang on spatial computing, supermemory for AR glasses, model compression, and multimodal foundation models.",
+      "summary": "Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang, in collaboration with the Surreal team at Meta Reality Labs, on personal supermemory for AR smart glasses, egocentric vision, and efficient LLMs.",
       "highlights": [
-        "Built MemoLens (MobiSys '26), SuperMemory-VQA, and Reading Recognition in the Wild (NeurIPS '25) for AR glasses",
-        "Developed SVD-LLM V2 (NAACL '25) for large language model compression"
+        "Collaborated with the Surreal team at Meta Reality Labs on selective memory capture, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning for AR glasses",
+        "Developed singular-value-truncation compression algorithms for efficient large language models (SVD-LLM V2, NAACL '25)"
       ]
     },
     {
