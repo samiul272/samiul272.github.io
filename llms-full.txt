@@ -20,25 +20,25 @@ Samiul Alam is a Software Engineer and AI Researcher at Google (Mountain View, C
 
 ## Experience
 
-### Software Engineer — Google (2026-09-15 – Present | Mountain View, CA)
-Working on user activity modeling and development of agentic recommendation systems.
+### Software Engineer, Shopping Personalization — Google (2026-09-15 – Present | Mountain View, CA)
+Working with the Shopping Personalization team on user activity modeling and development of agentic recommendation systems.
 - User activity modeling for personalization
 - Agentic recommendation systems
 
-### Research Scientist Intern — Meta (2026-05-11 – 2026-08-28 | Redmond, WA)
-Worked with the Sensors and Systems Research team at Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.
+### Research Scientist Intern, Sensors and Systems Research — Meta Reality Labs (2026-05-11 – 2026-08-28 | Redmond, WA)
+Worked with the Sensors and Systems Research team at Meta Reality Labs on energy-efficient egocentric perception for prototype wearable glasses.
 - Developed and deployed a reinforcement learning-based dynamic camera capture model on prototype wearable glasses
 - Optimized on-sensor capture to minimize energy consumption and maximize AI assistant performance
 
-### Software Engineering Intern — Google (2025-05 – 2025-08 | Mountain View, CA)
-Worked on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.
+### Software Engineering Intern, Shopping Personalization — Google (2025-05 – 2025-08 | Mountain View, CA)
+Worked with the Shopping Personalization team on multimodal large language models (MLLMs) and synthetic-to-real user browsing data alignment for personalized recommendation systems.
 - Multimodal LLMs for personalized recommendation systems
 - Synthetic-to-real user data alignment
 
 ### Graduate Research Associate & University Fellow — The Ohio State University (2023-08 – 2026-08 | Columbus, OH)
-Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang on spatial computing, supermemory for AR glasses, model compression, and multimodal foundation models.
-- Built MemoLens (MobiSys '26), SuperMemory-VQA, and Reading Recognition in the Wild (NeurIPS '25) for AR glasses
-- Developed SVD-LLM V2 (NAACL '25) for large language model compression
+Conducted doctoral research in the AIoT-MLSys Lab advised by Prof. Mi Zhang, in collaboration with the Surreal team at Meta Reality Labs, on personal supermemory for AR smart glasses, egocentric vision, and efficient LLMs.
+- Collaborated with the Surreal team at Meta Reality Labs on selective memory capture, gaze-guided spatio-temporal compression and retrieval, and long-horizon egocentric visual reasoning for AR glasses
+- Developed singular-value-truncation compression algorithms for efficient large language models (SVD-LLM V2, NAACL '25)
 
 ### Graduate Research Assistant — Michigan State University (2022-01 – 2023-08 | East Lansing, MI)
 Built heterogeneity-aware federated learning systems; published across top venues.

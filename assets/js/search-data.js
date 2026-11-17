@@ -73,8 +73,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/";
-            },},{id: "news-wrapped-up-my-summer-software-engineering-internship-at-google-in-mountain-view-ca",
-          title: 'Wrapped up my summer Software Engineering Internship at Google in Mountain View, CA!...',
+            },},{id: "news-wrapped-up-my-summer-software-engineering-internship-on-the-shopping-personalization-team-at-google-in-mountain-view-ca",
+          title: 'Wrapped up my summer Software Engineering Internship on the Shopping Personalization team at...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/";
@@ -108,8 +108,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/";
-            },},{id: "news-joined-google-in-mountain-view-ca-full-time-as-a-software-engineer-working-on-user-activity-modeling-and-agentic-recommendation-systems",
-          title: 'Joined Google in Mountain View, CA full-time as a Software Engineer working on...',
+            },},{id: "news-joined-the-shopping-personalization-team-at-google-in-mountain-view-ca-full-time-as-a-software-engineer-working-on-user-activity-modeling-and-agentic-recommendation-systems",
+          title: 'Joined the Shopping Personalization team at Google in Mountain View, CA full-time as...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/";

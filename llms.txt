@@ -2,9 +2,9 @@
 
 > Software Engineer & AI Researcher at Google (Mountain View, CA), former Research Scientist Intern at Meta Reality Labs, and Ph.D. in Computer Science and Engineering from The Ohio State University. Research & engineering focus: spatial computing, supermemory for AR smart glasses, egocentric computer vision, machine learning systems, multimodal foundation models, agentic recommendation systems, on-device AI, model compression, and federated learning.
 
-- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems
-- **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)
-- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI
+- **Current Role**: Software Engineer, Shopping Personalization team at Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems
+- **Education & Doctoral Collaboration**: Ph.D. in CSE, The Ohio State University (2026, advised by Prof. Mi Zhang, https://mi-zhang.github.io/) in collaboration with the Surreal team at Meta Reality Labs on AR smart glasses personal supermemory & efficient LLMs; M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)
+- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs Sensors and Systems Research (2026); SWE Intern, Google Shopping Personalization (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI
 - **Google Scholar Metrics** (synced 2026-11-16): 1,730 citations | h-index: 15 | i10-index: 19
 - **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize
 - **Academic Service**: IEEE MSN 2026 Technical Program Committee (TPC); PC / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS), NeurIPS, TMLR, and ACM TOSN
@@ -29,6 +29,7 @@
 - [SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory](https://arxiv.org/abs/2606.00825): arXiv, 2026 · Cited by 4
 - [Reading Recognition in the Wild](https://proceedings.neurips.cc/paper_files/paper/2025/hash/cf21f05f83772beeecb4ade4e524076b-Abstract-Conference.html): NeurIPS, 2025 · Cited by 11
 - [SVD-LLM V2: Optimizing Singular Value Truncation for Large Language Model Compression](https://aclanthology.org/2025.naacl-long.217/): NAACL, 2025 · Cited by 101
+- [The Internet of Things in the Era of Generative AI: Vision and Challenges](https://arxiv.org/abs/2401.01923): IEEE IC, 2024 · Cited by 84 · Best Paper Award
 - [Efficient Large Language Models: A Survey](https://doi.org/10.48550/arXiv.2312.03863): TMLR, 2024 · Cited by 512
 - [FedRolex: Model-Heterogeneous Federated Learning with Rolling Sub-Model Extraction](https://openreview.net/forum?id=OtxyysUdBE): NeurIPS, 2022 · Cited by 390
 
