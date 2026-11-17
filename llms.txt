@@ -7,7 +7,7 @@
 - **Current Role**: Software Engineer, Google (Mountain View, CA) — user activity modeling & agentic recommendation systems
 - **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)
 - **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI
-- **Google Scholar Metrics** (synced 2026-11-16): 1,730 citations | h-index: 15 | i10-index: 19
+- **Google Scholar Metrics** (synced 2026-11-17): 1,733 citations | h-index: 15 | i10-index: 19
 - **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize
 - **Academic Service**: IEEE MSN 2026 Technical Program Committee (TPC); PC / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS), NeurIPS, TMLR, and ACM TOSN
 
