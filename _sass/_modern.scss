@@ -94,6 +94,23 @@ main.site-main {
   min-height: calc(100dvh - 10.5rem);
 }
 
+.container {
+  width: 100%;
+  max-width: min(92vw, 1240px);
+  max-width: min(92dvw, 1240px);
+  padding-inline: clamp(1rem, 2.2vw, 1.75rem);
+
+  @media (max-width: 639.98px) {
+    max-width: 100%;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 1800px) {
+    max-width: min(82vw, 1360px);
+    max-width: min(82dvw, 1360px);
+  }
+}
+
 h1,
 h2,
 h3,
@@ -142,7 +159,7 @@ h1.post-title {
 .post-description {
   color: var(--global-text-color-light);
   font-size: 0.92rem;
-  max-width: 68ch;
+  max-width: 86ch;
   margin-bottom: 0;
 }
 
@@ -294,8 +311,9 @@ h1.post-title {
   }
 }
 
-progress {
-  top: 0;
+progress,
+#progress {
+  top: 0 !important;
   height: 2px;
   z-index: 1050;
 }
@@ -480,8 +498,8 @@ progress {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(180px, 225px);
-  gap: clamp(1.15rem, 0.9rem + 1.4vw, 2rem);
+  grid-template-columns: minmax(0, 1fr) minmax(205px, 250px);
+  gap: clamp(1.25rem, 1rem + 1.8vw, 2.5rem);
   align-items: center;
 }
 
@@ -529,7 +547,7 @@ progress {
 }
 
 .hero-bio {
-  max-width: 64ch;
+  max-width: 86ch;
   color: var(--global-text-color);
 
   p {
@@ -639,7 +657,7 @@ progress {
 
 .hero-portrait-card {
   width: 100%;
-  max-width: 220px;
+  max-width: 242px;
   padding: 0.4rem;
   border-radius: $radius-lg;
   background-color: var(--global-surface-subtle);
@@ -1070,6 +1088,13 @@ progress {
         }
       }
 
+      @media (min-width: 992px) {
+        .bib-entry.has-preview {
+          grid-template-columns: 9.25rem minmax(0, 1fr);
+          gap: 1.05rem;
+        }
+      }
+
       .bib-aside {
         display: flex;
         flex-direction: column;
@@ -1109,6 +1134,10 @@ progress {
           border-radius: $radius-sm;
           border: 1px solid var(--global-divider-color);
           box-shadow: none !important;
+
+          @media (min-width: 992px) {
+            max-width: 9.25rem;
+          }
         }
 
         .preview[src$=".svg"] {
