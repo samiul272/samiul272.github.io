@@ -254,13 +254,7 @@
     {% endif %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      <span>{{ periodical | strip }}</span>
-      {% if entry.award %}
-        <span class="bib-award-badge">
-          <i class="fa-solid fa-trophy" aria-hidden="true"></i>
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Best Paper Award{% endif -%}
-        </span>
-      {% endif %}
+      {{ periodical | strip }}
     </div>
     {% if entry.note %}
       <div class="periodical">
@@ -272,7 +266,7 @@
     <div class="links">
       {% if entry.award %}
         <button type="button" class="award btn btn-sm z-depth-0" aria-expanded="false">
-          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <i class="fa-solid fa-trophy" aria-hidden="true"></i>
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </button>
       {% endif %}

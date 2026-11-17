@@ -1190,43 +1190,9 @@ progress,
       }
 
       .periodical {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0.28rem 0.5rem;
         font-size: 0.82rem;
         color: var(--global-text-color-light);
         margin-bottom: 0.16rem;
-      }
-
-      .bib-award-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.28rem;
-        padding: 0.1rem 0.5rem;
-        border-radius: $radius-pill;
-        background-color: rgba(245, 158, 11, 0.15);
-        border: 1px solid rgba(217, 119, 6, 0.45);
-        color: #92400e;
-        font-family: $font-sans;
-        font-size: 0.72rem;
-        font-weight: 700;
-        line-height: 1.35;
-
-        i {
-          color: #d97706;
-          font-size: 0.68rem;
-        }
-
-        html[data-theme="dark"] & {
-          background-color: rgba(245, 158, 11, 0.16);
-          border-color: rgba(251, 191, 36, 0.55);
-          color: #fde68a;
-
-          i {
-            color: #fbbf24;
-          }
-        }
       }
 
       .links {
@@ -1277,13 +1243,15 @@ progress,
         }
 
         .award.btn {
-          border-color: #d97706;
+          border-color: rgba(217, 119, 6, 0.55);
           color: #92400e;
-          background-color: rgba(245, 158, 11, 0.12);
+          font-weight: 700;
+          background-color: rgba(245, 158, 11, 0.15);
 
           html[data-theme="dark"] & {
-            color: #fbbf24;
+            color: #fde68a;
             border-color: rgba(251, 191, 36, 0.55);
+            background-color: rgba(245, 158, 11, 0.16);
           }
         }
       }
