@@ -1480,6 +1480,25 @@ footer.site-footer {
     color: var(--global-footer-text-color);
     margin: 0;
   }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 0.25rem;
+    font-size: 0.78rem;
+
+    a {
+      color: var(--global-footer-text-color);
+      text-decoration: none;
+      transition: color 0.16s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .footer-socials {

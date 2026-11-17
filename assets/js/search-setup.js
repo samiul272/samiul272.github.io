@@ -15,3 +15,5 @@ const openSearchModal = () => {
   }
   ninjaKeys.open();
 };
+
+document.getElementById("search-toggle")?.addEventListener("click", openSearchModal);

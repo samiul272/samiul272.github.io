@@ -226,15 +226,15 @@ def main() -> int:
         "# Samiul Alam",
         "",
         (
-            "> Software Engineer at Google (Mountain View, CA) & Ph.D. in Computer Science and Engineering "
-            "from The Ohio State University. Research & engineering focus: spatial computing and supermemory "
-            "for AR smart glasses, multimodal foundation models, agentic recommendation systems, on-device AI, "
-            "and federated learning."
+            "> Software Engineer & AI Researcher at Google (Mountain View, CA), former Research Scientist Intern at Meta Reality Labs, "
+            "and Ph.D. in Computer Science and Engineering from The Ohio State University. Research & engineering focus: spatial computing, "
+            "supermemory for AR smart glasses, egocentric computer vision, machine learning systems, multimodal foundation models, "
+            "agentic recommendation systems, on-device AI, model compression, and federated learning."
         ),
         "",
         "## Identity & Affiliations",
         "",
-        "- **Current Role**: Software Engineer, Google (Mountain View, CA) — user activity modeling & agentic recommendation systems",
+        "- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
         "- **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
         "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
         (
@@ -249,6 +249,7 @@ def main() -> int:
         f"- [About & Overview]({SITE_URL}/): Biography, current affiliations, research pillars, selected publications, and news",
         f"- [Publications ({len(publications)} papers)]({SITE_URL}/publications/): Interactive search, topic filters, per-paper Google Scholar citation counts, abstracts, and BibTeX",
         f"- [Curriculum Vitae]({SITE_URL}/cv/): Complete academic and industry timeline, awards, and technical skills",
+        f"- [News & Milestones]({SITE_URL}/news/): Career and research updates",
         f"- [Full Agent Context (llms-full.txt)]({SITE_URL}/llms-full.txt): Self-contained Markdown dossier with full CV and all {len(publications)} paper abstracts & citations",
         f"- [Publications JSON]({SITE_URL}/assets/json/publications.json): Structured catalog of all {len(publications)} publications with venues, citations, DOIs, and links",
         f"- [JSON Resume]({SITE_URL}/assets/json/resume.json): Schema-compliant JSON Resume for experience, education, awards, and skills",
@@ -284,6 +285,7 @@ def main() -> int:
             "- GitHub: https://github.com/samiul272",
             "- LinkedIn: https://www.linkedin.com/in/samiul-alam",
             "- ORCID: https://orcid.org/0000-0002-8458-4642",
+            "- OpenAlex: https://openalex.org/A5084705208",
             "- Email: samiul272@gmail.com",
             "",
         ]
@@ -310,6 +312,7 @@ def main() -> int:
         "- **GitHub**: https://github.com/samiul272",
         "- **LinkedIn**: https://www.linkedin.com/in/samiul-alam",
         "- **ORCID**: https://orcid.org/0000-0002-8458-4642",
+        "- **OpenAlex**: https://openalex.org/A5084705208",
         "- **Bengali.AI**: https://bengali.ai",
         "",
         "## Experience",

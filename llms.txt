@@ -1,10 +1,10 @@
 # Samiul Alam
 
-> Software Engineer at Google (Mountain View, CA) & Ph.D. in Computer Science and Engineering from The Ohio State University. Research & engineering focus: spatial computing and supermemory for AR smart glasses, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning.
+> Software Engineer & AI Researcher at Google (Mountain View, CA), former Research Scientist Intern at Meta Reality Labs, and Ph.D. in Computer Science and Engineering from The Ohio State University. Research & engineering focus: spatial computing, supermemory for AR smart glasses, egocentric computer vision, machine learning systems, multimodal foundation models, agentic recommendation systems, on-device AI, model compression, and federated learning.
 
 ## Identity & Affiliations
 
-- **Current Role**: Software Engineer, Google (Mountain View, CA) — user activity modeling & agentic recommendation systems
+- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems
 - **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)
 - **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI
 - **Google Scholar Metrics** (synced 2026-11-16): 1,730 citations | h-index: 15 | i10-index: 19
@@ -16,6 +16,7 @@
 - [About & Overview](https://samiul272.github.io/): Biography, current affiliations, research pillars, selected publications, and news
 - [Publications (28 papers)](https://samiul272.github.io/publications/): Interactive search, topic filters, per-paper Google Scholar citation counts, abstracts, and BibTeX
 - [Curriculum Vitae](https://samiul272.github.io/cv/): Complete academic and industry timeline, awards, and technical skills
+- [News & Milestones](https://samiul272.github.io/news/): Career and research updates
 - [Full Agent Context (llms-full.txt)](https://samiul272.github.io/llms-full.txt): Self-contained Markdown dossier with full CV and all 28 paper abstracts & citations
 - [Publications JSON](https://samiul272.github.io/assets/json/publications.json): Structured catalog of all 28 publications with venues, citations, DOIs, and links
 - [JSON Resume](https://samiul272.github.io/assets/json/resume.json): Schema-compliant JSON Resume for experience, education, awards, and skills
@@ -44,4 +45,5 @@
 - GitHub: https://github.com/samiul272
 - LinkedIn: https://www.linkedin.com/in/samiul-alam
 - ORCID: https://orcid.org/0000-0002-8458-4642
+- OpenAlex: https://openalex.org/A5084705208
 - Email: samiul272@gmail.com

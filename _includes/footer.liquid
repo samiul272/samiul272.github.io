@@ -1,4 +1,4 @@
-<footer class="site-footer" role="contentinfo">
+<footer class="site-footer">
   <div class="container">
     <div class="footer-inner">
       <div class="footer-brand">
@@ -13,6 +13,12 @@
             · Updated {{ 'now' | date: '%B %d, %Y' }}.
           {% endif %}
         </p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="{{ '/' | relative_url }}">About</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+          <a href="{{ '/news/' | relative_url }}">News</a>
+        </nav>
       </div>
       <div class="footer-socials" aria-label="Social links">
         {% include social.liquid %}

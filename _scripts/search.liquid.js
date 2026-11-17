@@ -91,11 +91,15 @@ ninja.data = [
           title: '{{ title | escape | emojify | truncatewords: 13 }}',
           description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
           section: "{{ collection.label | capitalize }}",
-          {%- unless item.inline -%}
+          {%- if item.inline -%}
+            handler: () => {
+              window.location.href = "{{ '/news/' | relative_url }}";
+            },
+          {%- else -%}
             handler: () => {
               window.location.href = "{{ item.url | relative_url }}";
             },
-          {%- endunless -%}
+          {%- endif -%}
         },
       {%- endfor -%}
     {%- endif -%}

@@ -12,7 +12,7 @@ layout: default
       {% endif %}
 
       <h1 class="hero-title">
-        {% if site.title == 'blank' %}
+        {% if site.title == 'blank' or site.title == blank %}
           {{ site.first_name }}
           {% if site.middle_name %}{{ site.middle_name }}{% endif %}
           {{ site.last_name }}
@@ -98,7 +98,7 @@ layout: default
               width="800"
               height="880"
               sizes=sizes
-              alt="Portrait of Samiul Alam"
+              alt="Samiul Alam — Software Engineer at Google and AI Researcher"
               cache_bust=true
             %}
           {% endif %}

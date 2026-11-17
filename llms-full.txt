@@ -7,7 +7,7 @@ Google Scholar metrics JSON: https://samiul272.github.io/assets/json/google_scho
 
 ## Biography & Summary
 
-Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Ohio State University. Spatial computing, multimodal foundation models, agentic recommendation systems, on-device AI, and federated learning. “Perpetually Convalescent: Learning & Evolving.”
+Samiul Alam is a Software Engineer and AI Researcher at Google (Mountain View, CA) with a Ph.D. in Computer Science and Engineering from The Ohio State University and prior Research Scientist experience at Meta Reality Labs. His research and engineering span spatial computing, supermemory for augmented reality smart glasses, egocentric computer vision, multimodal foundation models, agentic recommendation systems, machine learning systems, on-device AI, model compression, and federated learning.
 
 - **Email**: samiul272@gmail.com
 - **Location**: Mountain View, CA, USA
@@ -15,6 +15,7 @@ Software Engineer at Google. Ph.D. in Computer Science & Engineering from The Oh
 - **GitHub**: https://github.com/samiul272
 - **LinkedIn**: https://www.linkedin.com/in/samiul-alam
 - **ORCID**: https://orcid.org/0000-0002-8458-4642
+- **OpenAlex**: https://openalex.org/A5084705208
 - **Bengali.AI**: https://bengali.ai
 
 ## Experience

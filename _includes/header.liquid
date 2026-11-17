@@ -7,7 +7,7 @@
   >
     <div class="container">
       <a class="navbar-brand title" href="{{ '/' | relative_url }}">
-        {% if site.title == 'blank' %}
+        {% if site.title == 'blank' or site.title == blank %}
           <span class="brand-dot" aria-hidden="true"></span>
           {% if site.first_name %}
             <span>{{- site.first_name -}}</span>
@@ -121,7 +121,7 @@
           <li class="nav-controls">
             {% if site.search_enabled %}
               <!-- Search -->
-              <button id="search-toggle" type="button" title="Search" aria-label="Search site" onclick="openSearchModal()">
+              <button id="search-toggle" type="button" title="Search" aria-label="Search site">
                 <i class="ti ti-search" aria-hidden="true"></i>
                 <kbd class="search-kbd">Ctrl K</kbd>
               </button>

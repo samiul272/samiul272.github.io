@@ -2,7 +2,9 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Peer-reviewed publications by Samiul Alam across NeurIPS, MobiSys, NAACL, SenSys, ICASSP, INTERSPEECH, TMLR, and IEEE — spanning spatial computing, AR supermemory (MemoLens, SuperMemory-VQA), LLM compression (SVD-LLM V2), federated learning (FedRolex, FedAIoT), and Bengali.AI."
+seo_title: "Publications — Samiul Alam | Spatial Computing, Multimodal LLMs & Federated Learning"
+description: "Peer-reviewed research by Samiul Alam, Software Engineer & AI Researcher (Ph.D., The Ohio State University) — spanning spatial computing & AR smart glasses (MemoLens, SuperMemory-VQA), multimodal LLMs & model compression (SVD-LLM V2), machine learning systems, on-device AI, federated learning (FedRolex, FedAIoT), and Bengali.AI."
+meta_description: "28 peer-reviewed papers by Samiul Alam (NeurIPS, MobiSys, NAACL, SenSys, TMLR) on spatial computing, AR glasses, multimodal LLMs, compression & federated ML."
 nav: true
 nav_order: 1
 ---
