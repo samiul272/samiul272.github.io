@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-seo_title: "Samiul Alam — Software Engineer & AI Researcher | Google · Spatial Computing & LLMs"
+seo_title: "Samiul Alam — Software Engineer & AI Researcher at Google"
 subtitle: Software Engineer at Google · AI & Spatial Computing Researcher (Ph.D., OSU)
 role_badge: Software Engineer @ Google · AI Researcher (Ph.D.)
 description: "Samiul Alam is a Software Engineer at Google in Mountain View, CA, and CSE Ph.D. from The Ohio State University researching spatial computing, supermemory for AR glasses, multimodal LLMs, agentic recommendation systems, on-device AI, and federated learning."

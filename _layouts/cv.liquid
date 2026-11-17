@@ -5,7 +5,7 @@ layout: default
   <div class="post">
     <header class="post-header cv-header-bar">
       <div>
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title">{{ page.heading | default: page.title }}</h1>
         {% if page.description %}
           <p class="post-description">{{ page.description }}</p>
         {% endif %}
@@ -57,7 +57,7 @@ layout: default
   <div class="post">
     <header class="post-header cv-header-bar">
       <div>
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title">{{ page.heading | default: page.title }}</h1>
         {% if page.description %}
           <p class="post-description">{{ page.description }}</p>
         {% endif %}

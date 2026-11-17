@@ -56,9 +56,13 @@
         {% if entry.preview contains '.gif' or entry.preview contains '.GIF' %}
           {% assign is_gif_preview = true %}
         {% endif %}
+        {% assign preview_loading = 'lazy' %}
+        {% if page.url == '/publications/' and entry.key == 'alam2026towards' %}
+          {% assign preview_loading = 'eager' %}
+        {% endif %}
         {%
           include figure.liquid
-          loading="lazy"
+          loading=preview_loading
           path=entry_path
           width="320"
           height="200"

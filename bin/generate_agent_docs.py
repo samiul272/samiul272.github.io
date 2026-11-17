@@ -232,9 +232,7 @@ def main() -> int:
             "agentic recommendation systems, on-device AI, model compression, and federated learning."
         ),
         "",
-        "## Identity & Affiliations",
-        "",
-        "- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
+        f"- **Current Role**: Software Engineer & AI Researcher, Google (Mountain View, CA) — user activity modeling, multimodal LLMs & agentic recommendation systems",
         "- **Education**: Ph.D. in CSE, The Ohio State University (2026); M.S. in CS, Michigan State University (2023); B.Sc. in EEE, BUET (2017)",
         "- **Prior Industry & Non-Profit**: Research Scientist Intern, Meta Reality Labs (2026); SWE Intern, Google (2025); Software Engineer, Samsung R&D (2018–2021); Co-Founder, Bengali.AI",
         (
@@ -243,6 +241,8 @@ def main() -> int:
         ),
         "- **Selected Honors**: 2024 IEEE Internet Computing Best Paper Award; OSU Graduate School University Fellowship; Kaggle Community Competition Creator Prize",
         "- **Academic Service**: IEEE MSN 2026 Technical Program Committee (TPC); PC / Reviewer for ICLR 2027, AAAI 2027, CVPR 2027, ICASSP 2027, CIKM 2026 (LASS), NeurIPS, TMLR, and ACM TOSN",
+        "- **Research Pillars**: Spatial Computing & Supermemory (MemoLens, MobiSys '26; SuperMemory-VQA; Reading Recognition in the Wild, NeurIPS '25); Agentic & Multimodal Recommenders; Efficient & On-Device AI (SVD-LLM V2, NAACL '25); Federated Learning & Bengali.AI (FedRolex, NeurIPS '22; FedAIoT; GeoFL)",
+        "- **Contact**: samiul272@gmail.com | Mountain View, CA",
         "",
         "## Pages & Machine-Readable Endpoints",
         "",
@@ -256,13 +256,6 @@ def main() -> int:
         f"- [Google Scholar Metrics JSON]({SITE_URL}/assets/json/google_scholar.json): Profile citation summary and per-paper citation map",
         f"- [XML Sitemap]({SITE_URL}/sitemap.xml): Canonical URL index",
         "",
-        "## Research Pillars",
-        "",
-        "- **Spatial Computing & Supermemory**: Selective memory creation (Reading Recognition in the Wild, NeurIPS '25), gaze-guided retrieval (MemoLens, MobiSys '26), and longitudinal egocentric VQA (SuperMemory-VQA).",
-        "- **Agentic & Multimodal Recommenders**: User activity modeling, synthetic-to-real browsing alignment, and multimodal LLM personalization.",
-        "- **Efficient & On-Device AI**: Singular value truncation for LLM compression (SVD-LLM V2, NAACL '25) and RL dynamic sensor capture for prototype smart glasses.",
-        "- **Federated Learning & Bengali.AI**: Model-heterogeneous & geo-distributed FL (FedRolex, FedAIoT, GeoFL) and large open-source Bengali datasets (NumtaDB, Graphemes, Bengali Common Voice, OOD-Speech).",
-        "",
         "## Selected Publications",
         "",
     ]
@@ -273,20 +266,20 @@ def main() -> int:
         cite_str = f" · Cited by {pub['citations']}" if pub["citations"] else ""
         award_str = " · Best Paper Award" if pub["award"] else ""
         llms_lines.append(
-            f"- [{pub['title']}]({primary_url}) ({pub['abbr'] or pub['year']}, {pub['year']}{cite_str}{award_str})"
+            f"- [{pub['title']}]({primary_url}): {pub['abbr'] or pub['year']}, {pub['year']}{cite_str}{award_str}"
         )
 
     llms_lines.extend(
         [
             "",
-            "## Profiles & Contact",
+            "## External Profiles",
             "",
-            f"- Google Scholar: https://scholar.google.com/citations?user={SCHOLAR_USER_ID}&hl=en",
-            "- GitHub: https://github.com/samiul272",
-            "- LinkedIn: https://www.linkedin.com/in/samiul-alam",
-            "- ORCID: https://orcid.org/0000-0002-8458-4642",
-            "- OpenAlex: https://openalex.org/A5084705208",
-            "- Email: samiul272@gmail.com",
+            f"- [Google Scholar](https://scholar.google.com/citations?user={SCHOLAR_USER_ID}&hl=en): Publication and citation profile ({citations_all:,} citations, h-index {h_index})",
+            "- [GitHub](https://github.com/samiul272): Open-source code, benchmarks, and repositories",
+            "- [LinkedIn](https://www.linkedin.com/in/samiul-alam): Professional career profile",
+            "- [ORCID](https://orcid.org/0000-0002-8458-4642): Persistent researcher identifier",
+            "- [OpenAlex](https://openalex.org/A5084705208): Open scholarly author graph record",
+            "- [Bengali.AI](https://bengali.ai): Non-profit open-source Bengali AI research initiative",
             "",
         ]
     )

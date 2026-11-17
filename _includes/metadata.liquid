@@ -26,7 +26,7 @@
 {% if page.seo_title and page.seo_title != blank %}
   {% assign page_title_full = page.seo_title %}
 {% elsif page.url == '/' %}
-  {% assign page_title_full = author_name | append: ' — Software Engineer & AI Researcher | Google · Spatial Computing & LLMs' %}
+  {% assign page_title_full = author_name | append: ' — Software Engineer & AI Researcher at Google' %}
 {% elsif page.url == '/blog/index.html' %}
   {% assign page_title_full = page.title | append: ' | ' | append: site_title %}
 {% elsif page.title and page.title != 'blank' %}
@@ -47,6 +47,7 @@
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{{ page_title_full }}</title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{{ meta_description | escape }}">
